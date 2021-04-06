@@ -1,0 +1,14 @@
+---
+- hosts: all
+  connection: httpapi
+  gather_facts: no
+  vars_files:
+  - "vars/vars.yml"
+
+  tasks:
+  - name: Add evpn config with evpn tag 
+    arista.eos.eos_config: 
+      src: ./templates/evpn/{{ inventory_hostname }}
+    ignore_errors: True
+    tags:
+      - evpn

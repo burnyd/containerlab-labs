@@ -1,0 +1,74 @@
+name: lab
+
+topology:
+  defaults:
+    env:
+      ETBA: 4
+  nodes:
+    spine1:
+      kind: ceos
+      image: coesimage:4.25.1F
+      ports:
+      - 4001:6030
+      - 4444:443
+      - 888:80 
+      config: configs/spine1
+      mgmt_ipv4: 172.20.20.2
+    spine2:
+      kind: ceos
+      image: coesimage:4.25.1F
+      ports:
+      - 4002:6030
+      - 4445:443
+      - 887:80 
+      config: configs/spine2
+      mgmt_ipv4: 172.20.20.3
+    leaf1:
+      kind: ceos
+      image: coesimage:4.25.1F
+      ports:
+      - 4003:6030
+      - 4446:443
+      - 889:80 
+      config: configs/leaf1
+      mgmt_ipv4: 172.20.20.4
+    leaf2:
+      kind: ceos
+      image: coesimage:4.25.1F
+      ports:
+      - 4004:6030
+      - 4447:443
+      - 890:80 
+      config: configs/leaf2
+      mgmt_ipv4: 172.20.20.5
+    leaf3:
+      kind: ceos
+      image: coesimage:4.25.1F
+      ports:
+      - 4005:6030
+      - 4448:443
+      - 891:80 
+      config: configs/leaf3
+      mgmt_ipv4: 172.20.20.6
+    leaf4:
+      kind: ceos
+      image: coesimage:4.25.1F
+      ports:
+      - 4006:6030
+      - 4449:443
+      - 892:80 
+      config: configs/leaf4
+      mgmt_ipv4: 172.20.20.7
+
+
+  links:
+    - endpoints: ["spine1:eth1", "leaf1:eth1"]
+    - endpoints: ["spine1:eth2", "leaf2:eth1"]
+    - endpoints: ["spine1:eth3", "leaf3:eth1"]
+    - endpoints: ["spine1:eth4", "leaf4:eth1"]
+    - endpoints: ["spine2:eth1", "leaf1:eth2"]
+    - endpoints: ["spine2:eth2", "leaf2:eth2"]
+    - endpoints: ["spine2:eth3", "leaf3:eth2"]
+    - endpoints: ["spine2:eth4", "leaf4:eth2"]
+    - endpoints: ["leaf1:eth3", "leaf2:eth3"]
+    - endpoints: ["leaf3:eth3", "leaf4:eth3"]
