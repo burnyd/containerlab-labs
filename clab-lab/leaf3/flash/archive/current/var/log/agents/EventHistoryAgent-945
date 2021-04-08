@@ -1,0 +1,9 @@
+===== Output from /usr/bin/EventHistoryAgent [] (PID=945) started Apr  8 00:38:32.216664 ===
+EntityManager::doBackoff waiting for remote sysdb version .....ok
+2021-04-08 00:38:37.130006   948 Log                  0 %AGENT-6-INITIALIZED: Agent 'EventHistoryAgent' initialized; pid=948
+2021-04-08 00:38:37.153516   948 EventHistoryAgent    3 EventHistoryAgent::doInit
+2021-04-08 00:38:37.153743   948 EventHistoryAgent    3 EventHistoryAgent::doMountsComplete
+2021-04-08 00:38:37.153769   948 EventHistoryAgent    5 doRestore
+2021-04-08 00:38:37.153794   948 EventHistory         0 void EventHistory::Restorer::doRestoreAll()
+2021-04-08 00:38:37.153809   948 EventHistory         0 void EventHistory::Store::doRestore()
+2021-04-08 00:38:37.153840   948 EventHistory         0 void EventHistory::Store::doRestore() Could not open /mnt/flash/eventhistory-persistent-store

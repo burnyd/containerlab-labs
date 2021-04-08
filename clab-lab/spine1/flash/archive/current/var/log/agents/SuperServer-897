@@ -1,0 +1,42 @@
+===== Output from /usr/bin/SuperServer [] (PID=897) started Apr  8 00:38:30.276410 ===
+2021-04-08 00:38:31.118262   897 Log                  0 %AGENT-6-INITIALIZED: Agent 'SuperServer' initialized; pid=897
+
+
+
+2021-04-08 00:39:03.448133   897 Log                  0 %SYS-5-CLI_SCHEDULER_ENABLED: CliScheduler is enabled, continuing its execution of scheduled CLI jobs.
+2021-04-08 00:39:07.222112   897 Log                  0 %SECURITY-6-SSL_PROFILE_VALID: SSL profile 'ARISTA_DEFAULT_PROFILE' is valid
+2021-04-08 00:39:07.229726   897 Log                  0 %SECURITY-3-SSL_PROFILE_INVALID: SSL profile 'restconf' is invalid. Check 'show management security ssl profile restconf' for details
+2021-04-08 00:39:07.270083   897 SuperServer          3 service DhclientManager is warm
+2021-04-08 00:39:07.270147   897 SuperServer          3 service Haveged is warm
+2021-04-08 00:39:07.270190   897 SuperServer          3 service SecuritySm is warm
+2021-04-08 00:39:07.270215   897 SuperServer          3 service Redis is warm
+2021-04-08 00:39:07.270246   897 SuperServer          3 service DhcpServerManager is warm
+2021-04-08 00:39:07.270283   897 SuperServer          3 service LogArchiver is warm
+2021-04-08 00:39:07.270312   897 SuperServer          3 service SshHostKeysAgent is warm
+2021-04-08 00:39:07.270334   897 SuperServer          3 service SupplicantManager is warm
+2021-04-08 00:39:07.270364   897 SuperServer          3 service NetworkManager is warm
+2021-04-08 00:39:07.270394   897 SuperServer          3 service SswanManager is warm
+2021-04-08 00:39:07.270423   897 SuperServer          3 service LogMgr is not warm
+2021-04-08 00:39:15.184238   897 SuperServer          3 service LogMgr is warm
+2021-04-08 00:39:15.184341   897 SuperServer          3 service FileSystemMounter is warm
+2021-04-08 00:39:15.184417   897 SuperServer          3 service CliSchedulerMgr is warm
+2021-04-08 00:39:15.184499   897 SuperServer          3 service ConsoleManager is warm
+2021-04-08 00:39:15.184611   897 SuperServer          3 service Ntp is warm
+2021-04-08 00:39:15.184763   897 SuperServer          3 service Capi is not warm
+2021-04-08 00:39:20.260615   897 SuperServer          3 service Capi is warm
+2021-04-08 00:39:20.260690   897 SuperServer          3 service Timezone is warm
+2021-04-08 00:39:20.260749   897 SuperServer          3 service SslManager is warm
+2021-04-08 00:39:20.260811   897 SuperServer          3 service Telnet is warm
+2021-04-08 00:39:20.260845   897 SuperServer          3 service BannerManager is warm
+2021-04-08 00:39:20.260919   897 SuperServer          3 service Ssh is warm
+2021-04-08 00:39:20.260953   897 SuperServer          3 service Tcpdump is warm
+2021-04-08 00:39:20.260984   897 SuperServer          3 service SessionTimeoutAgent is warm
+2021-04-08 00:39:20.261044   897 SuperServer          3 service Snmpd is warm
+2021-04-08 00:39:20.261080   897 SuperServer          3 service EntropySm is warm
+2021-04-08 00:39:20.261110   897 SuperServer          3 service AccountManager is warm
+2021-04-08 00:39:20.261171   897 SuperServer          3 service OvsdbServer is warm
+2021-04-08 00:39:20.261200   897 SuperServer          3 service ContainerMgr is warm
+2021-04-08 00:41:08.248264   897 Log                  0 %SYS-5-SYSTEM_RESTARTED: System restarted
+2021-04-08 00:41:08.249589   897 Log                  0 %SYS-6-SYSTEM_INFO: Software image version: 4.25.1F-20001546.4251F (engineering build)
+2021-04-08 00:41:08.249790   897 Log                  0 %SYS-6-SYSTEM_INFO: Model: cEOSLab
+2021-04-08 00:41:08.250009   897 Log                  0 %SYS-6-SYSTEM_INFO: Serial number: 

@@ -1,0 +1,86 @@
+===== Output from /usr/bin/CapiApp ['--ini', '/etc/uwsgi/CapiApp.ini'] (PID=916) started Apr  8 00:38:31.092391 ===
+[uWSGI] getting INI configuration from /etc/uwsgi/CapiApp.ini
+*** Starting uWSGI 2.0.17 (32bit) on [Thu Apr  8 00:38:31 2021] ***
+compiled with version: 8.4.0 20200304 (Red Hat 8.4.0-4) on 24 November 2020 13:47:27
+os: Linux-4.15.0-140-generic #144-Ubuntu SMP Fri Mar 19 14:12:35 UTC 2021
+nodename: leaf4
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 6
+current working directory: /var/tmp/agents
+detected binary path: /usr/bin/netnsd
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /var/run/capi.uwsgi.sock fd 5
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 2.7.18 (default, Nov 24 2020, 03:59:55)  [GCC 8.4.0 20200304 (Red Hat 8.4.0-4)]
+Python main interpreter initialized at 0x580b0648
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 79232 bytes (77 KB) for 3 cores
+*** Operational MODE: threaded ***
+added /usr/lib/python2.7/site-packages/ to pythonpath.
+EntityManager::doBackoff waiting for remote sysdb version ..........ok
+waiting for CapiApp to be warm ...ok
+WSGI app 0 (mountpoint='') ready in 15 seconds on interpreter 0x580b0648 pid: 918
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 918, cores: 3)
+[pid: 918|app: 0|req: 1/1] ::ffff:172.20.20.1 () {48 vars in 641 bytes} [Thu Apr  8 00:43:29 2021] POST /command-api => generated 620 bytes in 99 msecs (HTTP/1.1 200) 8 headers in 234 bytes (4 switches on core 0)
+[pid: 918|app: 0|req: 2/2] ::ffff:172.20.20.1 () {48 vars in 641 bytes} [Thu Apr  8 00:43:29 2021] POST /command-api => generated 86 bytes in 26 msecs (HTTP/1.1 200) 8 headers in 234 bytes (4 switches on core 1)
+[pid: 918|app: 0|req: 3/3] ::ffff:172.20.20.1 () {48 vars in 641 bytes} [Thu Apr  8 00:43:29 2021] POST /command-api => generated 240 bytes in 17 msecs (HTTP/1.1 200) 8 headers in 234 bytes (5 switches on core 2)
+[pid: 918|app: 0|req: 4/4] ::ffff:172.20.20.1 () {48 vars in 641 bytes} [Thu Apr  8 00:43:29 2021] POST /command-api => generated 1473 bytes in 115 msecs (HTTP/1.1 200) 8 headers in 234 bytes (4 switches on core 0)
+[pid: 918|app: 0|req: 5/5] ::ffff:172.20.20.1 () {48 vars in 641 bytes} [Thu Apr  8 00:43:29 2021] POST /command-api => generated 138 bytes in 100 msecs (HTTP/1.1 200) 8 headers in 234 bytes (4 switches on core 1)
+[pid: 918|app: 0|req: 6/6] ::ffff:172.20.20.1 () {48 vars in 641 bytes} [Thu Apr  8 00:43:29 2021] POST /command-api => generated 629 bytes in 796 msecs (HTTP/1.1 200) 8 headers in 234 bytes (2 switches on core 2)
+[pid: 918|app: 0|req: 7/7] ::ffff:172.20.20.1 () {48 vars in 641 bytes} [Thu Apr  8 00:46:58 2021] POST /command-api => generated 620 bytes in 77 msecs (HTTP/1.1 200) 8 headers in 234 bytes (3 switches on core 0)
+[pid: 918|app: 0|req: 8/8] ::ffff:172.20.20.1 () {48 vars in 641 bytes} [Thu Apr  8 00:46:58 2021] POST /command-api => generated 86 bytes in 11 msecs (HTTP/1.1 200) 8 headers in 234 bytes (2 switches on core 1)
+[pid: 918|app: 0|req: 9/9] ::ffff:172.20.20.1 () {48 vars in 641 bytes} [Thu Apr  8 00:46:58 2021] POST /command-api => generated 240 bytes in 12 msecs (HTTP/1.1 200) 8 headers in 234 bytes (2 switches on core 2)
+[pid: 918|app: 0|req: 10/10] ::ffff:172.20.20.1 () {48 vars in 641 bytes} [Thu Apr  8 00:46:58 2021] POST /command-api => generated 1521 bytes in 124 msecs (HTTP/1.1 200) 8 headers in 234 bytes (4 switches on core 0)
+[pid: 918|app: 0|req: 11/11] ::ffff:172.20.20.1 () {48 vars in 641 bytes} [Thu Apr  8 00:47:38 2021] POST /command-api => generated 620 bytes in 82 msecs (HTTP/1.1 200) 8 headers in 234 bytes (2 switches on core 0)
+[pid: 918|app: 0|req: 12/12] ::ffff:172.20.20.1 () {48 vars in 641 bytes} [Thu Apr  8 00:47:39 2021] POST /command-api => generated 86 bytes in 12 msecs (HTTP/1.1 200) 8 headers in 234 bytes (2 switches on core 1)
+[pid: 918|app: 0|req: 13/13] ::ffff:172.20.20.1 () {48 vars in 641 bytes} [Thu Apr  8 00:47:39 2021] POST /command-api => generated 240 bytes in 14 msecs (HTTP/1.1 200) 8 headers in 234 bytes (2 switches on core 2)
+[pid: 918|app: 0|req: 14/14] ::ffff:172.20.20.1 () {48 vars in 641 bytes} [Thu Apr  8 00:47:39 2021] POST /command-api => generated 1521 bytes in 123 msecs (HTTP/1.1 200) 8 headers in 234 bytes (2 switches on core 0)
+[pid: 918|app: 0|req: 15/15] ::ffff:172.20.20.1 () {48 vars in 643 bytes} [Thu Apr  8 00:47:39 2021] POST /command-api => generated 433 bytes in 86 msecs (HTTP/1.1 200) 8 headers in 234 bytes (2 switches on core 1)
+[pid: 918|app: 0|req: 16/16] ::ffff:172.20.20.1 () {48 vars in 641 bytes} [Thu Apr  8 00:47:39 2021] POST /command-api => generated 90 bytes in 19 msecs (HTTP/1.1 200) 8 headers in 234 bytes (4 switches on core 2)
+[pid: 918|app: 0|req: 17/17] ::ffff:172.20.20.1 () {48 vars in 641 bytes} [Thu Apr  8 00:49:28 2021] POST /command-api => generated 620 bytes in 83 msecs (HTTP/1.1 200) 8 headers in 234 bytes (4 switches on core 0)
+[pid: 918|app: 0|req: 18/18] ::ffff:172.20.20.1 () {48 vars in 641 bytes} [Thu Apr  8 00:49:28 2021] POST /command-api => generated 86 bytes in 12 msecs (HTTP/1.1 200) 8 headers in 234 bytes (2 switches on core 1)
+[pid: 918|app: 0|req: 19/19] ::ffff:172.20.20.1 () {48 vars in 641 bytes} [Thu Apr  8 00:49:28 2021] POST /command-api => generated 240 bytes in 16 msecs (HTTP/1.1 200) 8 headers in 234 bytes (4 switches on core 2)
+[pid: 918|app: 0|req: 20/20] ::ffff:172.20.20.1 () {48 vars in 641 bytes} [Thu Apr  8 00:49:28 2021] POST /command-api => generated 1521 bytes in 129 msecs (HTTP/1.1 200) 8 headers in 234 bytes (4 switches on core 0)
+[pid: 918|app: 0|req: 21/21] ::ffff:172.20.20.1 () {48 vars in 643 bytes} [Thu Apr  8 00:49:28 2021] POST /command-api => generated 433 bytes in 79 msecs (HTTP/1.1 200) 8 headers in 234 bytes (2 switches on core 1)
+[pid: 918|app: 0|req: 22/22] ::ffff:172.20.20.1 () {48 vars in 641 bytes} [Thu Apr  8 00:49:28 2021] POST /command-api => generated 90 bytes in 24 msecs (HTTP/1.1 200) 8 headers in 234 bytes (4 switches on core 2)
+[pid: 918|app: 0|req: 23/23] ::ffff:172.20.20.1 () {48 vars in 641 bytes} [Thu Apr  8 00:52:10 2021] POST /command-api => generated 620 bytes in 79 msecs (HTTP/1.1 200) 8 headers in 234 bytes (4 switches on core 0)
+[pid: 918|app: 0|req: 24/24] ::ffff:172.20.20.1 () {48 vars in 641 bytes} [Thu Apr  8 00:52:10 2021] POST /command-api => generated 86 bytes in 12 msecs (HTTP/1.1 200) 8 headers in 234 bytes (4 switches on core 2)
+[pid: 918|app: 0|req: 25/25] ::ffff:172.20.20.1 () {48 vars in 641 bytes} [Thu Apr  8 00:52:10 2021] POST /command-api => generated 240 bytes in 17 msecs (HTTP/1.1 200) 8 headers in 234 bytes (2 switches on core 1)
+[pid: 918|app: 0|req: 26/26] ::ffff:172.20.20.1 () {48 vars in 641 bytes} [Thu Apr  8 00:52:10 2021] POST /command-api => generated 1521 bytes in 105 msecs (HTTP/1.1 200) 8 headers in 234 bytes (2 switches on core 0)
+[pid: 918|app: 0|req: 27/27] ::ffff:172.20.20.1 () {48 vars in 643 bytes} [Thu Apr  8 00:52:10 2021] POST /command-api => generated 433 bytes in 53 msecs (HTTP/1.1 200) 8 headers in 234 bytes (2 switches on core 2)
+[pid: 918|app: 0|req: 28/28] ::ffff:172.20.20.1 () {48 vars in 641 bytes} [Thu Apr  8 00:52:10 2021] POST /command-api => generated 90 bytes in 15 msecs (HTTP/1.1 200) 8 headers in 234 bytes (2 switches on core 1)
+[pid: 918|app: 0|req: 29/29] ::ffff:172.20.20.1 () {48 vars in 641 bytes} [Thu Apr  8 00:53:11 2021] POST /command-api => generated 620 bytes in 79 msecs (HTTP/1.1 200) 8 headers in 234 bytes (2 switches on core 0)
+[pid: 918|app: 0|req: 30/30] ::ffff:172.20.20.1 () {48 vars in 641 bytes} [Thu Apr  8 00:53:11 2021] POST /command-api => generated 86 bytes in 17 msecs (HTTP/1.1 200) 8 headers in 234 bytes (4 switches on core 1)
+[pid: 918|app: 0|req: 31/31] ::ffff:172.20.20.1 () {48 vars in 641 bytes} [Thu Apr  8 00:53:11 2021] POST /command-api => generated 240 bytes in 14 msecs (HTTP/1.1 200) 8 headers in 234 bytes (4 switches on core 2)
+[pid: 918|app: 0|req: 32/32] ::ffff:172.20.20.1 () {48 vars in 641 bytes} [Thu Apr  8 00:53:11 2021] POST /command-api => generated 1521 bytes in 129 msecs (HTTP/1.1 200) 8 headers in 234 bytes (4 switches on core 0)
+[pid: 918|app: 0|req: 33/33] ::ffff:172.20.20.1 () {48 vars in 643 bytes} [Thu Apr  8 00:53:11 2021] POST /command-api => generated 447 bytes in 328 msecs (HTTP/1.1 200) 8 headers in 234 bytes (2 switches on core 1)
+[pid: 918|app: 0|req: 34/34] ::ffff:172.20.20.1 () {48 vars in 641 bytes} [Thu Apr  8 00:53:12 2021] POST /command-api => generated 90 bytes in 15 msecs (HTTP/1.1 200) 8 headers in 234 bytes (4 switches on core 2)
+[pid: 918|app: 0|req: 35/35] ::ffff:172.20.20.1 () {48 vars in 641 bytes} [Thu Apr  8 00:55:04 2021] POST /command-api => generated 621 bytes in 82 msecs (HTTP/1.1 200) 8 headers in 234 bytes (2 switches on core 2)
+[pid: 918|app: 0|req: 36/36] ::ffff:172.20.20.1 () {48 vars in 641 bytes} [Thu Apr  8 00:55:04 2021] POST /command-api => generated 86 bytes in 13 msecs (HTTP/1.1 200) 8 headers in 234 bytes (4 switches on core 1)
+[pid: 918|app: 0|req: 37/37] ::ffff:172.20.20.1 () {48 vars in 641 bytes} [Thu Apr  8 00:55:04 2021] POST /command-api => generated 240 bytes in 16 msecs (HTTP/1.1 200) 8 headers in 234 bytes (2 switches on core 0)
+[pid: 918|app: 0|req: 38/38] ::ffff:172.20.20.1 () {48 vars in 641 bytes} [Thu Apr  8 00:55:04 2021] POST /command-api => generated 1521 bytes in 122 msecs (HTTP/1.1 200) 8 headers in 234 bytes (2 switches on core 2)
+[pid: 918|app: 0|req: 39/39] ::ffff:172.20.20.1 () {48 vars in 643 bytes} [Thu Apr  8 00:55:04 2021] POST /command-api => generated 583 bytes in 95 msecs (HTTP/1.1 200) 8 headers in 234 bytes (2 switches on core 1)
+[pid: 918|app: 0|req: 40/40] ::ffff:172.20.20.1 () {48 vars in 641 bytes} [Thu Apr  8 00:55:04 2021] POST /command-api => generated 90 bytes in 21 msecs (HTTP/1.1 200) 8 headers in 234 bytes (4 switches on core 0)
+[pid: 918|app: 0|req: 41/41] ::ffff:172.20.20.1 () {48 vars in 641 bytes} [Thu Apr  8 00:55:47 2021] POST /command-api => generated 621 bytes in 79 msecs (HTTP/1.1 200) 8 headers in 234 bytes (2 switches on core 1)
+[pid: 918|app: 0|req: 42/42] ::ffff:172.20.20.1 () {48 vars in 641 bytes} [Thu Apr  8 00:55:47 2021] POST /command-api => generated 86 bytes in 12 msecs (HTTP/1.1 200) 8 headers in 234 bytes (2 switches on core 2)
+[pid: 918|app: 0|req: 43/43] ::ffff:172.20.20.1 () {48 vars in 641 bytes} [Thu Apr  8 00:55:47 2021] POST /command-api => generated 240 bytes in 13 msecs (HTTP/1.1 200) 8 headers in 234 bytes (2 switches on core 0)
+[pid: 918|app: 0|req: 44/44] ::ffff:172.20.20.1 () {48 vars in 641 bytes} [Thu Apr  8 00:55:47 2021] POST /command-api => generated 1521 bytes in 113 msecs (HTTP/1.1 200) 8 headers in 234 bytes (2 switches on core 1)
+[pid: 918|app: 0|req: 45/45] ::ffff:172.20.20.1 () {48 vars in 643 bytes} [Thu Apr  8 00:55:47 2021] POST /command-api => generated 858 bytes in 447 msecs (HTTP/1.1 200) 8 headers in 234 bytes (2 switches on core 2)
+[pid: 918|app: 0|req: 46/46] ::ffff:172.20.20.1 () {48 vars in 641 bytes} [Thu Apr  8 00:55:47 2021] POST /command-api => generated 2112 bytes in 657 msecs (HTTP/1.1 200) 8 headers in 234 bytes (4 switches on core 0)

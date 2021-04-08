@@ -1,0 +1,27 @@
+Apr  8 00:37:50 leaf1 ipsec_starter[227]: Starting strongSwan 5.5.3 IPsec [starter]...
+Apr  8 00:37:50 leaf1 ipsec_starter[227]: removing pidfile '/etc/strongswan/ipsec.d/run/charon.pid', process not running
+Apr  8 00:37:50 leaf1 ipsec_starter[227]: no netkey IPsec stack detected
+Apr  8 00:37:50 leaf1 ipsec_starter[227]: no KLIPS IPsec stack detected
+Apr  8 00:37:50 leaf1 ipsec_starter[227]: no known IPsec stack detected, ignoring!
+Apr  8 00:37:50 leaf1 ipsec_starter[227]: starter is already running (/etc/strongswan/ipsec.d/run/starter.charon.pid exists) -- no fork done
+Apr  8 00:37:52 leaf1 sudo:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/ConvertPStore
+Apr  8 00:37:52 leaf1 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr  8 00:37:52 leaf1 sudo: pam_unix(sudo:session): session closed for user root
+Apr  8 00:38:00 leaf1 usermod[650]: change user 'root' password
+Apr  8 00:38:43 leaf1 usermod[1069]: change user 'root' password
+Apr  8 00:43:29 leaf1 Capi: pam_unix(command-api:session): session opened for user admin by (uid=0)
+Apr  8 00:43:34 leaf1 Capi: pam_unix(command-api:session): session closed for user admin
+Apr  8 00:46:58 leaf1 Capi: pam_unix(command-api:session): session opened for user admin by (uid=0)
+Apr  8 00:47:03 leaf1 Capi: pam_unix(command-api:session): session closed for user admin
+Apr  8 00:47:38 leaf1 Capi: pam_unix(command-api:session): session opened for user admin by (uid=0)
+Apr  8 00:47:44 leaf1 Capi: pam_unix(command-api:session): session closed for user admin
+Apr  8 00:49:28 leaf1 Capi: pam_unix(command-api:session): session opened for user admin by (uid=0)
+Apr  8 00:49:33 leaf1 Capi: pam_unix(command-api:session): session closed for user admin
+Apr  8 00:52:10 leaf1 Capi: pam_unix(command-api:session): session opened for user admin by (uid=0)
+Apr  8 00:52:15 leaf1 Capi: pam_unix(command-api:session): session closed for user admin
+Apr  8 00:53:11 leaf1 Capi: pam_unix(command-api:session): session opened for user admin by (uid=0)
+Apr  8 00:53:17 leaf1 Capi: pam_unix(command-api:session): session closed for user admin
+Apr  8 00:55:04 leaf1 Capi: pam_unix(command-api:session): session opened for user admin by (uid=0)
+Apr  8 00:55:09 leaf1 Capi: pam_unix(command-api:session): session closed for user admin
+Apr  8 00:55:47 leaf1 Capi: pam_unix(command-api:session): session opened for user admin by (uid=0)
+Apr  8 00:55:52 leaf1 Capi: pam_unix(command-api:session): session closed for user admin

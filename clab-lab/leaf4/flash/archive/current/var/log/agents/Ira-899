@@ -1,0 +1,171 @@
+===== Output from /usr/bin/Ira [] (PID=899) started Apr  8 00:38:30.683382 ===
+2021-04-08 00:38:36.647831   910 Log                  0 %AGENT-6-INITIALIZED: Agent 'Ira' initialized; pid=910
+2021-04-08 00:38:41.473479   910 SmashTemp            1 SmashMap::init() name:/ar/Shmem/routing/status/route md{ mode:keyshadow localMem:false maxSize:0 fixedCapacity:false shrinkSlots:true shrinkBuckets:true pruneConquer:true notifySync:true notifyFlush:true useHeap:false heapCheckEnabled:false cleanup:false asynchronous:false assertOnOrphanAccess:false }
+2021-04-08 00:38:41.473541   910 Smash-WgLl_D-route   1 Reader::Reader() fullPath:/var/shmem/smashes/ar/Shmem/routing/status/route/fenix current path:/var/shmem/smashes/ar/Shmem lastFile:fenix finalPath:false
+2021-04-08 00:38:41.473635   910 SmashTemp            1 SmashMap::init() name:/ar/Shmem/routing/status/nexthop md{ mode:keyshadow localMem:false maxSize:0 fixedCapacity:false shrinkSlots:true shrinkBuckets:true pruneConquer:true notifySync:true notifyFlush:true useHeap:false heapCheckEnabled:false cleanup:false asynchronous:false assertOnOrphanAccess:false }
+2021-04-08 00:38:41.473683   910 Smash-Sb3gtB-nexthop 1 Reader::Reader() fullPath:/var/shmem/smashes/ar/Shmem/routing/status/nexthop/fenix current path:/var/shmem/smashes/ar/Shmem lastFile:fenix finalPath:false
+2021-04-08 00:38:41.474086   910 SmashTemp            1 SmashMap::init() name:/ar/Shmem/routing6/status/route md{ mode:keyshadow localMem:false maxSize:0 fixedCapacity:false shrinkSlots:true shrinkBuckets:true pruneConquer:true notifySync:true notifyFlush:true useHeap:false heapCheckEnabled:false cleanup:false asynchronous:false assertOnOrphanAccess:false }
+2021-04-08 00:38:41.474134   910 Smash-JH=XZD-route   1 Reader::Reader() fullPath:/var/shmem/smashes/ar/Shmem/routing6/status/route/fenix current path:/var/shmem/smashes/ar/Shmem lastFile:fenix finalPath:false
+2021-04-08 00:38:41.474200   910 SmashTemp            1 SmashMap::init() name:/ar/Shmem/routing6/status/nexthop md{ mode:keyshadow localMem:false maxSize:0 fixedCapacity:false shrinkSlots:true shrinkBuckets:true pruneConquer:true notifySync:true notifyFlush:true useHeap:false heapCheckEnabled:false cleanup:false asynchronous:false assertOnOrphanAccess:false }
+2021-04-08 00:38:41.474244   910 Smash-DJ4tdA-nexthop 1 Reader::Reader() fullPath:/var/shmem/smashes/ar/Shmem/routing6/status/nexthop/fenix current path:/var/shmem/smashes/ar/Shmem lastFile:fenix finalPath:false
+2021-04-08 00:38:41.474725   910 SmashTemp            1 SmashMap::init() name:/ar/Shmem/forwarding/unifiedStatus/fec md{ mode:keyshadow localMem:false maxSize:0 fixedCapacity:false shrinkSlots:true shrinkBuckets:true pruneConquer:true notifySync:true notifyFlush:true useHeap:false heapCheckEnabled:false cleanup:false asynchronous:false assertOnOrphanAccess:false }
+2021-04-08 00:38:41.478660   910 Smash-LsHoMA-fec     1 Reader::Reader() fullPath:/var/shmem/smashes/ar/Shmem/forwarding/unifiedStatus/fec/fenix current path:/var/shmem/smashes/ar/Shmem lastFile:fenix finalPath:false
+2021-04-08 00:38:41.479145   910 SmashTemp            1 SmashMap::init() name:/ar/Shmem/forwarding6/unifiedStatus/fec md{ mode:keyshadow localMem:false maxSize:0 fixedCapacity:false shrinkSlots:true shrinkBuckets:true pruneConquer:true notifySync:true notifyFlush:true useHeap:false heapCheckEnabled:false cleanup:false asynchronous:false assertOnOrphanAccess:false }
+2021-04-08 00:38:41.479214   910 Smash-jTKiTA-fec     1 Reader::Reader() fullPath:/var/shmem/smashes/ar/Shmem/forwarding6/unifiedStatus/fec/fenix current path:/var/shmem/smashes/ar/Shmem lastFile:fenix finalPath:false
+2021-04-08 00:38:41.479692   910 SmashTemp            1 SmashMap::init() name:/ar/Shmem/kni/ns/default/status/interface md{ mode:keyshadow localMem:false maxSize:0 fixedCapacity:false shrinkSlots:true shrinkBuckets:true pruneConquer:true notifySync:true notifyFlush:true useHeap:false heapCheckEnabled:false cleanup:false asynchronous:false assertOnOrphanAccess:false }
+2021-04-08 00:38:41.479746   910 Smash-3xdYNA-interfa 1 Reader::Reader() fullPath:/var/shmem/smashes/ar/Shmem/kni/ns/default/status/interface/fenix current path:/var/shmem/smashes/ar/Shmem/kni/ns/default/status/interface/fenix lastFile:fenix finalPath:true
+2021-04-08 00:38:41.479964   910 Smash-3xdYNA-interfa 1 SmashReader::initialize() success /var/shmem/smashes/ar/Shmem/kni/ns/default/status/interface capacity:0 fenixId:966:0 mtime:1617842321 delay:0 event:SmashMap::init
+2021-04-08 00:38:41.480221   910 Smash-3xdYNA-interfa 1 SmashShadowBase::initializeConquer() Synchronizing into local shadow, latestSeq:5 numSlots:32 connected:true asynchronous:false
+2021-04-08 00:38:41.480235   910 Smash-3xdYNA-interfa 1 Syncer::sync() Synchronizing, mode:0 asynchronous:false numSlots:32
+2021-04-08 00:38:41.480262   910 Smash-3xdYNA-interfa 1 SmashShadow::syncComplete() Synchronization complete, seq:5
+2021-04-08 00:38:41.480288   910 SmashTemp            1 SmashMap::init() name:/ar/Shmem/kni/ns/default/status/addr md{ mode:keyshadow localMem:false maxSize:0 fixedCapacity:false shrinkSlots:true shrinkBuckets:true pruneConquer:true notifySync:true notifyFlush:true useHeap:false heapCheckEnabled:false cleanup:false asynchronous:false assertOnOrphanAccess:false }
+2021-04-08 00:38:41.480329   910 Smash-VsMlwA-addr    1 Reader::Reader() fullPath:/var/shmem/smashes/ar/Shmem/kni/ns/default/status/addr/fenix current path:/var/shmem/smashes/ar/Shmem/kni/ns/default/status/addr/fenix lastFile:fenix finalPath:true
+2021-04-08 00:38:41.480494   910 Smash-VsMlwA-addr    1 SmashReader::initialize() success /var/shmem/smashes/ar/Shmem/kni/ns/default/status/addr capacity:0 fenixId:966:0 mtime:1617842321 delay:0 event:SmashMap::init
+2021-04-08 00:38:41.480618   910 Smash-VsMlwA-addr    1 SmashShadowBase::initializeConquer() Synchronizing into local shadow, latestSeq:3 numSlots:64 connected:true asynchronous:false
+2021-04-08 00:38:41.480631   910 Smash-VsMlwA-addr    1 Syncer::sync() Synchronizing, mode:0 asynchronous:false numSlots:64
+2021-04-08 00:38:41.480660   910 Smash-VsMlwA-addr    1 SmashShadow::syncComplete() Synchronization complete, seq:3
+2021-04-08 00:38:41.480942   910 SmashTemp            1 SmashMap::init() name:/ar/Shmem/routing/nexthopgroup/entrystatus/nexthopGroupEntry md{ mode:shadow localMem:false maxSize:0 fixedCapacity:false shrinkSlots:true shrinkBuckets:true pruneConquer:true notifySync:true notifyFlush:true useHeap:false heapCheckEnabled:false cleanup:false asynchronous:false assertOnOrphanAccess:false }
+2021-04-08 00:38:41.480997   910 Smash-UHu8vA-nexthop 1 Reader::Reader() fullPath:/var/shmem/smashes/ar/Shmem/routing/nexthopgroup/entrystatus/nexthopGroupEntry/fenix current path:/var/shmem/smashes/ar/Shmem lastFile:fenix finalPath:false
+2021-04-08 00:38:41.481266   910 SmashTemp            1 SmashMap::init() name:/ar/Shmem/routing/connectedRouteLeakStatus/leakedRoute md{ mode:keyshadow localMem:false maxSize:0 fixedCapacity:false shrinkSlots:true shrinkBuckets:true pruneConquer:true notifySync:true notifyFlush:true useHeap:false heapCheckEnabled:false cleanup:false asynchronous:false assertOnOrphanAccess:false }
+2021-04-08 00:38:41.481317   910 Smash-a9r6zB-leakedR 1 Reader::Reader() fullPath:/var/shmem/smashes/ar/Shmem/routing/connectedRouteLeakStatus/leakedRoute/fenix current path:/var/shmem/smashes/ar/Shmem lastFile:fenix finalPath:false
+2021-04-08 00:38:41.481555   910 SmashTemp            1 SmashMap::init() name:/ar/Shmem/routing6/connectedRouteLeakStatus/leakedRoute md{ mode:keyshadow localMem:false maxSize:0 fixedCapacity:false shrinkSlots:true shrinkBuckets:true pruneConquer:true notifySync:true notifyFlush:true useHeap:false heapCheckEnabled:false cleanup:false asynchronous:false assertOnOrphanAccess:false }
+2021-04-08 00:38:41.481606   910 Smash-3KgpxB-leakedR 1 Reader::Reader() fullPath:/var/shmem/smashes/ar/Shmem/routing6/connectedRouteLeakStatus/leakedRoute/fenix current path:/var/shmem/smashes/ar/Shmem lastFile:fenix finalPath:false
+2021-04-08 00:38:41.481962   910 SmashTemp            1 SmashMap::init() name:/ar/Shmem/tunnel/table/nexthopGroup/entry md{ mode:writer localMem:false maxSize:1024 fixedCapacity:false shrinkSlots:true shrinkBuckets:true pruneConquer:true notifySync:true notifyFlush:true useHeap:false heapCheckEnabled:false cleanup:false asynchronous:false assertOnOrphanAccess:false }
+2021-04-08 00:38:41.485064   910 Smash-lWe2YD-entry   1 SmashWriter::attach() success /var/shmem/smashes/ar/Shmem/tunnel/table/nexthopGroup/entry capacity:32 fenixId:910:0 mtime:1617842321 shocketInfo:smash-910-910-17050623-0:1
+2021-04-08 00:38:41.485475   910 SmashTemp            1 SmashMap::init() name:/ar/Shmem/vrf/vrfIdMapStatus/vrfIdToName md{ mode:writer localMem:false maxSize:100 fixedCapacity:false shrinkSlots:true shrinkBuckets:true pruneConquer:true notifySync:true notifyFlush:true useHeap:false heapCheckEnabled:false cleanup:false asynchronous:false assertOnOrphanAccess:false }
+2021-04-08 00:38:41.486027   910 Smash-Wroy5B-vrfIdTo 1 SmashWriter::attach() success /var/shmem/smashes/ar/Shmem/vrf/vrfIdMapStatus/vrfIdToName capacity:16 fenixId:910:0 mtime:1617842321 shocketInfo:smash-910-910-17050623-0:2
+2021-04-08 00:38:41.549189   910 Smash-3xdYNA-interfa 1 ConquerReader::handleAck() minSeq:0 previousSeqSent:5
+2021-04-08 00:38:41.563466   910 Smash-VsMlwA-addr    1 ConquerReader::handleAck() minSeq:0 previousSeqSent:3
+2021-04-08 00:38:49.202166   910 Smash-UHu8vA-nexthop 1 SmashReader::initialize() success /var/shmem/smashes/ar/Shmem/routing/nexthopgroup/entrystatus/nexthopGroupEntry capacity:0 fenixId:968:0 mtime:1617842329 delay:0 event:nexthopgroup
+2021-04-08 00:38:49.202435   910 Smash-UHu8vA-nexthop 1 SmashShadowBase::initializeConquer() Synchronizing into local shadow, latestSeq:0 numSlots:16 connected:true asynchronous:true
+2021-04-08 00:38:49.202450   910 Smash-UHu8vA-nexthop 1 Syncer::sync() Scheduling synchronization, mode:0 asynchronous:true numSlots:0
+2021-04-08 00:38:49.202493   910 Smash-UHu8vA-nexthop 1 SmashShadow::syncComplete() Synchronization complete, seq:0
+2021-04-08 00:38:49.798950   910 Smash-UHu8vA-nexthop 1 ConquerReader::handleAck() minSeq:0 previousSeqSent:0
+2021-04-08 00:38:51.984683   910 Smash-a9r6zB-leakedR 1 SmashReader::initialize() success /var/shmem/smashes/ar/Shmem/routing/connectedRouteLeakStatus/leakedRoute capacity:0 fenixId:1068:0 mtime:1617842331 delay:0 event:
+2021-04-08 00:38:51.984863   910 Smash-a9r6zB-leakedR 1 SmashShadowBase::initializeConquer() Synchronizing into local shadow, latestSeq:0 numSlots:64 connected:true asynchronous:true
+2021-04-08 00:38:51.984877   910 Smash-a9r6zB-leakedR 1 Syncer::sync() Scheduling synchronization, mode:0 asynchronous:true numSlots:0
+2021-04-08 00:38:51.984905   910 Smash-a9r6zB-leakedR 1 SmashShadow::syncComplete() Synchronization complete, seq:0
+2021-04-08 00:38:52.000597   910 Smash-3KgpxB-leakedR 1 SmashReader::initialize() success /var/shmem/smashes/ar/Shmem/routing6/connectedRouteLeakStatus/leakedRoute capacity:0 fenixId:1068:1 mtime:1617842331 delay:0 event:
+2021-04-08 00:38:52.000736   910 Smash-3KgpxB-leakedR 1 SmashShadowBase::initializeConquer() Synchronizing into local shadow, latestSeq:0 numSlots:64 connected:true asynchronous:true
+2021-04-08 00:38:52.000750   910 Smash-3KgpxB-leakedR 1 Syncer::sync() Scheduling synchronization, mode:0 asynchronous:true numSlots:0
+2021-04-08 00:38:52.000778   910 Smash-3KgpxB-leakedR 1 SmashShadow::syncComplete() Synchronization complete, seq:0
+2021-04-08 00:38:52.028197   910 Smash-LsHoMA-fec     1 SmashReader::initialize() success /var/shmem/smashes/ar/Shmem/forwarding/unifiedStatus/fec capacity:0 fenixId:1068:0 mtime:1617842332 delay:0 event:
+2021-04-08 00:38:52.028361   910 Smash-LsHoMA-fec     1 SmashShadowBase::initializeConquer() Synchronizing into local shadow, latestSeq:0 numSlots:128 connected:true asynchronous:true
+2021-04-08 00:38:52.028374   910 Smash-LsHoMA-fec     1 Syncer::sync() Scheduling synchronization, mode:0 asynchronous:true numSlots:0
+2021-04-08 00:38:52.028407   910 Smash-LsHoMA-fec     1 SmashShadow::syncComplete() Synchronization complete, seq:0
+2021-04-08 00:38:52.059840   910 Smash-jTKiTA-fec     1 SmashReader::initialize() success /var/shmem/smashes/ar/Shmem/forwarding6/unifiedStatus/fec capacity:0 fenixId:1068:0 mtime:1617842332 delay:0 event:
+2021-04-08 00:38:52.060002   910 Smash-jTKiTA-fec     1 SmashShadowBase::initializeConquer() Synchronizing into local shadow, latestSeq:0 numSlots:128 connected:true asynchronous:true
+2021-04-08 00:38:52.060014   910 Smash-jTKiTA-fec     1 Syncer::sync() Scheduling synchronization, mode:0 asynchronous:true numSlots:0
+2021-04-08 00:38:52.060041   910 Smash-jTKiTA-fec     1 SmashShadow::syncComplete() Synchronization complete, seq:0
+2021-04-08 00:38:53.556118   910 Smash-WgLl_D-route   1 SmashReader::initialize() success /var/shmem/smashes/ar/Shmem/routing/status/route capacity:0 fenixId:1068:0 mtime:1617842333 delay:0 event:
+2021-04-08 00:38:53.556241   910 Smash-WgLl_D-route   1 SmashShadowBase::initializeConquer() Synchronizing into local shadow, latestSeq:0 numSlots:64 connected:true asynchronous:true
+2021-04-08 00:38:53.556252   910 Smash-WgLl_D-route   1 Syncer::sync() Scheduling synchronization, mode:0 asynchronous:true numSlots:0
+2021-04-08 00:38:53.556431   910 Smash-Sb3gtB-nexthop 1 SmashReader::initialize() success /var/shmem/smashes/ar/Shmem/routing/status/nexthop capacity:0 fenixId:1068:0 mtime:1617842333 delay:0 event:nexthop
+2021-04-08 00:38:53.556540   910 Smash-Sb3gtB-nexthop 1 SmashShadowBase::initializeConquer() Synchronizing into local shadow, latestSeq:0 numSlots:64 connected:true asynchronous:true
+2021-04-08 00:38:53.556551   910 Smash-Sb3gtB-nexthop 1 Syncer::sync() Scheduling synchronization, mode:0 asynchronous:true numSlots:0
+2021-04-08 00:38:53.556751   910 Smash-JH=XZD-route   1 SmashReader::initialize() success /var/shmem/smashes/ar/Shmem/routing6/status/route capacity:0 fenixId:1068:0 mtime:1617842333 delay:0 event:status
+2021-04-08 00:38:53.556873   910 Smash-JH=XZD-route   1 SmashShadowBase::initializeConquer() Synchronizing into local shadow, latestSeq:0 numSlots:64 connected:true asynchronous:true
+2021-04-08 00:38:53.556885   910 Smash-JH=XZD-route   1 Syncer::sync() Scheduling synchronization, mode:0 asynchronous:true numSlots:0
+2021-04-08 00:38:53.556997   910 Smash-WgLl_D-route   1 SmashShadow::syncComplete() Synchronization complete, seq:0
+2021-04-08 00:38:53.557010   910 Smash-Sb3gtB-nexthop 1 SmashShadow::syncComplete() Synchronization complete, seq:0
+2021-04-08 00:38:53.557022   910 Smash-JH=XZD-route   1 SmashShadow::syncComplete() Synchronization complete, seq:0
+2021-04-08 00:38:53.586715   910 Smash-DJ4tdA-nexthop 1 SmashReader::initialize() success /var/shmem/smashes/ar/Shmem/routing6/status/nexthop capacity:0 fenixId:1068:1 mtime:1617842333 delay:0 event:fenix
+2021-04-08 00:38:53.607949   910 Smash-DJ4tdA-nexthop 1 SmashShadowBase::initializeConquer() Synchronizing into local shadow, latestSeq:0 numSlots:64 connected:true asynchronous:true
+2021-04-08 00:38:53.607965   910 Smash-DJ4tdA-nexthop 1 Syncer::sync() Scheduling synchronization, mode:0 asynchronous:true numSlots:0
+2021-04-08 00:38:53.608006   910 Smash-DJ4tdA-nexthop 1 SmashShadow::syncComplete() Synchronization complete, seq:0
+2021-04-08 00:38:53.771737   910 Smash-a9r6zB-leakedR 1 ConquerReader::handleAck() minSeq:0 previousSeqSent:0
+2021-04-08 00:38:53.771759   910 Smash-3KgpxB-leakedR 1 ConquerReader::handleAck() minSeq:0 previousSeqSent:0
+2021-04-08 00:38:53.771770   910 Smash-LsHoMA-fec     1 ConquerReader::handleAck() minSeq:0 previousSeqSent:0
+2021-04-08 00:38:53.771783   910 Smash-jTKiTA-fec     1 ConquerReader::handleAck() minSeq:0 previousSeqSent:0
+2021-04-08 00:38:53.771792   910 Smash-WgLl_D-route   1 ConquerReader::handleAck() minSeq:0 previousSeqSent:0
+2021-04-08 00:38:53.771804   910 Smash-Sb3gtB-nexthop 1 ConquerReader::handleAck() minSeq:0 previousSeqSent:0
+2021-04-08 00:38:53.771815   910 Smash-JH=XZD-route   1 ConquerReader::handleAck() minSeq:0 previousSeqSent:0
+2021-04-08 00:38:53.771825   910 Smash-DJ4tdA-nexthop 1 ConquerReader::handleAck() minSeq:0 previousSeqSent:0
+2021-04-08 00:38:53.771904   910 Smash-LsHoMA-fec     1 SlabReader-0-?::attach() /var/shmem/smashes/ar/Shmem/forwarding/unifiedStatus/fec successfully attached
+2021-04-08 00:55:48.395555   910 SmashTemp            1 SmashMap::init() name:/ar/Shmem/kni/ns/ns-QA/status/interface md{ mode:keyshadow localMem:false maxSize:0 fixedCapacity:false shrinkSlots:true shrinkBuckets:true pruneConquer:true notifySync:true notifyFlush:true useHeap:false heapCheckEnabled:false cleanup:false asynchronous:false assertOnOrphanAccess:false }
+2021-04-08 00:55:48.395608   910 Smash-8TgBTC-interfa 1 Reader::Reader() fullPath:/var/shmem/smashes/ar/Shmem/kni/ns/ns-QA/status/interface/fenix current path:/var/shmem/smashes/ar/Shmem/kni/ns/ns-QA/status/interface/fenix lastFile:fenix finalPath:true
+2021-04-08 00:55:48.395793   910 Smash-8TgBTC-interfa 1 SmashReader::initialize() success /var/shmem/smashes/ar/Shmem/kni/ns/ns-QA/status/interface capacity:0 fenixId:966:1 mtime:1617843348 delay:0 event:SmashMap::init
+2021-04-08 00:55:48.395932   910 Smash-8TgBTC-interfa 1 SmashShadowBase::initializeConquer() Synchronizing into local shadow, latestSeq:1 numSlots:32 connected:true asynchronous:false
+2021-04-08 00:55:48.395945   910 Smash-8TgBTC-interfa 1 Syncer::sync() Synchronizing, mode:0 asynchronous:false numSlots:32
+2021-04-08 00:55:48.395967   910 Smash-8TgBTC-interfa 1 SmashShadow::syncComplete() Synchronization complete, seq:1
+2021-04-08 00:55:48.395987   910 SmashTemp            1 SmashMap::init() name:/ar/Shmem/kni/ns/ns-QA/status/addr md{ mode:keyshadow localMem:false maxSize:0 fixedCapacity:false shrinkSlots:true shrinkBuckets:true pruneConquer:true notifySync:true notifyFlush:true useHeap:false heapCheckEnabled:false cleanup:false asynchronous:false assertOnOrphanAccess:false }
+2021-04-08 00:55:48.396030   910 Smash-4w83DA-addr    1 Reader::Reader() fullPath:/var/shmem/smashes/ar/Shmem/kni/ns/ns-QA/status/addr/fenix current path:/var/shmem/smashes/ar/Shmem/kni/ns/ns-QA/status/addr/fenix lastFile:fenix finalPath:true
+2021-04-08 00:55:48.396184   910 Smash-4w83DA-addr    1 SmashReader::initialize() success /var/shmem/smashes/ar/Shmem/kni/ns/ns-QA/status/addr capacity:0 fenixId:966:1 mtime:1617843348 delay:0 event:SmashMap::init
+2021-04-08 00:55:48.396311   910 Smash-4w83DA-addr    1 SmashShadowBase::initializeConquer() Synchronizing into local shadow, latestSeq:0 numSlots:64 connected:true asynchronous:false
+2021-04-08 00:55:48.396325   910 Smash-4w83DA-addr    1 Syncer::sync() Synchronizing, mode:0 asynchronous:false numSlots:0
+2021-04-08 00:55:48.396336   910 Smash-4w83DA-addr    1 SmashShadow::syncComplete() Synchronization complete, seq:0
+2021-04-08 00:55:48.397964   910 SmashTemp            1 SmashMap::init() name:/ar/Shmem/routing/vrf/status/QA/route md{ mode:keyshadow localMem:false maxSize:0 fixedCapacity:false shrinkSlots:true shrinkBuckets:true pruneConquer:true notifySync:true notifyFlush:true useHeap:false heapCheckEnabled:false cleanup:false asynchronous:false assertOnOrphanAccess:false }
+2021-04-08 00:55:48.398024   910 Smash-apjrwC-route   1 Reader::Reader() fullPath:/var/shmem/smashes/ar/Shmem/routing/vrf/status/QA/route/fenix current path:/var/shmem/smashes/ar/Shmem/routing/vrf lastFile:fenix finalPath:false
+2021-04-08 00:55:48.398107   910 SmashTemp            1 SmashMap::init() name:/ar/Shmem/routing/vrf/status/QA/nexthop md{ mode:keyshadow localMem:false maxSize:0 fixedCapacity:false shrinkSlots:true shrinkBuckets:true pruneConquer:true notifySync:true notifyFlush:true useHeap:false heapCheckEnabled:false cleanup:false asynchronous:false assertOnOrphanAccess:false }
+2021-04-08 00:55:48.398156   910 Smash-GloDkC-nexthop 1 Reader::Reader() fullPath:/var/shmem/smashes/ar/Shmem/routing/vrf/status/QA/nexthop/fenix current path:/var/shmem/smashes/ar/Shmem/routing/vrf lastFile:fenix finalPath:false
+2021-04-08 00:55:48.398567   910 SmashTemp            1 SmashMap::init() name:/ar/Shmem/routing6/vrf/status/QA/route md{ mode:keyshadow localMem:false maxSize:0 fixedCapacity:false shrinkSlots:true shrinkBuckets:true pruneConquer:true notifySync:true notifyFlush:true useHeap:false heapCheckEnabled:false cleanup:false asynchronous:false assertOnOrphanAccess:false }
+2021-04-08 00:55:48.399477   910 Smash-CZIuLD-route   1 Reader::Reader() fullPath:/var/shmem/smashes/ar/Shmem/routing6/vrf/status/QA/route/fenix current path:/var/shmem/smashes/ar/Shmem/routing6 lastFile:fenix finalPath:false
+2021-04-08 00:55:48.399571   910 SmashTemp            1 SmashMap::init() name:/ar/Shmem/routing6/vrf/status/QA/nexthop md{ mode:keyshadow localMem:false maxSize:0 fixedCapacity:false shrinkSlots:true shrinkBuckets:true pruneConquer:true notifySync:true notifyFlush:true useHeap:false heapCheckEnabled:false cleanup:false asynchronous:false assertOnOrphanAccess:false }
+2021-04-08 00:55:48.399626   910 Smash-muCWSA-nexthop 1 Reader::Reader() fullPath:/var/shmem/smashes/ar/Shmem/routing6/vrf/status/QA/nexthop/fenix current path:/var/shmem/smashes/ar/Shmem/routing6 lastFile:fenix finalPath:false
+2021-04-08 00:55:48.399817   910 Log                  0 %VRF-6-CREATED: VRF QA has been created with network namespace ns-QA
+2021-04-08 00:55:48.411777   910 SmashTemp            1 SmashMap::init() name:/ar/Shmem/kni/ns/ns-prod/status/interface md{ mode:keyshadow localMem:false maxSize:0 fixedCapacity:false shrinkSlots:true shrinkBuckets:true pruneConquer:true notifySync:true notifyFlush:true useHeap:false heapCheckEnabled:false cleanup:false asynchronous:false assertOnOrphanAccess:false }
+2021-04-08 00:55:48.411849   910 Smash-KEtttB-interfa 1 Reader::Reader() fullPath:/var/shmem/smashes/ar/Shmem/kni/ns/ns-prod/status/interface/fenix current path:/var/shmem/smashes/ar/Shmem/kni/ns lastFile:fenix finalPath:false
+2021-04-08 00:55:48.412709   910 SmashTemp            1 SmashMap::init() name:/ar/Shmem/kni/ns/ns-prod/status/addr md{ mode:keyshadow localMem:false maxSize:0 fixedCapacity:false shrinkSlots:true shrinkBuckets:true pruneConquer:true notifySync:true notifyFlush:true useHeap:false heapCheckEnabled:false cleanup:false asynchronous:false assertOnOrphanAccess:false }
+2021-04-08 00:55:48.412790   910 Smash-wpl5oC-addr    1 Reader::Reader() fullPath:/var/shmem/smashes/ar/Shmem/kni/ns/ns-prod/status/addr/fenix current path:/var/shmem/smashes/ar/Shmem/kni/ns lastFile:fenix finalPath:false
+2021-04-08 00:55:48.430777   910 SmashTemp            1 SmashMap::init() name:/ar/Shmem/routing/vrf/status/prod/route md{ mode:keyshadow localMem:false maxSize:0 fixedCapacity:false shrinkSlots:true shrinkBuckets:true pruneConquer:true notifySync:true notifyFlush:true useHeap:false heapCheckEnabled:false cleanup:false asynchronous:false assertOnOrphanAccess:false }
+2021-04-08 00:55:48.430855   910 Smash-8uvQdB-route   1 Reader::Reader() fullPath:/var/shmem/smashes/ar/Shmem/routing/vrf/status/prod/route/fenix current path:/var/shmem/smashes/ar/Shmem/routing/vrf lastFile:fenix finalPath:false
+2021-04-08 00:55:48.430953   910 SmashTemp            1 SmashMap::init() name:/ar/Shmem/routing/vrf/status/prod/nexthop md{ mode:keyshadow localMem:false maxSize:0 fixedCapacity:false shrinkSlots:true shrinkBuckets:true pruneConquer:true notifySync:true notifyFlush:true useHeap:false heapCheckEnabled:false cleanup:false asynchronous:false assertOnOrphanAccess:false }
+2021-04-08 00:55:48.431005   910 Smash-MGZMPC-nexthop 1 Reader::Reader() fullPath:/var/shmem/smashes/ar/Shmem/routing/vrf/status/prod/nexthop/fenix current path:/var/shmem/smashes/ar/Shmem/routing/vrf lastFile:fenix finalPath:false
+2021-04-08 00:55:48.431492   910 SmashTemp            1 SmashMap::init() name:/ar/Shmem/routing6/vrf/status/prod/route md{ mode:keyshadow localMem:false maxSize:0 fixedCapacity:false shrinkSlots:true shrinkBuckets:true pruneConquer:true notifySync:true notifyFlush:true useHeap:false heapCheckEnabled:false cleanup:false asynchronous:false assertOnOrphanAccess:false }
+2021-04-08 00:55:48.431555   910 Smash-bY666C-route   1 Reader::Reader() fullPath:/var/shmem/smashes/ar/Shmem/routing6/vrf/status/prod/route/fenix current path:/var/shmem/smashes/ar/Shmem/routing6 lastFile:fenix finalPath:false
+2021-04-08 00:55:48.431634   910 SmashTemp            1 SmashMap::init() name:/ar/Shmem/routing6/vrf/status/prod/nexthop md{ mode:keyshadow localMem:false maxSize:0 fixedCapacity:false shrinkSlots:true shrinkBuckets:true pruneConquer:true notifySync:true notifyFlush:true useHeap:false heapCheckEnabled:false cleanup:false asynchronous:false assertOnOrphanAccess:false }
+2021-04-08 00:55:48.431695   910 Smash-LshZTC-nexthop 1 Reader::Reader() fullPath:/var/shmem/smashes/ar/Shmem/routing6/vrf/status/prod/nexthop/fenix current path:/var/shmem/smashes/ar/Shmem/routing6 lastFile:fenix finalPath:false
+2021-04-08 00:55:48.431890   910 Log                  0 %VRF-6-CREATED: VRF prod has been created with network namespace ns-prod
+2021-04-08 00:55:48.450021   910 Smash-8TgBTC-interfa 1 ConquerReader::handleAck() minSeq:0 previousSeqSent:1
+2021-04-08 00:55:48.450056   910 Smash-4w83DA-addr    1 ConquerReader::handleAck() minSeq:0 previousSeqSent:0
+2021-04-08 00:55:49.403811   910 Smash-KEtttB-interfa 1 SmashReader::initialize() success /var/shmem/smashes/ar/Shmem/kni/ns/ns-prod/status/interface capacity:0 fenixId:966:2 mtime:1617843349 delay:0 event:ns-prod
+2021-04-08 00:55:49.403974   910 Smash-KEtttB-interfa 1 SmashShadowBase::initializeConquer() Synchronizing into local shadow, latestSeq:1 numSlots:32 connected:true asynchronous:true
+2021-04-08 00:55:49.403989   910 Smash-KEtttB-interfa 1 Syncer::sync() Scheduling synchronization, mode:0 asynchronous:true numSlots:32
+2021-04-08 00:55:49.404272   910 Smash-wpl5oC-addr    1 SmashReader::initialize() success /var/shmem/smashes/ar/Shmem/kni/ns/ns-prod/status/addr capacity:0 fenixId:966:2 mtime:1617843349 delay:0 event:ns-prod
+2021-04-08 00:55:49.404398   910 Smash-wpl5oC-addr    1 SmashShadowBase::initializeConquer() Synchronizing into local shadow, latestSeq:2 numSlots:64 connected:true asynchronous:true
+2021-04-08 00:55:49.404411   910 Smash-wpl5oC-addr    1 Syncer::sync() Scheduling synchronization, mode:0 asynchronous:true numSlots:64
+2021-04-08 00:55:49.404496   910 Smash-KEtttB-interfa 1 SmashShadow::syncComplete() Synchronization complete, seq:1
+2021-04-08 00:55:49.404539   910 Smash-wpl5oC-addr    1 SmashShadow::syncComplete() Synchronization complete, seq:2
+2021-04-08 00:55:49.407814   910 Smash-KEtttB-interfa 1 ConquerReader::handleAck() minSeq:0 previousSeqSent:1
+2021-04-08 00:55:49.407829   910 Smash-wpl5oC-addr    1 ConquerReader::handleAck() minSeq:0 previousSeqSent:2
+2021-04-08 00:55:49.988284   910 Smash-apjrwC-route   1 SmashReader::initialize() success /var/shmem/smashes/ar/Shmem/routing/vrf/status/QA/route capacity:0 fenixId:1068:1 mtime:1617843349 delay:0 event:fenix
+2021-04-08 00:55:49.988435   910 Smash-apjrwC-route   1 SmashShadowBase::initializeConquer() Synchronizing into local shadow, latestSeq:0 numSlots:64 connected:true asynchronous:true
+2021-04-08 00:55:49.988446   910 Smash-apjrwC-route   1 Syncer::sync() Scheduling synchronization, mode:0 asynchronous:true numSlots:0
+2021-04-08 00:55:49.988524   910 Smash-apjrwC-route   1 SmashShadow::syncComplete() Synchronization complete, seq:0
+2021-04-08 00:55:50.008310   910 Smash-GloDkC-nexthop 1 SmashReader::initialize() success /var/shmem/smashes/ar/Shmem/routing/vrf/status/QA/nexthop capacity:0 fenixId:1068:2 mtime:1617843349 delay:1 event:fenix
+2021-04-08 00:55:50.008470   910 Smash-GloDkC-nexthop 1 SmashShadowBase::initializeConquer() Synchronizing into local shadow, latestSeq:0 numSlots:64 connected:true asynchronous:true
+2021-04-08 00:55:50.008483   910 Smash-GloDkC-nexthop 1 Syncer::sync() Scheduling synchronization, mode:0 asynchronous:true numSlots:0
+2021-04-08 00:55:50.008527   910 Smash-GloDkC-nexthop 1 SmashShadow::syncComplete() Synchronization complete, seq:0
+2021-04-08 00:55:50.043337   910 Smash-CZIuLD-route   1 SmashReader::initialize() success /var/shmem/smashes/ar/Shmem/routing6/vrf/status/QA/route capacity:0 fenixId:1068:1 mtime:1617843350 delay:0 event:
+2021-04-08 00:55:50.043469   910 Smash-CZIuLD-route   1 SmashShadowBase::initializeConquer() Synchronizing into local shadow, latestSeq:0 numSlots:64 connected:true asynchronous:true
+2021-04-08 00:55:50.043481   910 Smash-CZIuLD-route   1 Syncer::sync() Scheduling synchronization, mode:0 asynchronous:true numSlots:0
+2021-04-08 00:55:50.043507   910 Smash-CZIuLD-route   1 SmashShadow::syncComplete() Synchronization complete, seq:0
+2021-04-08 00:55:50.055670   910 Smash-muCWSA-nexthop 1 SmashReader::initialize() success /var/shmem/smashes/ar/Shmem/routing6/vrf/status/QA/nexthop capacity:0 fenixId:1068:3 mtime:1617843350 delay:0 event:
+2021-04-08 00:55:50.055804   910 Smash-muCWSA-nexthop 1 SmashShadowBase::initializeConquer() Synchronizing into local shadow, latestSeq:0 numSlots:64 connected:true asynchronous:true
+2021-04-08 00:55:50.055816   910 Smash-muCWSA-nexthop 1 Syncer::sync() Scheduling synchronization, mode:0 asynchronous:true numSlots:0
+2021-04-08 00:55:50.055844   910 Smash-muCWSA-nexthop 1 SmashShadow::syncComplete() Synchronization complete, seq:0
+2021-04-08 00:55:50.214785   910 Smash-8uvQdB-route   1 SmashReader::initialize() success /var/shmem/smashes/ar/Shmem/routing/vrf/status/prod/route capacity:0 fenixId:1068:2 mtime:1617843350 delay:0 event:
+2021-04-08 00:55:50.214924   910 Smash-8uvQdB-route   1 SmashShadowBase::initializeConquer() Synchronizing into local shadow, latestSeq:0 numSlots:64 connected:true asynchronous:true
+2021-04-08 00:55:50.214936   910 Smash-8uvQdB-route   1 Syncer::sync() Scheduling synchronization, mode:0 asynchronous:true numSlots:0
+2021-04-08 00:55:50.214958   910 Smash-8uvQdB-route   1 SmashShadow::syncComplete() Synchronization complete, seq:0
+2021-04-08 00:55:50.219047   910 Smash-MGZMPC-nexthop 1 SmashReader::initialize() success /var/shmem/smashes/ar/Shmem/routing/vrf/status/prod/nexthop capacity:0 fenixId:1068:4 mtime:1617843350 delay:0 event:
+2021-04-08 00:55:50.219173   910 Smash-MGZMPC-nexthop 1 SmashShadowBase::initializeConquer() Synchronizing into local shadow, latestSeq:0 numSlots:64 connected:true asynchronous:true
+2021-04-08 00:55:50.219187   910 Smash-MGZMPC-nexthop 1 Syncer::sync() Scheduling synchronization, mode:0 asynchronous:true numSlots:0
+2021-04-08 00:55:50.219214   910 Smash-MGZMPC-nexthop 1 SmashShadow::syncComplete() Synchronization complete, seq:0
+2021-04-08 00:55:50.234287   910 Smash-bY666C-route   1 SmashReader::initialize() success /var/shmem/smashes/ar/Shmem/routing6/vrf/status/prod/route capacity:0 fenixId:1068:2 mtime:1617843350 delay:0 event:
+2021-04-08 00:55:50.234436   910 Smash-bY666C-route   1 SmashShadowBase::initializeConquer() Synchronizing into local shadow, latestSeq:0 numSlots:64 connected:true asynchronous:true
+2021-04-08 00:55:50.234451   910 Smash-bY666C-route   1 Syncer::sync() Scheduling synchronization, mode:0 asynchronous:true numSlots:0
+2021-04-08 00:55:50.234580   910 Smash-bY666C-route   1 SmashShadow::syncComplete() Synchronization complete, seq:0
+2021-04-08 00:55:50.239319   910 Smash-LshZTC-nexthop 1 SmashReader::initialize() success /var/shmem/smashes/ar/Shmem/routing6/vrf/status/prod/nexthop capacity:0 fenixId:1068:5 mtime:1617843350 delay:0 event:
+2021-04-08 00:55:50.239447   910 Smash-LshZTC-nexthop 1 SmashShadowBase::initializeConquer() Synchronizing into local shadow, latestSeq:0 numSlots:64 connected:true asynchronous:true
+2021-04-08 00:55:50.239458   910 Smash-LshZTC-nexthop 1 Syncer::sync() Scheduling synchronization, mode:0 asynchronous:true numSlots:0
+2021-04-08 00:55:50.239483   910 Smash-LshZTC-nexthop 1 SmashShadow::syncComplete() Synchronization complete, seq:0
+2021-04-08 00:55:50.272130   910 Smash-apjrwC-route   1 ConquerReader::handleAck() minSeq:0 previousSeqSent:0
+2021-04-08 00:55:50.272219   910 Smash-GloDkC-nexthop 1 ConquerReader::handleAck() minSeq:0 previousSeqSent:0
+2021-04-08 00:55:50.272283   910 Smash-CZIuLD-route   1 ConquerReader::handleAck() minSeq:0 previousSeqSent:0
+2021-04-08 00:55:50.272345   910 Smash-muCWSA-nexthop 1 ConquerReader::handleAck() minSeq:0 previousSeqSent:0
+2021-04-08 00:55:50.272403   910 Smash-8uvQdB-route   1 ConquerReader::handleAck() minSeq:0 previousSeqSent:0
+2021-04-08 00:55:50.272461   910 Smash-MGZMPC-nexthop 1 ConquerReader::handleAck() minSeq:0 previousSeqSent:0
+2021-04-08 00:55:50.272520   910 Smash-bY666C-route   1 ConquerReader::handleAck() minSeq:0 previousSeqSent:0
+2021-04-08 00:55:50.272578   910 Smash-LshZTC-nexthop 1 ConquerReader::handleAck() minSeq:0 previousSeqSent:0
+2021-04-08 00:55:50.872101   910 Smash-jTKiTA-fec     1 SlabReader-0-?::attach() /var/shmem/smashes/ar/Shmem/forwarding6/unifiedStatus/fec successfully attached

@@ -1,0 +1,5 @@
+===== Output from /usr/bin/EvpnrtrEncap [] (PID=1096) started Apr  8 00:38:44.837813 ===
+This agent uses legacy name : EvpnrtrEncapAgent
+EntityManager::doBackoff waiting for remote sysdb version ...ok
+2021-04-08 00:38:48.948081  1096 EvpnrtrEncap         1 EvpnrtrEncapAgent.__init__ starting
+2021-04-08 00:38:49.177647  1096 Log                  0 %AGENT-6-INITIALIZED: Agent 'EvpnrtrEncap' initialized; pid=1096

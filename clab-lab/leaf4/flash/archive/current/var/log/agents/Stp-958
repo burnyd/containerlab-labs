@@ -1,0 +1,2 @@
+===== Output from /usr/bin/Stp [] (PID=958) started Apr  8 00:38:34.208313 ===
+EntityManager::doBackoff waiting for remote sysdb version ..........ok

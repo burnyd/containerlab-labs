@@ -1,0 +1,76 @@
+Apr  8 00:39:17 leaf1 SuperServer: %SYS-6-SSH_HOST_KEY_UPDATED: SSH host key rsa has been updated. The SHA-256 hash of public key rsa fingerprint is cF3QFDbk4Y7TB7Hesl068+RfbdW0jpop9ZzNf6vpj4k.
+Apr  8 00:39:18 leaf1 SuperServer: %SYS-6-SSH_HOST_KEY_UPDATED: SSH host key ecdsa-nistp521 has been updated. The SHA-256 hash of public key ecdsa-nistp521 fingerprint is +kKwJ6Vva528S6gVZvnxlW8nYainbRzxptXwCfJKhps.
+Apr  8 00:39:19 leaf1 SuperServer: %SYS-6-SSH_HOST_KEY_UPDATED: SSH host key ed25519 has been updated. The SHA-256 hash of public key ed25519 fingerprint is 4G6GmM0KXoF3lSNGjdQ67UzoFR+BovhJoMy1TrfJKxc.
+Apr  8 00:39:20 leaf1 SuperServer: %SYS-6-SSH_HOST_KEY_UPDATED: SSH host key ecdsa-nistp256 has been updated. The SHA-256 hash of public key ecdsa-nistp256 fingerprint is e9zGUZjomPsBswY1uuiNrEwJkD6wLK5D0A24aL+nBuQ.
+Apr  8 00:39:21 leaf1 SuperServer: %SYS-6-SSH_HOST_KEY_UPDATED: SSH host key dsa has been updated. The SHA-256 hash of public key dsa fingerprint is bileqfSyzTMEBlGm02Q7dPs1+tufFUiwWf//azVExV0.
+Apr  8 00:39:27 leaf1 Stp: %SPANTREE-6-STABLE_CHANGE: Stp state is now stable
+Apr  8 00:40:49 leaf1 Lldp: %LLDP-5-NEIGHBOR_TIMEOUT: LLDP neighbor with chassisId 0000.0000.0000 and portId "Management0" timed out on interface Management0
+Apr  8 00:41:10 leaf1 SuperServer: %SYS-5-SYSTEM_RESTARTED: System restarted
+Apr  8 00:41:10 leaf1 SuperServer: %SYS-6-SYSTEM_INFO: Software image version: 4.25.1F-20001546.4251F (engineering build)
+Apr  8 00:41:10 leaf1 SuperServer: %SYS-6-SYSTEM_INFO: Model: cEOSLab
+Apr  8 00:41:10 leaf1 SuperServer: %SYS-6-SYSTEM_INFO: Serial number: 
+Apr  8 00:43:29 leaf1 ConfigAgent: %SYS-5-CONFIG_SESSION_ENTERED: User admin entered configuration session ansible_1617842609 on command-api (172.20.20.1)
+Apr  8 00:43:29 leaf1 ConfigAgent: %SYS-5-CONFIG_SESSION_EXITED: User admin exited configuration session ansible_1617842609 on command-api (172.20.20.1)
+Apr  8 00:43:29 leaf1 ConfigAgent: %SYS-5-CONFIG_SESSION_ENTERED: User admin entered configuration session ansible_1617842609 on command-api (172.20.20.1)
+Apr  8 00:43:30 leaf1 ConfigAgent: %SYS-5-CONFIG_SESSION_COMMIT_SUCCESS: User admin committed configuration session ansible_1617842609 successfully on command-api (172.20.20.1)
+Apr  8 00:43:30 leaf1 ConfigAgent: %SYS-5-CONFIG_SESSION_EXITED: User admin exited configuration session ansible_1617842609 on command-api (172.20.20.1)
+Apr  8 00:47:39 leaf1 ConfigAgent: %SYS-5-CONFIG_SESSION_ENTERED: User admin entered configuration session ansible_1617842859 on command-api (172.20.20.1)
+Apr  8 00:47:39 leaf1 ConfigAgent: %SYS-5-CONFIG_SESSION_EXITED: User admin exited configuration session ansible_1617842859 on command-api (172.20.20.1)
+Apr  8 00:47:39 leaf1 ConfigAgent: %SYS-5-CONFIG_SESSION_ENTERED: User admin entered configuration session ansible_1617842859 on command-api (172.20.20.1)
+Apr  8 00:47:39 leaf1 ConfigAgent: %SYS-5-CONFIG_SESSION_EXITED: User admin exited configuration session ansible_1617842859 on command-api (172.20.20.1)
+Apr  8 00:47:39 leaf1 ConfigAgent: %SYS-5-CONFIG_SESSION_ABORTED: User admin aborted configuration session ansible_1617842859 on command-api (172.20.20.1)
+Apr  8 00:48:46 leaf1 ReloadCauseAgent: %SYS-6-SYSTEM_INFO: Reload Cause 1: Unknown
+Apr  8 00:49:28 leaf1 ConfigAgent: %SYS-5-CONFIG_SESSION_ENTERED: User admin entered configuration session ansible_1617842968 on command-api (172.20.20.1)
+Apr  8 00:49:28 leaf1 ConfigAgent: %SYS-5-CONFIG_SESSION_EXITED: User admin exited configuration session ansible_1617842968 on command-api (172.20.20.1)
+Apr  8 00:49:28 leaf1 ConfigAgent: %SYS-5-CONFIG_SESSION_ENTERED: User admin entered configuration session ansible_1617842968 on command-api (172.20.20.1)
+Apr  8 00:49:28 leaf1 ConfigAgent: %SYS-5-CONFIG_SESSION_EXITED: User admin exited configuration session ansible_1617842968 on command-api (172.20.20.1)
+Apr  8 00:49:28 leaf1 ConfigAgent: %SYS-5-CONFIG_SESSION_ABORTED: User admin aborted configuration session ansible_1617842968 on command-api (172.20.20.1)
+Apr  8 00:52:10 leaf1 ConfigAgent: %SYS-5-CONFIG_SESSION_ENTERED: User admin entered configuration session ansible_1617843130 on command-api (172.20.20.1)
+Apr  8 00:52:10 leaf1 ConfigAgent: %SYS-5-CONFIG_SESSION_EXITED: User admin exited configuration session ansible_1617843130 on command-api (172.20.20.1)
+Apr  8 00:52:10 leaf1 ConfigAgent: %SYS-5-CONFIG_SESSION_ENTERED: User admin entered configuration session ansible_1617843130 on command-api (172.20.20.1)
+Apr  8 00:52:10 leaf1 ConfigAgent: %SYS-5-CONFIG_SESSION_EXITED: User admin exited configuration session ansible_1617843130 on command-api (172.20.20.1)
+Apr  8 00:52:10 leaf1 ConfigAgent: %SYS-5-CONFIG_SESSION_ABORTED: User admin aborted configuration session ansible_1617843130 on command-api (172.20.20.1)
+Apr  8 00:53:11 leaf1 ConfigAgent: %SYS-5-CONFIG_SESSION_ENTERED: User admin entered configuration session ansible_1617843191 on command-api (172.20.20.1)
+Apr  8 00:53:12 leaf1 ConfigAgent: %SYS-5-CONFIG_SESSION_EXITED: User admin exited configuration session ansible_1617843191 on command-api (172.20.20.1)
+Apr  8 00:53:12 leaf1 ConfigAgent: %SYS-5-CONFIG_SESSION_ENTERED: User admin entered configuration session ansible_1617843191 on command-api (172.20.20.1)
+Apr  8 00:53:12 leaf1 ConfigAgent: %SYS-5-CONFIG_SESSION_EXITED: User admin exited configuration session ansible_1617843191 on command-api (172.20.20.1)
+Apr  8 00:53:12 leaf1 ConfigAgent: %SYS-5-CONFIG_SESSION_ABORTED: User admin aborted configuration session ansible_1617843191 on command-api (172.20.20.1)
+Apr  8 00:55:04 leaf1 ConfigAgent: %SYS-5-CONFIG_SESSION_ENTERED: User admin entered configuration session ansible_1617843304 on command-api (172.20.20.1)
+Apr  8 00:55:04 leaf1 ConfigAgent: %SYS-5-CONFIG_SESSION_EXITED: User admin exited configuration session ansible_1617843304 on command-api (172.20.20.1)
+Apr  8 00:55:04 leaf1 ConfigAgent: %SYS-5-CONFIG_SESSION_ENTERED: User admin entered configuration session ansible_1617843304 on command-api (172.20.20.1)
+Apr  8 00:55:04 leaf1 ConfigAgent: %SYS-5-CONFIG_SESSION_EXITED: User admin exited configuration session ansible_1617843304 on command-api (172.20.20.1)
+Apr  8 00:55:04 leaf1 ConfigAgent: %SYS-5-CONFIG_SESSION_ABORTED: User admin aborted configuration session ansible_1617843304 on command-api (172.20.20.1)
+Apr  8 00:55:47 leaf1 ConfigAgent: %SYS-5-CONFIG_SESSION_ENTERED: User admin entered configuration session ansible_1617843347 on command-api (172.20.20.1)
+Apr  8 00:55:47 leaf1 ConfigAgent: %SYS-5-CONFIG_SESSION_EXITED: User admin exited configuration session ansible_1617843347 on command-api (172.20.20.1)
+Apr  8 00:55:47 leaf1 ConfigAgent: %SYS-5-CONFIG_SESSION_ENTERED: User admin entered configuration session ansible_1617843347 on command-api (172.20.20.1)
+Apr  8 00:55:48 leaf1 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'Fhrp' to start in role 'AllSupervisors'
+Apr  8 00:55:48 leaf1 Ira: %VRF-6-CREATED: VRF QA has been created with network namespace ns-QA
+Apr  8 00:55:48 leaf1 Ira: %VRF-6-CREATED: VRF prod has been created with network namespace ns-prod
+Apr  8 00:55:48 leaf1 ConfigAgent: %SYS-5-CONFIG_SESSION_COMMIT_SUCCESS: User admin committed configuration session ansible_1617843347 successfully on command-api (172.20.20.1)
+Apr  8 00:55:48 leaf1 ConfigAgent: %SYS-5-CONFIG_SESSION_EXITED: User admin exited configuration session ansible_1617843347 on command-api (172.20.20.1)
+Apr  8 00:55:48 leaf1 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'VxlanSwFwd' to start in role 'ActiveSupervisor'
+Apr  8 00:55:48 leaf1 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'Vxlan' to start in role 'ActiveSupervisor'
+Apr  8 00:55:48 leaf1 ProcMgr-worker: %PROCMGR-6-WORKER_WARMSTART: ProcMgr worker warm start. (PID=583)
+Apr  8 00:55:49 leaf1 ProcMgr-worker: %PROCMGR-7-NEW_PROCESSES: New processes configured to run under ProcMgr control: ['Fhrp', 'Vxlan', 'VxlanSwFwd']
+Apr  8 00:55:49 leaf1 ProcMgr-worker: %PROCMGR-7-PROCESSES_ADOPTED: ProcMgr (PID=583) adopted running processes:  (PortSec, PID=897) (StageMgr, PID=644) (SlabMonitor, PID=645) (ConfigAgent, PID=646) (Fru, PID=647) (Sysdb, PID=648) (Launcher, PID=649) (EventMgr, PID=909) (CapiApp, PID=912) (StpTxRx, PID=919) (Ira, PID=900) (StandbyCpld, PID=925) (AgentMonitor, PID=927) (FibServices, PID=929) (StaticRoute, PID=1059) (Tunnel, PID=932) (PhyEthtool, PID=936) (EventHistoryAgent, PID=937) (IpRib, PID=1066) (Aaa, PID=939) (ConnectedRoute, PID=1071) (StpTopology, PID=945) (RouteInput, PID=1078) (LedPolicy, PID=905) (Acl, PID=954) (Bgp, PID=1083) (Stp, PID=957) (KernelNetworkInfo, PID=961) (BgpCliHelper, PID=1091) (McastCommon6, PID=966) (Etba, PID=971) (Arp, PID=973) (Lldp, PID=977) (KernelFib, PID=980) (Qos, PID=985) (Thermostat, PID=988) (EvpnrtrEncap, PID=1089) (L2Rib, PID=993) (TopoAgent, PID=996) (PowerFuse, PID=999) (Ebra, PID=1003) (ReloadCauseAgent, PID=1004) (SharedSecretProfile, PID=1005) (IgmpSnooping, PID=1006) (LacpTxAgent, PID=881) (McastCommon, PID=883) (SuperServer, PID=884) (OpenConfig, PID=886) (Lag, PID=888)
+Apr  8 00:55:49 leaf1 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'Vxlan' starting with PID=3577 (PPID=583) -- execing '/usr/bin/Vxlan'
+Apr  8 00:55:49 leaf1 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'Fhrp' starting with PID=3581 (PPID=583) -- execing '/usr/bin/Fhrp'
+Apr  8 00:55:49 leaf1 ProcMgr-worker: %PROCMGR-7-WORKER_WARMSTART_DONE: ProcMgr worker warm start done. (PID=583)
+Apr  8 00:55:49 leaf1 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'VxlanSwFwd' starting with PID=3584 (PPID=583) -- execing '/usr/bin/VxlanSwFwd'
+Apr  8 00:55:49 leaf1 ProcMgr-worker: %PROCMGR-6-WORKER_WARMSTART: ProcMgr worker warm start. (PID=583)
+Apr  8 00:55:49 leaf1 ProcMgr-worker: %PROCMGR-7-PROCESSES_ADOPTED: ProcMgr (PID=583) adopted running processes:  (VxlanSwFwd, PID=3584) (PortSec, PID=897) (StageMgr, PID=644) (SlabMonitor, PID=645) (ConfigAgent, PID=646) (Fru, PID=647) (Sysdb, PID=648) (Launcher, PID=649) (EventMgr, PID=909) (CapiApp, PID=912) (StpTxRx, PID=919) (Ira, PID=900) (StandbyCpld, PID=925) (AgentMonitor, PID=927) (FibServices, PID=929) (StaticRoute, PID=1059) (Tunnel, PID=932) (PhyEthtool, PID=936) (EventHistoryAgent, PID=937) (IpRib, PID=1066) (Aaa, PID=939) (ConnectedRoute, PID=1071) (StpTopology, PID=945) (RouteInput, PID=1078) (LedPolicy, PID=905) (Acl, PID=954) (Bgp, PID=1083) (Stp, PID=957) (KernelNetworkInfo, PID=961) (BgpCliHelper, PID=1091) (McastCommon6, PID=966) (Etba, PID=971) (Arp, PID=973) (Lldp, PID=977) (KernelFib, PID=980) (Qos, PID=985) (Thermostat, PID=988) (EvpnrtrEncap, PID=1089) (L2Rib, PID=993) (TopoAgent, PID=996) (PowerFuse, PID=999) (Ebra, PID=1003) (ReloadCauseAgent, PID=1004) (SharedSecretProfile, PID=1005) (IgmpSnooping, PID=1006) (LacpTxAgent, PID=881) (McastCommon, PID=883) (SuperServer, PID=884) (OpenConfig, PID=886) (Lag, PID=888) (Vxlan, PID=3577) (Fhrp, PID=3581)
+Apr  8 00:55:49 leaf1 ProcMgr-worker: %PROCMGR-7-WORKER_WARMSTART_DONE: ProcMgr worker warm start done. (PID=583)
+Apr  8 00:55:49 leaf1 Fhrp: %AGENT-6-INITIALIZED: Agent 'Fhrp' initialized; pid=3593
+Apr  8 00:55:50 leaf1 VxlanSwFwd: %AGENT-6-INITIALIZED: Agent 'VxlanSwFwd' initialized; pid=3595
+Apr  8 00:55:50 leaf1 IpRib: %IPRIB-5-RIBREADY_IGP: IGP protocols in VRF QA have converged
+Apr  8 00:55:50 leaf1 IpRib: %IPRIB-5-RIBREADY_PROTO: All protocols in VRF QA have converged
+Apr  8 00:55:50 leaf1 IpRib: %IPRIB-5-RIBREADY_FIB: All routes in VRF QA are available in FIB
+Apr  8 00:55:50 leaf1 Vxlan: %AGENT-6-INITIALIZED: Agent 'Vxlan' initialized; pid=3582
+Apr  8 00:55:50 leaf1 IpRib: %IPRIB-5-RIBREADY_IGP: IGP protocols in VRF prod have converged
+Apr  8 00:55:50 leaf1 IpRib: %IPRIB-5-RIBREADY_PROTO: All protocols in VRF prod have converged
+Apr  8 00:55:50 leaf1 IpRib: %IPRIB-5-RIBREADY_FIB: All routes in VRF prod are available in FIB
+Apr  8 00:55:50 leaf1 Ebra: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vxlan1, changed state to up
+Apr  8 00:57:13 leaf1 Bgp: %BGP-5-ADJCHANGE: peer 10.1.0.2 (VRF default AS 6500) old state OpenConfirm event Established new state Established
+Apr  8 00:57:13 leaf1 Bgp: %BGP-5-ADJCHANGE: peer 9.9.9.9 (VRF default AS 6500) old state OpenConfirm event Established new state Established
+Apr  8 00:57:13 leaf1 Bgp: %BGP-5-ADJCHANGE: peer 10.0.0.2 (VRF default AS 6500) old state OpenConfirm event Established new state Established
+Apr  8 00:57:16 leaf1 Bgp: %BGP-5-ADJCHANGE: peer 8.8.8.8 (VRF default AS 6500) old state OpenConfirm event Established new state Established

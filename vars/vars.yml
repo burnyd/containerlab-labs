@@ -10,3 +10,149 @@ ansible_httpapi_use_ssl: false
 ansible_httpapi_validate_certs: false 
 ansible_python_interpreter: /usr/bin/python3
 
+vrfs:
+      - vrf: prod
+        vni: 10000
+        rd: 1.2.3.4
+        rt: 2:2001
+      - vrf: QA
+        rd: 2.3.4.5
+        vni: 20000
+        rt: 1:1001
+
+vlans:
+      - vlanid: 2
+        name: prod
+      - vlanid: 3
+        name: QA
+
+#BGP / EVPN config
+
+spine_as: 6500
+
+leaf_as:
+  bgpleaf:
+    clab-lab-leaf1:
+      - 65001
+    clab-lab-leaf2:
+      - 65002
+    clab-lab-leaf3:
+      - 65003
+    clab-lab-leaf4:
+      - 65004
+    gobgp:
+      - 65005
+
+loopback0:
+    clab-lab-leaf1:
+      - 1.1.1.1
+    lclab-lab-leaf2:
+      - 2.2.2.2
+    clab-lab-leaf3:
+      - 3.3.3.3
+    clab-lab-leaf4:
+      - 4.4.4.4
+    clab-lab-spine1:
+      - 8.8.8.8
+    clab-lab-spine2:
+      - 9.9.9.9
+
+loopback0spine:
+  - 8.8.8.8
+  - 9.9.9.9
+
+loopback0leaf:
+  - 1.1.1.1
+  - 2.2.2.2
+  - 3.3.3.3
+  - 4.4.4.4
+
+loopback1spine:
+  - 88.88.88.88
+  - 99.99.99.99
+
+loopback1leaf:
+  - 11.11.11.11
+  - 22.22.22.22
+  - 33.33.33.33
+  - 44.44.44.44
+
+vmac: 00:00:00:00:00:33
+
+ebgp_peers:
+  clab-lab-leaf1:
+    10.0.0.2:
+      - remote-as 6500
+    10.1.0.2:
+      - remote-as 6500
+  clab-lab-leaf2:
+    10.0.0.6:
+      - remote-as 6500
+    10.1.0.6:
+      - remote-as 6500
+  clab-lab-leaf3:
+    10.0.0.10:
+      - remote-as 6500
+    10.1.0.10:
+      - remote-as 6500
+  clab-lab-leaf4:
+    10.0.0.14:
+      - remote-as 6500
+    10.1.0.14:
+      - remote-as 6500
+
+spine_peers:
+  clab-lab-spine1:
+    10.0.0.1:
+      - remote-as 65001
+    10.0.0.5:
+      - remote-as 65002
+    10.0.0.9:
+      - remote-as 65003
+    10.0.0.13:
+      - remote-as 65004
+  clab-lab-spine2:
+    10.1.0.1:
+      - remote-as 65001
+    10.1.0.5:
+      - remote-as 65002
+    10.1.0.9:
+      - remote-as 65003
+    10.1.0.13:
+      - remote-as 65004
+
+spine_evpn_peers:
+  clab-lab-spine1:
+    1.1.1.1:
+      - remote-as 65001
+    2.2.2.2:
+      - remote-as 65002
+    3.3.3.3:
+      - remote-as 65003
+    4.4.4.4:
+      - remote-as 65004
+  clab-lab-spine2:
+    1.1.1.1:
+      - remote-as 65001
+    2.2.2.2:
+      - remote-as 65002
+    3.3.3.3:
+      - remote-as 65003
+    4.4.4.4:
+      - remote-as 65004
+
+vnis:
+  - 1000
+  - 2000
+
+syslogs:
+      - host: 1.1.1.1
+      - host: 2.2.2.2
+      - host: 3.3.3.3
+      - host: 4.4.4.4
+
+acl:
+      - acl: 10.10.11.0/24
+
+name_server: 8.8.8.8
+

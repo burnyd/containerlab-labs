@@ -1,0 +1,10 @@
+  - hosts: all
+    connection: local
+    gather_facts: false
+    collections:
+      - arista.avd
+    
+    tasks:
+      - name: push stuff
+        import_role:
+          name: eos_config_deploy_eapi 

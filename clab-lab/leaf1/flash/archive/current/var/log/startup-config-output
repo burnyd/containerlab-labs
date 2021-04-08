@@ -1,0 +1,14 @@
+
+> ip routing
+
+! Hardware not present. ACL(s) not programmed in the hardware. at line 40
+
+> ip routing vrf QA
+
+% No such VRF QA. at line 41
+
+> ip routing vrf prod
+
+% No such VRF prod. at line 42
+errors in startup-config: 3
+

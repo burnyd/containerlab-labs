@@ -6,9 +6,40 @@
   - "vars/vars.yml"
 
   tasks:
-  - name: Add evpn config with evpn tag 
+  - name: Add AVD evpn config with evpn tag 
     arista.eos.eos_config: 
       src: ./templates/evpn/{{ inventory_hostname }}
     ignore_errors: True
     tags:
       - evpn
+
+  - name: Add syslog servers
+    arista.eos.eos_config: 
+      src: ./templates/general/syslog.j2
+    ignore_errors: True
+    tags:
+      - syslog 
+
+  - name: Add vlans
+    arista.eos.eos_config: 
+      src: ./templates/general/vlans.j2
+    ignore_errors: True
+    tags:
+      - vlans
+    when: "'leaf' in inventory_hostname"
+    
+  - name: EVPN Jinja leafs 
+    arista.eos.eos_config: 
+      src: ./templates/evpn_jinja2/leafs.j2
+    ignore_errors: True
+    tags:
+      - evpn_leafs_j2
+    when: "'leaf' in inventory_hostname"
+
+  - name: EVPN Jinja spines 
+    arista.eos.eos_config: 
+      src: ./templates/evpn_jinja2/spines.j2
+    ignore_errors: True
+    tags:
+      - evpn_spine_j2
+    when: "'spine' in inventory_hostname"

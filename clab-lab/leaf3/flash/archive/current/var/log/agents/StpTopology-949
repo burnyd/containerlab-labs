@@ -1,0 +1,2 @@
+===== Output from /usr/bin/StpTopology [] (PID=949) started Apr  8 00:38:32.554470 ===
+EntityManager::doBackoff waiting for remote sysdb version .....ok

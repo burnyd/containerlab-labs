@@ -1,0 +1,78 @@
+2021 Apr 08 00:43:31 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=1 cmd=show version
+2021 Apr 08 00:43:31 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=1 cmd=enable
+2021 Apr 08 00:43:31 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=show hostname
+2021 Apr 08 00:43:31 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=1 cmd=enable
+2021 Apr 08 00:43:31 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=show configuration sessions
+2021 Apr 08 00:43:31 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=1 cmd=enable
+2021 Apr 08 00:43:31 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=show running-config
+2021 Apr 08 00:43:32 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=1 cmd=enable
+2021 Apr 08 00:43:32 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=configure session ansible_1617842612
+2021 Apr 08 00:43:32 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=vlan 2
+2021 Apr 08 00:43:32 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=name prod
+2021 Apr 08 00:43:32 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=vlan 3
+2021 Apr 08 00:43:32 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=name QA
+2021 Apr 08 00:43:32 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=1 cmd=enable
+2021 Apr 08 00:43:32 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=configure session ansible_1617842612
+2021 Apr 08 00:43:32 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=show session-config diffs
+2021 Apr 08 00:43:32 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=commit
+2021 Apr 08 00:48:09 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=1 cmd=show version
+2021 Apr 08 00:48:09 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=1 cmd=enable
+2021 Apr 08 00:48:09 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=show hostname
+2021 Apr 08 00:48:09 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=1 cmd=enable
+2021 Apr 08 00:48:09 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=show configuration sessions
+2021 Apr 08 00:48:09 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=1 cmd=enable
+2021 Apr 08 00:48:09 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=show running-config
+2021 Apr 08 00:48:09 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=1 cmd=enable
+2021 Apr 08 00:48:09 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=configure session ansible_1617842889
+2021 Apr 08 00:48:09 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=router bgp 6500
+2021 Apr 08 00:48:09 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=router-id 9.9.9.9
+2021 Apr 08 00:48:09 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=1 cmd=enable
+2021 Apr 08 00:48:09 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=configure session ansible_1617842889
+2021 Apr 08 00:48:09 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=abort
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=1 cmd=show version
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=1 cmd=enable
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=show hostname
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=1 cmd=enable
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=show configuration sessions
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=1 cmd=enable
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=show running-config
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=1 cmd=enable
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=configure session ansible_1617843431
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=router bgp 6500
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=router-id 9.9.9.9
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=neighbor VTEP peer group
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=neighbor VTEP bfd
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=neighbor VTEP send-community
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=neighbor VTEP maximum-routes 12000
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=neighbor VTEP-EVPN-TRANSIT peer group
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=neighbor VTEP-EVPN-TRANSIT next-hop-unchanged
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=neighbor VTEP-EVPN-TRANSIT update-source Loopback0
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=neighbor VTEP-EVPN-TRANSIT ebgp-multihop
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=neighbor VTEP-EVPN-TRANSIT send-community extended
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=neighbor VTEP-EVPN-TRANSIT maximum-routes 0
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=neighbor 10.1.0.1 peer group VTEP
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=neighbor 10.1.0.1 remote-as 65001
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=neighbor 10.1.0.5 peer group VTEP
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=neighbor 10.1.0.5 remote-as 65002
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=neighbor 10.1.0.9 peer group VTEP
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=neighbor 10.1.0.9 remote-as 65003
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=neighbor 10.1.0.13 peer group VTEP
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=neighbor 10.1.0.13 remote-as 65004
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=neighbor 1.1.1.1 peer group VTEP-EVPN-TRANSIT
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=neighbor 1.1.1.1 remote-as 65001
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=neighbor 2.2.2.2 peer group VTEP-EVPN-TRANSIT
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=neighbor 2.2.2.2 remote-as 65002
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=neighbor 3.3.3.3 peer group VTEP-EVPN-TRANSIT
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=neighbor 3.3.3.3 remote-as 65003
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=neighbor 4.4.4.4 peer group VTEP-EVPN-TRANSIT
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=neighbor 4.4.4.4 remote-as 65004
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=redistribute connected
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=address-family evpn
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=bgp next-hop-unchanged
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=neighbor VTEP-EVPN-TRANSIT activate
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=address-family ipv4
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=no neighbor VTEP-EVPN-TRANSIT activate
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=1 cmd=enable
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=configure session ansible_1617843431
+2021 Apr 08 00:57:11 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=show session-config diffs
+2021 Apr 08 00:57:12 admin    command-api 172.20.20.1     stop   service=shell priv-lvl=15 cmd=commit

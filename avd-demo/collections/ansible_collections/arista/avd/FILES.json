@@ -1,0 +1,3631 @@
+{
+ "files": [
+  {
+   "name": ".",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "LICENSE",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "efea02330ee187965f0d0566f1987765030499f67afb84e96338f34c9ae08dc4",
+   "format": 1
+  },
+  {
+   "name": "plugins",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "plugins/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "87fc30aba05b9d95838569c9d5022b1d8f898d7ee2ec48f4763b940006f28b07",
+   "format": 1
+  },
+  {
+   "name": "plugins/filter",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "plugins/filter/is_in_filter.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "bd673655be0c1b955bcf18e1e917e556a290f10195f4445506741c54964ee624",
+   "format": 1
+  },
+  {
+   "name": "plugins/filter/esi_management.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "902ea0cc0c1d23e40f17f82e5c472e4c1fa3d160bb9b01bea42e5dabb1d1923d",
+   "format": 1
+  },
+  {
+   "name": "plugins/filter/list_compress.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "32482beb183a5461f900ad5e5cc269dae34d8139b47cbf2587e9391d96fb1fe3",
+   "format": 1
+  },
+  {
+   "name": "plugins/filter/natural_sort.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5dcc01d5b36e6bcaf24712b0c84b8f54536980b250763d59ff6b71a3227b8710",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/configlet_build_config.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "993f97d491ce63cf823f22ab3d3a6585de886f98a9f74d696161f26afeba0963",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/inventory_to_container.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "76297b3ea743eacaaa35c01618f95b7f431a30f35047b665d35bf9c9302d2653",
+   "format": 1
+  },
+  {
+   "name": "roles",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/build_output_folders",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/build_output_folders/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/build_output_folders/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "da527a8396baa0a9fb671ade6ae9b5895826773629375e25086352ca0c4e0a66",
+   "format": 1
+  },
+  {
+   "name": "roles/build_output_folders/handlers",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/build_output_folders/handlers/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8c6d093e1565dd01855c5c1170ccd537a808fd66ea5f9e587bd1b2013947ce9b",
+   "format": 1
+  },
+  {
+   "name": "roles/build_output_folders/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/build_output_folders/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "73088dd5e62dfbac7406f3e028518a56faa1015e282e6ed72cebe5632275f044",
+   "format": 1
+  },
+  {
+   "name": "roles/build_output_folders/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/build_output_folders/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e4f9f888ecde6c0d415f13489b272a4017715e171873c92e813898fd4a1c589f",
+   "format": 1
+  },
+  {
+   "name": "roles/build_output_folders/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "af67e194a009033e7c7fe01a0c9b718247bbdbde4d105dae018cff913f947133",
+   "format": 1
+  },
+  {
+   "name": "roles/cvp_configlet_upload",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cvp_configlet_upload/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cvp_configlet_upload/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "70006fbbe1743c7ca39dca7f239d41ec564c970fadc8b039181c755bc01d13f7",
+   "format": 1
+  },
+  {
+   "name": "roles/cvp_configlet_upload/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cvp_configlet_upload/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a41b4d85adc776ecfe8831d2cff03955540bfb4d50c39e55d509e094ade24bb3",
+   "format": 1
+  },
+  {
+   "name": "roles/cvp_configlet_upload/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cvp_configlet_upload/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9782ca77238de0cda2d6bc79bf5de269441b08338bc545921b09c327085a48d5",
+   "format": 1
+  },
+  {
+   "name": "roles/cvp_configlet_upload/tests",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cvp_configlet_upload/tests/inventory",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e02233819b1a09844410549191813f7cc7ba360f21298578f4ba1727a27d87fc",
+   "format": 1
+  },
+  {
+   "name": "roles/cvp_configlet_upload/tests/test.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c736205d159af4f31ed8988fdc3d6be056e923b4b6a559d30f04e5e10c7ce408",
+   "format": 1
+  },
+  {
+   "name": "roles/cvp_configlet_upload/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cvp_configlet_upload/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8d3c7ab6c40681e23b3361dad56b4de43a2a604e7ec33e548e26957354efd26f",
+   "format": 1
+  },
+  {
+   "name": "roles/cvp_configlet_upload/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3100e4af24247adb26e111efadd5accd4df15babd890df68b75c2f35a7426e25",
+   "format": 1
+  },
+  {
+   "name": "roles/cvp_configlet_upload/media",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/cvp_configlet_upload/media/role_cvp_configlet_upload.gif",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "207e12b4d4a7e4cad74f66ae6ec89dfa1475196a2906a6b7de48c1882000f9a9",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/.travis.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "43e63a93716f15cdb102c201e4631be604b45910b8c749c78d89e3fc076c7c7e",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "05fed6ef51a0019f7099f2b8c10aa49fe86aa40baa6805d8df6c03b31e237da5",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0c82963d576b0b9f821e75aff29ecde1f29b01d3aef93094676e483c1c55b8ea",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/aaa-accounting.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "917bfd3c66ca65375fe29eff332174e8e267b894cd763962ea5293a54f3095f5",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/aaa-authentication.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9d759d75cad36fe238d7fd3495026f622508eb409215c0c1e2cccfd62e66b679",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/aaa-authorization.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "00e0192cc9017b6d5ea5e64e00672fa255df04baf38e057269bc3fd710b46192",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/aaa-server-groups.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2d88603ee1f4159bc396341dd95cdb589b64ea935971c74065c76260b3d8b172",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/access-lists.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cc563c851b43394f4038e3c74353e2fb3400e9c93cd003c8180cd21a0d9190fe",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/aliases.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ed82aa61ae0a5ffd2d49cd0d77baa0e439399c080a520f22df48c2a083acf061",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/daemon-terminattr.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "202504a87c5bdc55db563f50b029877d9d73fe60f7085224dfda4d5226c0a08d",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/dns-domain.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a185fa94e8d8df6915cbfa6e845db6327a9f20e241c9b08eac66af193fc8c66a",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/domain-lookup.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7277e086951b9ec191f2d9da7f5e45880b4e741c02f645dae5e94aff6b73a190",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/ethernet-interfaces.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ffec86757cf6032f952e0b53e1c31cd3be2760afabb0698f88f61f095d01439a",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/event-handler.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d212efe69ab44a75813d5293ba7a5f2f9eba550ef79cbdddf686a8f461a51a29",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/hardware-counters.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "95f2e4e2cd63659b6b4c3e9db21041a4ec902bd6b85f7efdd6d6604f24c6862a",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/ip-igmp-snooping.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "202c2bf50d065a77028916e0b4dacb3c9fbe6690facc6f705a8ae290425ee595",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/ip-routing.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "78eb7fa5d1c2935129f9f2f3321c488b12a6a0fc0b5daa2a48ec8c97e66149a2",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/ip-tacacs-source-interfaces.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e0d16782910814f77f373ae1b3623d6abf7cb86dece31a5ddd67126efad2f032",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/ipv6-access-lists.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fa540e44edf88938012dc035bd90b6447bbb4bb3a2a557e98a0bedef65253128",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/ipv6-prefix-lists.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "82e3efe4b06161f429940de4cbe16e4cae629c8072c40a103ed694df6d5332e3",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/ipv6-routing.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5f6038d4918e6adac75666d54860522ce70f4451e7932142c86b683737837219",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/ipv6-standard-access-lists.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0473814ea06085207772a738af5c5da132feff665fa1717300bf0fc4851694cf",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/logging.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8d5200c84ea4a4ab98bc32a2b3dde9abad0c1ccf0c89b301611b09863a58428c",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/loopback-interfaces.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "acac3b5076339fc421c965e995a07457d4d6acf9c3e7ff94b1830a5ed26ccc01",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/management-interfaces.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "347e96c5fbbb146f77e996e326314e56f0ee2c520368ebcf604d613490708ba5",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/management-security.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5cd26453bf7e7e404e20d99b96c2e5c7fb2c603b9295c6e02ef5de0e42f91b47",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/mlag-configuration.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c4e1a3174c930d3c8610d918406dd738287acfacb98943d0ef51cf6a72d0ece9",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/name-servers.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7a7ca36d8ad525ca92cbe1f7e03841e4ac235eb440127ffd2067f3405fa4b6c4",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/ntp-servers.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "62d688757b55b1a31a2f8c71daa89e7e096ab821fe12980d3081747293528ca0",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/peer-filters.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "bc194a5a31c6577c8469ce28b1100636a2b58bfc420560a29221fa7b33f80a29",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/platform.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3e703b8570083f9299014a4674d239d29f3f11a460f7215dbc3053afc685dec4",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/prefix-lists.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "61bec2b1f9a0878633a64ba3ee346ee363beb1b64d78adf91eeb8991442020fe",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/router-bfd.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "682b8c2152b4c75f433d569057de2dac1b74e6abb53be14573143db7b39e9b53",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/router-l2-vpn.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "56a110fde33bc4de4a53582f7a04b12723195cb301dc582e93979ac3e0730d9d",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/router-multicast.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cb540cd137aa53e11272c5f9599cee2857a171884b67efe124fb63419dfe915f",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/router-pim-sparse-mode.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "909e8769d921b11d0eb2354a5ef0bbf87bfed1262f9236dbb7c67fb66eeb52ea",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/spanning-tree.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fc82ed61f2ca25af0f87f3c4003224266dd565a74cef1479d5f5b862a9f8ab5a",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/standard-access-lists.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e92c33611c16afb25cf16f71ae611227148a6b0b0a281998d2df5c74d358a2c6",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/static-routes.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5f4da3fa604885e4079ff5472a4667d48cf932fa78077e4e78acc19a9ccec2bf",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/tacacs-servers.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9d21b1c63cbf25c7c5862fe7d5997577649c142605295d8c263a1d09cb8646fd",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/virtual-router-mac-address-virtual-source-nat.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c17abdd4bfe96f57c675632f74b011e1faa655b58a0e7a4a90d3c65927dcc5f6",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/vlan-interfaces.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a9348dadb2327cd6bdac0282b0fbd3e215c6dff9eb891716c7a070b531bb4fe7",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/vlan-internal-order.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "50691b01e1bed570f4616d5c1211e55bbbdadd39aa97019720f404f939ceb4c7",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/vlans.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "75a9d4ff310bd88ac47e1c8d1679288b7875212840dcbad661ccba5e1c10bb03",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/vmtracer-sessions.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1569c26869df9692f6d5931c84ab2e46945885fbe6271b0072ebd04ce2e36aa4",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/vrf-instances.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7e18f31cd424efb9c7d3c41aefe4332318ccd55cf48d217abae67bb8764c9933",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/vxlan-interface.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "32c4e2624cf622f6d4a49ea81d5a1bbd435816226c8c3a33e348174a7156b201",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/community-lists.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "dedb025619e46c374b4dfa7403785eb06ee511017985e5d728ac86467db25bee",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/ip-dhcp-relay.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9bf2ea69d18e9532161684d4b5e6b19beaa909f87dfb590684261bdfcaf3a2d4",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/route-maps.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "248579c7d848c57bbd92223a073e4305c5aee7f7586f603a3fb1f97b88e4d8d4",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/router-isis.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8b5b672bf5fb95a5ecb50de0aa704998336a6b4fbd8a224784f234928a69a0bb",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/sflow.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e7e6029bc354dc69508ae21e7eb9592365d6d87514cbf182a2500f5f906a7cda",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/local-users.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a375ea017f5446c0b7f4aa0e3b1f5a75ef7aa7d6101a4206e488b507d2b9948d",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/port-channel-interfaces.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "74891abf17f18881596531b8f561ac1d78bf912cb87ba8d2b0aadef29c30084a",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/router-bgp.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0a14d9ca066a4e8281f76e44be5cb3e4af31c2ae320e18a42be0d1a79c99287d",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/aaa-authorization.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "80107ec8efed05c8089dae1a1f221be4050529215df177c285dd34c6d455237a",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/peer-filters.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0f53c2ab93b3422d0af788899c17507711ebf5b6b9bd2cf892de29d5136c395b",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/port-channel-interfaces.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "bb534fd6ee777c49be5998d6706af2b7badbd5ab9a05eea52c9c5a5b86ea793a",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/event-handler.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "207d9e7227b898c7b652272d4c799806d5eb8a2ca7a24a0b828486802231225d",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/queue-monitor-length.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fda299e16429c6121ce2249a6303f706a87a523bd8e0bb74818ceca9df1fcc4b",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/dns-domain.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "02d47576567910a456ee4d0001e6cf416cdb61adb8e7ce6b17c070bcc290597d",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/queue-monitor-streaming.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8e937abd6278cc05f87d2c3a9aebf70f4c7d16c86d021daec365edac3e7d2210",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/radius-server.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b2a687d6aa1eba2a6293cc57c66a0ad6734d07ddd83535436bd2cd92d3767e7a",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/redundancy.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f31fe178b17f8ee0e4837c76ebbd607080c64a478386f5b0db6113892dbb1068",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/route-maps.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "03839bc012f3908d530f9523d0bf08aad7e0febd886f8c03f1783c8507908f26",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/router-bfd.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b70524fc4ea907e8674111a50e0013976d201e138a99a669812d0e3861a62416",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/router-bgp.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6e71adb442bbd0b00c0aa06b414cc27fe431371bb2ab02c1b8987d2c6a091f1d",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/router-multicast.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0803ca8ab8d93c5a29f3bfb74f1804d12c5fc85cc8b1d62bc00150416f10ce63",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/router-ospf.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e37ac264f0329d720b916cb6a51e8e20a4146c10d41ad649ec72644db352c371",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/ntp-servers.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ac14ec6650eb7e46b2a6840835412209ddb3f27544355457146a09526e901f53",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/platform.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "90b39632a80c42e8638eac70a40a4d8793c43d4732fb383290376727dd1e272f",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/prefix-lists.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "69c8014248a3742a7c0cc5d69d22a737d4c9aba9b520ccff15f8c6fe1850eb63",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/router-l2-vpn.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "72ecf2d489bc65c55684a85c8a1095ac1f37c1939479cbde5fe98c93d57470e2",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/standard-access-lists.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c30e988afa291ca4dcd2a2386ef753a36628329837bfe589eaf4863f1a38d4b8",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/static-routes.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d03511ba0f40846c239a534ae044cdf2f6bd7ecf418cf2234c0f3a26c324ed15",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/router-isis.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6f2d676c9d791d36f3dd915cbc96f0d4999c919d222e125b59c8bb72f993f7ce",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/virtual-router-mac-address-virtual-source-nat.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f94b5b0960b77e25d5657c79b05628fd8ed4110e98f1a8138c1d10b35aa7ab2b",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/vlan-interfaces.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a170d8723cedda211d6188f63c2d5da763dc4661f6f1913ea490efa2b5e5c93d",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/vlan-internal-order.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b31222da37761892d0144013da00c8c00d68f6ca75fe29619ff62a87dffe9b79",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/vlans.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "76a90fda9f1a85c5bb27572e1e2fbc27c2c22648cd70cd30d012f69f48463a41",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/vmtracer-sessions.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f4189e5090eec60e238808b79bc54ad4b72d0a71b871fd6d2a7784115e27ef13",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/vrf-instances.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "15e7b6468e62084068018e8d848428b4b0dd8af1741c68c5ab417f914ed7cdcc",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/vxlan-interface.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "95f7e853591df3845fbd558e78695c2687b762782b6dbf8bc1432c6a2dd0e00e",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/local-users.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "42db9b1ce4c9cdd6ad29a58c4047db5b7dc813b890cefd7037885f566fb8e0bf",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/aaa-accounting.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a66473df869c58161db375b602f8ce2d902cf9f68c2a9014da0e5f3dec3720a3",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/aaa-authentication.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2aaa888ffad181f6037064e32d28ac7ccee1633bc305e51bdba29b206a5d8fe9",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/aaa-server-groups.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d44538fb5b225c988416ff720b010bd9e16354644dd0a26d40c72d95f806460e",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/access-lists.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "537927ee5f3a25dd917ddac9526eb4c139f7ca572a7e8a68943869a85dc2f692",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/aliases.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "48f98aa60bbfdf89091750669795cc83197eb9edb29dcbbc45a81816fa415609",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/banners.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8973bd7c2c85c22430c230202c86ed7f51d26f1509bf6cbb366d8a11cdba1fb5",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/clock-timezone.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d144cb721af3446303ecd6385418a89b8072e67f96af9dd84b10645a059896f2",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/daemon-terminattr.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "21393cf1155a4f6cb88098ed397cbcaa8e690264ee0f3571f7b19157288ed59a",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/domain-lookup.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d554422e4fec9a7765636dba1e707e35a0d91e1a1179f963b5bf5b193e5bc636",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/ethernet-interfaces.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "18782dd718ea1f73583bcacf1dfd15da75e3047e57ab91f8802640e51f5e3711",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/event-monitor.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9cf3b3b5dbef6b8e69c7c681b93f0b5d9a42ad4087bd9d53b7f97f27e5b53a60",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/hardware-counters.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "554bae74872e40d14f36c60b8afc39a81be33e05249bf9dba3003d32d76cf421",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/ip-tacacs-source-interfaces.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7c58356169a670c62fe7f487372ffc3d5a8a1b39ca36215d09b05611986e7be0",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/ipv6-access-lists.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "722d16c4435196e748c49273c6af7e82bfa0511130d440c2b14900a75b53abb5",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/ipv6-static-routes.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "48f37bd990a0a766111d17002cb870c9a9d99fbc2246e96d3d19c14fc74803de",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/management-security.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "261e1a4a104cd181cf679490189094456e865cbfdb7d44f2bbd4375f9c291894",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/management-ssh.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "372bb6be25fc850665a87f8016b362e37a3797c6607d8df071521a023826be1a",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/management-api-http.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "16b70fc76aaef55ce601a8cb7ae0befe8edf44258da21ef7c75b200a1a67ade8",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/ip-routing.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5279054ec07707c92e3027d14a87e30ca83f3a7bc8dd3547fd64b02a7789a37d",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/management-console.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a71184eeb02dc395e12cd054dc71aa4893f4e1a22f7d33a67f2dfa37cd0bbb05",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/management-interfaces.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c0bd7fc9e8bd8ea0c1c50355ce15ead867e5a90377601fef77ca1c829bc79345",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/mlag-configuration.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "365efc86ba2bf4f828ca13779a1a4c1fd19662a5d10ca15b335dd13a4f350180",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/ip-igmp-snooping.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "78d26a92da7b086d7bfb6d546f077f3eb6a9d06393d893ce7b72221da2d12b57",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/ipv6-routing.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cabffd37461ee4325f7f667087af7c318d4bfa2cc72520b5d9565f06c612e87c",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/name-servers.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1e612deda93f74f9f2c739f317e6183fc878adac4408ad7f2a0d5a52873adcd6",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/ipv6-standard-access-lists.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e7cfe7dad07a51e59115b5fdb97008a0ba52d97f28239ff78882d47be171fcbf",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/load-interval.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c08dcac7e743b59e6719bf891f400705d79fde09f55b9e88ecb62ea725fd4bee",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/logging.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e9d0f8fe17a7a80794805edbe8c8ad62debbff7caf04809eda99cd1885412868",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/tacacs-servers.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b606a2257d119d00dca96f66342cade5f5efea52eb16ac6b8e462e9f4b91896b",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/tcam-profile.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7f3c1c345521e4ebb08213ef6c02762f47c22d4e6062dcc7e5b07a52a828867f",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/terminal-settings.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cf270812e6c54f14de40cfeb0450f476892e369e9c6e460cc1bc6091b43d95a6",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/unsupported-transeiver.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7908257b4fa7cd646c7c89acad48722d5a40b1cfeac3d118c1761c982aa4c743",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/lldp.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "40106a4cd20525ae236c5db4740deb330544eee1e6d241846b7daa265ab67d75",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/ipv6-prefix-lists.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "aeb72a2184b4b6215bcb5bc43202ce12b26e4282dd7e1882184a18d153c83b8c",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/loopback-interfaces.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f3ba65db2a69bc8a1022735feed4944d2965a479b3aa6753a16606d0e3504514",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/mac-address-table.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0d28bcedab735f24c3b5f4b3b28a6cfe2c27066e2e6d60ffb8f6aa0360c0c82e",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/router-pim-sparse-mode.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "03d00eea44230cd470d3a0d5a0aa272dccaf7e88b05699a9372ee33e4b7e7c50",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/service-routing-protocols-model.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b5755852ba533e92cc7ef346dc8c3bf8b38c343c13b37afbab1a1fe4bcfcfb55",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/sflow.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "83e9fd9decd98abbe4bd0effbc6277c11f939841b0b1e0a14ff2e4f205cc3fff",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/snmp-settings.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b75bfe422f7d9d847bacf029dc55d70c5f0268f55725005be44d278aa5b7f900",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/spanning-tree.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "776144735d9375a5581ec0b8add518690f09c6f7bc8fa5a282f8b85ea865b37a",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/aaa-root.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2b57380639e23694b0e9a880b13280d4f424d5519cf262258171643acc1f2284",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/community-lists.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f4431d39cf621170037dd568ccd01ace96106f0c43813816c1250af7333a7308",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/ip-dhcp-relay.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "acae67f0ee235cff82747a178ab19e845933728908558526568542b1b1536670",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos-device-documentation.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "45a15aef7bc78f17d943588ef05a1e365d8b6e2a965e3f2169c0ded3b06a1842",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos-intended-config.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ce183d6164360fbf3869bede40b8782a92c417a3607469ea9187d2ace11c46cf",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/tests",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/tests/inventory",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e02233819b1a09844410549191813f7cc7ba360f21298578f4ba1727a27d87fc",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/tests/test.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "39a475ed560419306b5328cfdc3ed30924a5781f429962fe1425aab6ba737b2e",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d42ecb292b911dcb56a9bcb11df056b183c22280f0117c09b15068df913c68ae",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/media",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/media/role_eos_cli_config_gen.gif",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6a569f2499469245a0ba0f259f28d7656149525dce91a0d77bfd3851d4fbdc06",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ad455779373590c0dd45f2cbb7905de6dfdb1064990fd2fb0d2614c8b1700461",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/.travis.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "43e63a93716f15cdb102c201e4631be604b45910b8c749c78d89e3fc076c7c7e",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a27a9a1acd1c5df82275989298bb865989ca4ae07d1c469125146d13b8f9661c",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/handlers",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/handlers/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3604c449135b1a6f677299d98d1b31073d5c8af4319f165f6edc0f5d29224566",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "53375d7251f757373522cde82ae4e42a220bf8719b3065eb532bd7e945695c93",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/tasks/absent.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "812add674216d9d372d8d7c6ae2ce678d98032f36d2d78299fa86e022c4eb62f",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4fe4aca5cec6c0bcdd4e1905345d2f9d030036ab64b706aac984e76e08e35a0c",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/tasks/present.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "902ab4e49c9597d2abd468bff671fa27a1e086c39296eed112817cad6ce0c912",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/templates",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/templates/cvp-devices.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8c793551c72bc65ae3b585cbec2f07b5eace9470ffb5e60e2f89412f5d36c336",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/tests",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/tests/inventory",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e02233819b1a09844410549191813f7cc7ba360f21298578f4ba1727a27d87fc",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/tests/test.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0a8abe1f27aa482821d9577b6d8345babbad629da1469b77abc223f4f3050be8",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a7b4138ab9fee8de66d366fbcde0eb0d6ba38e53fb895c9dd2d637bc27fade78",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/media",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/media/role_eos_config_deploy_cvp.gif",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "194693bc97ba517f9237bedf988f018d56c09b10aecda18da440a0c51e9fbce1",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f8d165f28b2419e7237beb67868e01113319cfcd806ecc822e9f85c8cac224f9",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_eapi",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_eapi/.travis.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "43e63a93716f15cdb102c201e4631be604b45910b8c749c78d89e3fc076c7c7e",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_eapi/handlers",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_eapi/handlers/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "438f3b00d224328622b941038472ef314f9985ab99e2752b1e63d59bbc06039d",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_eapi/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_eapi/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "205e7a56f58991e0e93a9bb9f56afb6a698b5a6357e5919832ba705db06c6180",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_eapi/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_eapi/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3fda983d80f6cb3ad027bbcde59cf8734a4a23c91d263564207fb9ed17b61cfd",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_eapi/tests",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_eapi/tests/inventory",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e02233819b1a09844410549191813f7cc7ba360f21298578f4ba1727a27d87fc",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_eapi/tests/test.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b1dfda581cae48cff0ef187f6fe5a75531407adae99e9528a43834f3206b88e4",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_eapi/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_eapi/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fa5172708c85bcb92ed4b0c6c0c411fbc32f9ea7ce409cca0b71ee729862c3b0",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_eapi/media",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_eapi/media/role_eos_config_deploy_eapi.gif",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8389a1cce7e4e2f85236480ec699d80e2e53af934616843d5832cf81e11836d4",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_eapi/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b5642e2ea8bb05d1daf14f60ca83d588c65d42c20448c27324142e41977e9035",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/.travis.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "43e63a93716f15cdb102c201e4631be604b45910b8c749c78d89e3fc076c7c7e",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4bbc8e7e7da182cff82bb93f9869eab1b679aefaca220c665a73031432f6630c",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5deeddb7da65232c9f889eb967ffebd0e978d49a267e472c2c830b897a0a8beb",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "43ef269c68c22bd00e0fcea4413264fa5ac1c9734332953eb7e21f39b41e8de2",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/aaa-authorization.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "77b1207c6cb28194f887ab683fd634df7c866740d84aa8195fa1934c161cefc7",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/bfd-multihop.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cc161f328d83ee3412e316972457c2f06f322abafb93fa7aed6ca78ee5c60026",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/clock-timezone.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2333d6d5e8459acda1c9284e6b2ac520b05040dc95cb2494787db3a228d63632",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/daemon-terminattr.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "aa2ed23ad10eeca94bdf8e1b8460a03834807552898f6536e636f2e925be4589",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/event-handler.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9dd9ab8f8b96b74f8aa72f85ea1d431201832e5a644639eaa3526e0f70822c39",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/event-monitor.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9dc16e20b35b63f1a0fc43bcc6333f34c770655be6e2db1832232da52380bda2",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/hardware-counters.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2273095c0357ffc2bfc3d954d4bf715b3a2b5f50f628e4c7b3cc206ff4f0f0cf",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/load-interval.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b83aa4d99c709c960ef454f13fad97eb3d1dfce1456774acc52e90d2231fb6b4",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/logging.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d22a7e8b8a766964a9ffa3dc7cc04ced70e096030c61e01aba28d9c1273c0d1a",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/mac-address-table.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "911c6447e5c9aa959682d98bd84937e2953d9688202988c4c2bb2a6deda9cf82",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/management-api-http.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a8bb62eb9eac08cf604e00c93af45f3951e2e9f0b4f6df90100087b5e9d4e4c3",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/mgmt-interface.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c77b109c05850543c5325cea1e63dc73871047593d22e0efd133e9c2f9adc81c",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/mgmt-vrf.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f50b65cef8c991bcce04bbdd3fda5cd884f1dab22dfdbf144d70627856e5461d",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/name-servers.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8150b0c8dd12cd63643ce33362035bb834cbfbc1398632ea7d5ee8b472cae6a6",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/ntp-servers.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a0aa229fe8b5aef4d6d0a322de30c31d9aef68635b8c559a1d0fac6cc9af0bbb",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/redundancy.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2cb893a42ca4513e36dd994d857509aceafd5a2fb5b382aef11e66a4d11b818c",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/spanning-tree.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e70641eafb6acca0d1d96625830c51bab438cf94fd509cc9e80c7d07f06f3d53",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/tcam-profile.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c3d31603167d3dc65ae50da7cbfae36e7dbaa3637edccc1626223b5ffa85934b",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/unsupported-transeiver.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c60e83747519d264c1f2c43d84e007f85b04ef194af02263f751c8bf20f31577",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/vlan-internal-order.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e159ceb57a459da69e46b117a48018bdeb9793f6c265a072a18f3e817e5d42af",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/queue-monitor-length.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b3cc3d9ddec55de877a07bacbc664b22d4daf3755497d2d611ec89393cc3cc77",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/queue-monitor-streaming.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "bca40c9c5a075e8848cb8a000d76d76dfa4095c21321a9bf8c617b590c1f29d8",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/local-users.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7d13c08615f8e92bd8f45d1a384e3b21204e64581f694c725fc9a13557f02b09",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/documentation",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/documentation/dc-fabric-p2p-links.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "822bca654c44e8f43b3a2b6cb68bd77ea179db56a5fd0af54d4a4b10a40616db",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/documentation/dc-fabric-topology.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "88bd91e10df95e1fef03f6c1374ac4093981a3e5f55a383a0b62a9ad1f63387c",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/documentation/dc-fabric-documentation.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "bc8d7296c859ef7e04e3a1219a4ab97901f80b0ea6bd7d6b449dd51d45f419ea",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/edge-ports",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/edge-ports/leaf-server-interfaces.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f271b7e229ec09fcae2023cb1f1b7c5f6136abbf517579906b67bb2eb2c9e004",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/edge-ports/leaf-server-port-channels.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "eb32865b475879f525ff06a63fe63e2fde71524f35902b66d6817bc33c533e8b",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/l3leaf-l2leafs-uplinks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/l3leaf-l2leafs-uplinks/l2leaf-ethernet-uplinks.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1e2c2a6e6e7f961eb8781ca2728721736300d1fe6d9d3d4ebdf78b24412e0685",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/l3leaf-l2leafs-uplinks/l2leaf-port-channel-uplinks.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9af8a92a594fe48925996f974156985421cf4e70a9a815395d85afe058f69e32",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/l3leaf-l2leafs-uplinks/l3leaf-ethernet-uplinks.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "576b4415a2739d774ab0d72bb8bc851085298551be6ed36cfabc0a258f020e17",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/l3leaf-l2leafs-uplinks/l3leaf-port-channel-uplinks.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5020c9dcf844687478fa1d62c8247e85ac6c9d38f78ed200aa997411b23582cb",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/mlag",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/mlag/leaf-mlag-configuration.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9cf991763320a612886b930551609d880b73c873bcb0b2e4c997f1031dce63fb",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/mlag/leaf-mlag-interfaces.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "69621ede637f042260d439e3742997f0fe3f6276706b2591220d03627fe239fc",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/mlag/leaf-mlag-peer-link.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8b2b2bb49612f9b3b20d21eabdce365a792688615e3b21df611abcbbbe499d39",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/mlag/leaf-mlag-spanning-tree.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "63126c6622e41409d194ae06b29df0f94476f9b8233ac3bb1b9c39e69b996a71",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/mlag/leaf-mlag-vlans.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "49f23c40c7957650f1604f292d2b205e3d540da4a1876ddac8e2cb43c0b362af",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/mlag/leaf-mlag-vlan-interfaces.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f517aebcc0c206dafb6504bb8978ef408474099e82c783bea70d3959ee58fc7a",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/routing",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/routing/static-routes.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c353c9601bfc6c3a5d80934acd9cbcfe3170f361f5367b3c2eb91840fe29ce53",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/tenant-evpn-vxlan",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/tenant-evpn-vxlan/leaf-tenant-router-bgp-evpn-vrfs.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8cc02470811d61b7d355e07744136a10c7effd14761713cfbbe06e90a6cf6fc1",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/tenant-evpn-vxlan/leaf-tenant-virtual-source-nat-vrfs.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "42bb0e6963ba4fc05bb30a5953461a00583b982c24d3f8fe5fee51779c571ddd",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/tenant-evpn-vxlan/leaf-tenant-vlan-interfaces.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fc176d69adf2b8dbf2fe9897423e5e5b321a88bdef7592512b0f9896751d855e",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/tenant-evpn-vxlan/leaf-tenant-vrf-loopbacks.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "55151aa6e118bf7423316023b291a94f22bd7c3646feeba71fd45167e2b8e138",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/tenant-evpn-vxlan/leaf-tenant-vrfs.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f4449062be5de30178334b02efdc98ac1bc97d19019b35aba51bb1535471d423",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/tenant-evpn-vxlan/leaf-tenant-router-bgp-evpn-vlan-aware-bundles.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "15728bddde4d1f5084972a2d9e09569ea80c3c20ec4ca973cb7fd559bac0746b",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/tenant-evpn-vxlan/leaf-tenant-router-bgp-evpn-vlans.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "de57b40ef2b18b91bf997883256fc4397362a7508fa37feaf169da3b01d97a17",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/tenant-evpn-vxlan/leaf-tenant-vlans.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "526ac8c24fdeb40c3bf3bbcc59ed48c514087898f559d9be4625b983e17b3976",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/tenant-evpn-vxlan/leaf-vxlan-vtep-interface.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0532ad71f869173266ebf739c9ba6fd35a57099fd96b5d6c3af31be69f48409c",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay/leaf-prefix-lists.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f2789e6182e5953719454dad6307b5cab5de32b4ad689a51876bfb2fc1e8c2ef",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay/leaf-router-bgp-base.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ab09c5dca1b9ea50a93edfa2980473662769f48a0e51b318eca970b2c35b16d0",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay/leaf-router-bgp-neighbors.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "00cfda918df77df5c55cfbec874f0a10384c435c12b72edd83c315dd1da9408d",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay/leaf-router-bgp-redistribute-routes.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7bef584fc575d3ab30d677f8187d2313e682dcc20ee4f6164efe52034a28e007",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay/router-ospf.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a2a0cef745ee6dc7b41de209c2271873fe60c82d27efa269ec67b33b6a0d2d36",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay/spine-peer-filters.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "72aba91df2309e51575a5a7cd834f6cdc2b9f5cf473c191fb41682ab86284ede",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay/spine-prefix-lists.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8ca5b8f42201901e47a984015d0a087280213ed8026083f9949909e667eead9c",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay/spine-router-bgp-address-family-evpn.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "08fd26682e58eb967ba555482e5528c3232e96b700eed54e112177d98a1c811d",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay/spine-router-bgp-address-family-ipv4.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "09dd2c86a83b2b479f7cf10403ed88031f7fdc93bdfc84fac3f936697b3d5c90",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay/spine-router-bgp-base.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "26f254fa04172ae0cfcdf277579cc6af044e50c059bed7b37913bd297173c146",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay/spine-router-bgp-neighbors.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1f8f71d9a4b4880bc20f0c87b1bd8713adf7af136dc8c7c9cacdad865f83bfe1",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay/spine-router-bgp-peer-groups.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "268263ec7553ad4ff420d786a59ad86af6c6c9b88231fd149f326b12f5384532",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay/spine-router-bgp-redistribute-routes.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "64f1014e16be3b2f25cecafec5644d999e091ea4aa3430651929c657e923dd2d",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay/leaf-overlay-loopback.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d15a31d9cfa3e30201ee9a0e8238114a80037652010636ecab058da23fd02f8e",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay/leaf-p2p-interfaces.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c0c1bae5e27af209e3b52dc8be0f0b04708bce260b471d11f1492f85ccd497e1",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay/leaf-router-bgp-address-family-evpn.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d2ebdd96bd58cb3cee164763bd4eccc760487261c6b7cdc621e8fa24b63c21bf",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay/leaf-router-bgp-address-family-ipv4.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "acd7ea6b1a748b77ff1b2a66098caf7e9bc4f3986612d1a38e0ccfb58bc136d4",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay/leaf-router-bgp-peer-groups.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d0a0385b63acdc535cc5a587ac07e6b1a1888881461e043655b2338566f6db50",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay/leaf-vtep-vxlan-tunnel-loopback.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4407232f771ef8c5f3a13a26cd5b282b486ed97d66736abc5fa02ac5248e3663",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay/route-maps.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "582bf7e0ee23972c052b505186edb488964ed47b92549528fdba3e4c826653b9",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay/router-isis.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0788d15a6a4aa6e17f71977e26a75672094649124293014dc15d1a888bb45513",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay/spine-overlay-loopback.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "447ac4af45a5f18734cb1cb28de5873d78331583d6af6c3aca22f64d1df5916b",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay/spine-p2p-interfaces.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d52ca6e1c4d16ca2936b7d50f30b3aeefa7d3e91f44a94c46bc7e65605128976",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/evpn-fabric-l2leaf-yml.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "174114e720afec08309d9ac12f05e858767526958c1acd087b7a4fd8963ef14e",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/evpn-fabric-l3leaf-yml.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "60bc68e6bf6844ee025672ae807ce140a599002f7cbb80fdfab377b19e967d20",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/evpn-fabric-spine-yml.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "da5b39fa6eb445a7c3fa302ab1d92d37a5c4b10befaaade3ed1799b4b25b8c06",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/tests",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/tests/inventory",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e02233819b1a09844410549191813f7cc7ba360f21298578f4ba1727a27d87fc",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/tests/test.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c0b829ea7382307dca9f6b21a712b42a245cd85a66b71605b0ca263e854e32f8",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/media",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/media/role_eos_l3ls_evpn.gif",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a28cbb2e56371712d239b8cfa8a3a53353b1a33f4d0175266fdb2d31f2100128",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/media/topology.gif",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f0fb5a9b09c39f4f7d761691426f9af2106e9837592a9cc6dc3d8ac6e223575f",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "029a6b3ea7204d9bd9eedc6632a304e1f5c2d95f328e3ea6d830c691c4cfd057",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_validate_state",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_validate_state/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_validate_state/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7e6628431c5eb10ec56ec58598b37f0201932dc0fc32290d0267fa4614403946",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_validate_state/media",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_validate_state/media/role-eos_validate_state.gif",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6fcaab774f9c709127afda81c54657810524a7761cfb6f80ed532f1d5904a97f",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_validate_state/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_validate_state/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9b4ace23e34fe3b4253a9bf8ed5084248df5abeeae688a516446113a231acf11",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_validate_state/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_validate_state/tasks/bgp_check.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "38f6e609604168113e108f16bfb385d163725328212f6bdae943956dca2b4555",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_validate_state/tasks/hardware.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "831f8f7342a123ca74466525933ae39170f726829ae2c20b01784dc06f36cc39",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_validate_state/tasks/interface_state.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0537178898d8e2ffaf16c1ca1a66c9fd52788510dc0102164d08f18b2b6f0ef7",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_validate_state/tasks/ip_reachability.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9fcacf6ec5a0f6ff010bb9b89fdb3e878f6dcf114d5c14cc7df0de77c959c361",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_validate_state/tasks/lldp_topology.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1bb3fb3587751c5d4e9a10651d5ed12ce557fe663dcbcbfa1a959b60898c5fbd",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_validate_state/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "10ae49e10fc751dfa85ec202f3fab75cbf7f491bec7caa2549e0204227806c5e",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_validate_state/tasks/mlag.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "49f8a0577885c7e1f43db4285457a1c8a883d6a5330d7611b41c9f7e9aa6b975",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_validate_state/tasks/ntp.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b794965db86816b85703316573914e0199e568a62310bd49326c3a279cbd5b8a",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_validate_state/tasks/reload_cause.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "54310cfa9e23b41af270ad7c096e69ba8eca61ef8cd0fd2567a9fb5be29d3478",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_validate_state/tasks/reports.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "07e78b94cd8235d5efa64db20a8e89e29b261ddadaea9792ac4684fd24fd86e1",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_validate_state/templates",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_validate_state/templates/validate_state_report-md.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8086d0a64540daaf9830eb66dff9bd494045c8cac96d348c988390a226ac5706",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_validate_state/templates/validate_state_report-csv.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "43092753caa6c2abe142b7259b4ee7198cc9e195ef1934c27f3ab5da907b1d2d",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_validate_state/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1a160b781c40f139c905d9e3e605a1e646cea2582ecb16ca2677d89652c5a81f",
+   "format": 1
+  },
+  {
+   "name": "roles/upgrade_tools",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/upgrade_tools/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "326cf32360fa3a01fd75552717ff3abfdfe9e92e9bcfcf9a85d46f605187673c",
+   "format": 1
+  },
+  {
+   "name": "roles/upgrade_tools/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/upgrade_tools/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "afb815d3ef6a28906718babedbc14efe7156ad39ae15123fdfa8fe30ffa124a2",
+   "format": 1
+  },
+  {
+   "name": "roles/upgrade_tools/handlers",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/upgrade_tools/handlers/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "60ab686c7ae02fe07f37a193a2027118eec43212120e2b70af636e649118f6e0",
+   "format": 1
+  },
+  {
+   "name": "roles/upgrade_tools/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/upgrade_tools/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "902818d4384ce1b06c37be31b77abbbe760ca3e83eeaab0dab9a562ab838aeec",
+   "format": 1
+  },
+  {
+   "name": "roles/upgrade_tools/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/upgrade_tools/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "137573b46af8ea08ff8ea8eee0360b45ec70ac787b8019daad17436c2ad57902",
+   "format": 1
+  },
+  {
+   "name": "roles/upgrade_tools/tasks/v1.0_to_v1.1.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a507351cc373497d0578e589f447abfa52461d5582eac583b19d3a31b504f784",
+   "format": 1
+  },
+  {
+   "name": "roles/upgrade_tools/templates",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/upgrade_tools/templates/DC1_TENANTS_NETWORKS.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f004c23d3a536633b15ab7b1e8b565343b0dce795ba50a37735f012ff5aebbb3",
+   "format": 1
+  },
+  {
+   "name": "roles/upgrade_tools/tests",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/upgrade_tools/tests/inventory",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d906aecb61d076a967d9ffe8821c7b04b063f72df9d9e35b33ef36b1c0d98f16",
+   "format": 1
+  },
+  {
+   "name": "roles/upgrade_tools/tests/test.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "58bc13a9173c8c4e0cf7f2bf7f98d63f00aa5abfa4fedd5b215691261fcd5b4d",
+   "format": 1
+  },
+  {
+   "name": "roles/upgrade_tools/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/upgrade_tools/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "11f8f525fc443db4cab7a6a112fd2d1a7bfae7971ee323115d93c1c7087fa104",
+   "format": 1
+  },
+  {
+   "name": ".yamllint",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5845e18e9f23155f423207df9abac970aed687c638620bc2c9ee06706191054b",
+   "format": 1
+  },
+  {
+   "name": "docs",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "docs/Dockerfile",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a00748c9e1bd44c995c0b43b80a5376bbf04880c41865ac82723f2f85610b8ec",
+   "format": 1
+  },
+  {
+   "name": "docs/_build",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "docs/_build/ansible2rst.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "72bd94907df31c2fdb5cfbb9de38b007efcc817a67e178f16ccdbd3ab021de9f",
+   "format": 1
+  },
+  {
+   "name": "docs/_build/rst.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c1b200df1dc346b91ae49091476fab176a2439015092cc0007beac2d2767fc4c",
+   "format": 1
+  },
+  {
+   "name": "docs/_media",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "docs/_media/cv_ansible_logo.png",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b70c5171539c1d458370d5a22adb89beac60799cf1eaad916ac2c796e13d0c87",
+   "format": 1
+  },
+  {
+   "name": "docs/_media/favicon.ico",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "22a14622371fb0fe2466df0966cd0051824b7ecf4c74f4f98f5f7866aed48776",
+   "format": 1
+  },
+  {
+   "name": "docs/_media/avd-eos-cli-config-gen-doc-overview.png",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e0ead3b3c95d38601ebe66e4eb1ec08f3e1d01c2753c88eac964ece4e467bedb",
+   "format": 1
+  },
+  {
+   "name": "docs/_media/avd-eos-lab-topology-overview.gif",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1915a044c100fa0fe49bc83a1670033b62342dc11681eb248efed288ca8d4617",
+   "format": 1
+  },
+  {
+   "name": "docs/_media/git-structure.gif",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d6cdb40012ca848439b0d6656143ca6bed5e4de7892bde1dbeea2f63ca615f65",
+   "format": 1
+  },
+  {
+   "name": "docs/_media/lab-nat-topology-example.png",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "67fd14525c4d9cc6e7c5e9ee29b6f4cfb5f643a0f19c3e090ab5bf840fa79c59",
+   "format": 1
+  },
+  {
+   "name": "docs/installation",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "docs/installation/setup-galaxy.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "02300963781c82dfc68aa62e10a1e4b7bac491d627b21fabae0ef4f663c2f9ec",
+   "format": 1
+  },
+  {
+   "name": "docs/installation/setup-git.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f581e662d5905a5114233b4033b232164c3b9b1d184b9982c521bf05563d57c1",
+   "format": 1
+  },
+  {
+   "name": "docs/installation/requirements.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ab1898c88a5b82c17a033813930b56603758971f7f75c0de3a8644e8810588d8",
+   "format": 1
+  },
+  {
+   "name": "docs/installation/development.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c90bd572c8375df1f1f9d1517384839e7029fc43674b8231f8200275324a913b",
+   "format": 1
+  },
+  {
+   "name": "docs/installation/setup-environement.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c6d49fed7eaefa416d55685587034fba7e8a7f4db7ce2add0581f36a2f17d37b",
+   "format": 1
+  },
+  {
+   "name": "docs/modules",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "docs/modules/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d9ac8c39160c00e4721ec408ee02f868216cdf445e8b1c1178a11be2d55fb88f",
+   "format": 1
+  },
+  {
+   "name": "docs/modules/configlet_build_config.rst.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5aef48767899a7bf1257a569ac38706a9d90bc427de3585dabf4e09e106403e3",
+   "format": 1
+  },
+  {
+   "name": "docs/modules/index.rst.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b0884b164e356049482f2d99ad84345717307f5d6a567d45d56005c20e6104b8",
+   "format": 1
+  },
+  {
+   "name": "docs/modules/inventory_to_container.rst.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6208e59a8a4946431988eb9ce9556dcbc0e7a4f27d118aca102ad8eac1730691",
+   "format": 1
+  },
+  {
+   "name": "docs/how-to",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "docs/how-to/lab-with-nat.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "06a6c12bf0582f6b92d39b8f4c00f35ac649011aacaaf725c814fe5aea734a1e",
+   "format": 1
+  },
+  {
+   "name": "docs/how-to/first-project.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f178cf0dbede7abc9da4ea3af83751269f35e4e90f901354c7a3b09e07f9c177",
+   "format": 1
+  },
+  {
+   "name": "docs/requirements.txt",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9c4099c62c3f382ea93fedf88eccfcc360b7f938a518e2372b38556205aca778",
+   "format": 1
+  },
+  {
+   "name": "docs/stylesheets",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "docs/stylesheets/extra.ivory.css",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "895b02a66a23c2d051af04aaac484adf31ac465e2b3c85b64c6218ac7d137d95",
+   "format": 1
+  },
+  {
+   "name": "docs/stylesheets/extra.material.css",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "94a92352630874d0b36dcbfaa3bbd14a839eaa457df109b98bf93a8e2dc97977",
+   "format": 1
+  },
+  {
+   "name": "docs/getting-started.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a50eb41126388b9c4bc63f303d96de3006e5d52114db753343615d7b5d771e4e",
+   "format": 1
+  },
+  {
+   "name": "docs/contributing.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4fdf6ea3ff5f7facbdb1d4bdb9993aac8d8e9e3c9bea2fe75d44e970ab4be014",
+   "format": 1
+  },
+  {
+   "name": "docs/release-notes",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "docs/release-notes/1.0.x.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "32ea88991b11aeae2ea7835f233f8c897ccb207136397253f841920638145007",
+   "format": 1
+  },
+  {
+   "name": "docs/release-notes/1.1.x.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "27d01034ed914d1ba5abebb7190a698a8c85e759b531c93bf993d7f6d824d835",
+   "format": 1
+  },
+  {
+   "name": "molecule",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-ebgp-json",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-ebgp-json/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4fdf8d290856c758c9e46a81997091310f0b764d74b5620d13aa7560f1d0e264",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-ebgp-json/create.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8a8d7e00e3ea2008f7dffac077edc3e054f421d41c0736be62485f3266c991e8",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-ebgp-json/destroy.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cdc633b75b258ae33a14318d46b725183d64bedd3fc6836d837db4d47b01b449",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-ebgp-json/inventory",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-ebgp-json/inventory/group_vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-ebgp-json/inventory/group_vars/AVD_LAB.json",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a9998ad59ca190b916306967628721257bd459aff0647540b3cf8a0fb61db351",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-ebgp-json/inventory/group_vars/DC1_FABRIC.json",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "92f76e04ac203a7abecbf1a7dc374f446e429ae11c661b298392bcb0f14f701b",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-ebgp-json/inventory/group_vars/DC1_L2LEAFS.json",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "72da70f3af95e0cef4eede5589405825af3bd2aef92d908edf47c102c966dcac",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-ebgp-json/inventory/group_vars/DC1_LEAFS.json",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "87816e4f2c196e177408046761f2122a6ce3af6939587475f1e23ba7613d6aed",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-ebgp-json/inventory/group_vars/DC1_SERVERS.json",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "07357b2d8bdd5d3f6a4902d0ea367aea826ff069640f3c2a096096af10f4c167",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-ebgp-json/inventory/group_vars/DC1_SPINES.json",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1c6b0bf6f746461d6b217d2fd54222dd7c8e1d7ec93cc30aef42285b557e92aa",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-ebgp-json/inventory/group_vars/DC1_TENANTS_NETWORKS.json",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "01487b7ca96957b006b601727f0907b5ff96905dbb34d3216fe8c2ebb37e8646",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-ebgp-json/inventory/host_vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-ebgp-json/inventory/host_vars/all.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1457dac17c6e7db73bb86872786d65ece16ad5e327129e2d5016225e281ed9d5",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-ebgp-json/inventory/hosts",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "71518ba676cce67a486a0f68618b30ae5d011da4223f1c5d31d6335406a872b2",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-ebgp-json/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "864a18bde4eecf49064c8f88c2b0d35d2bc03bfe234b1b7c0e18ec0d312ef6fe",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-ebgp-json/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b94db48bc50299d3ab3b5a190f3dcfe070764256ba96138fcf6292ca0e911ed8",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-ebgp",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-ebgp/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4fdf8d290856c758c9e46a81997091310f0b764d74b5620d13aa7560f1d0e264",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-ebgp/create.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8cc65e98e5c7796beadfc94c8f3dd39957b2b0e4a5a80c724adf35767792f723",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-ebgp/destroy.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cdc633b75b258ae33a14318d46b725183d64bedd3fc6836d837db4d47b01b449",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-ebgp/inventory",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-ebgp/inventory/group_vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-ebgp/inventory/group_vars/DC1_FABRIC.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2ab1c08e3fa24084bc1ae7396a6332ef8654f8657080605bed58114196fc65de",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-ebgp/inventory/group_vars/DC1_L2LEAFS.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ef56ceac826b62e74764bfb9b23a27a1713b216f2ec7f1608f907db766f6894c",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-ebgp/inventory/group_vars/DC1_LEAFS.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7d5457bac55958608a6ce66438adb7872bc59a9f43583c1ac42213832ed2fcb2",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-ebgp/inventory/group_vars/DC1_SERVERS.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6a8d25d8caa04d2c5439c4d34fb32727c5908ccb47745c407430cde13792da1f",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-ebgp/inventory/group_vars/DC1_SPINES.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "68133ee820c2a10f153de7735681114a8e863c9d7072f99c91985f6619858f2b",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-ebgp/inventory/group_vars/AVD_LAB.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "93561cbe7c655779ba4ff1fb8f79f87446b8c93e66314db276baa61947cbb635",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-ebgp/inventory/group_vars/DC1_TENANTS_NETWORKS.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f60701f2a0fe89b8f6a5f6fad5b3b2f8dfb173416006cd1a4da2740a5835f761",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-ebgp/inventory/host_vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-ebgp/inventory/host_vars/all.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1457dac17c6e7db73bb86872786d65ece16ad5e327129e2d5016225e281ed9d5",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-ebgp/inventory/hosts",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "71518ba676cce67a486a0f68618b30ae5d011da4223f1c5d31d6335406a872b2",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-ebgp/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2ca443dff49a493de01ddc6ade26a3b56400755f47f0af7329b9a53349c960a9",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-ebgp/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b94db48bc50299d3ab3b5a190f3dcfe070764256ba96138fcf6292ca0e911ed8",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-isis",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-isis/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4fdf8d290856c758c9e46a81997091310f0b764d74b5620d13aa7560f1d0e264",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-isis/create.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8a8d7e00e3ea2008f7dffac077edc3e054f421d41c0736be62485f3266c991e8",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-isis/destroy.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cdc633b75b258ae33a14318d46b725183d64bedd3fc6836d837db4d47b01b449",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-isis/inventory",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-isis/inventory/group_vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-isis/inventory/group_vars/AVD_LAB.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "44145c7c5da4c5c03bd8aa339e933ca01aee568e6fa1fb38850c8bc61ef61342",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-isis/inventory/group_vars/DC1_FABRIC.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "44d4e66b845255a5eba43c07a278e40c320079a7af3c2d8cdaeddd8d1f8df6f2",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-isis/inventory/group_vars/DC1_L2LEAFS.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ef56ceac826b62e74764bfb9b23a27a1713b216f2ec7f1608f907db766f6894c",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-isis/inventory/group_vars/DC1_LEAFS.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7d5457bac55958608a6ce66438adb7872bc59a9f43583c1ac42213832ed2fcb2",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-isis/inventory/group_vars/DC1_SERVERS.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6a8d25d8caa04d2c5439c4d34fb32727c5908ccb47745c407430cde13792da1f",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-isis/inventory/group_vars/DC1_SPINES.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "68133ee820c2a10f153de7735681114a8e863c9d7072f99c91985f6619858f2b",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-isis/inventory/group_vars/DC1_TENANTS_NETWORKS.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f60701f2a0fe89b8f6a5f6fad5b3b2f8dfb173416006cd1a4da2740a5835f761",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-isis/inventory/host_vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-isis/inventory/host_vars/all.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1457dac17c6e7db73bb86872786d65ece16ad5e327129e2d5016225e281ed9d5",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-isis/inventory/hosts",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "71518ba676cce67a486a0f68618b30ae5d011da4223f1c5d31d6335406a872b2",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-isis/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "864a18bde4eecf49064c8f88c2b0d35d2bc03bfe234b1b7c0e18ec0d312ef6fe",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-isis/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b94db48bc50299d3ab3b5a190f3dcfe070764256ba96138fcf6292ca0e911ed8",
+   "format": 1
+  },
+  {
+   "name": "molecule/eos-cli-config-gen",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/eos-cli-config-gen/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8908fdce581613e627e758b38d1036802438051b1c9f160c3129c196ac174c15",
+   "format": 1
+  },
+  {
+   "name": "molecule/eos-cli-config-gen/create.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f0d5dab8e19489bcb53b38e1936b1ac5e0454e18e5a63b1f3462fa877e7b5011",
+   "format": 1
+  },
+  {
+   "name": "molecule/eos-cli-config-gen/destroy.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2ae53f8c1d033c3939764790c76249aa298841427d6b8b6f1dd8327779199670",
+   "format": 1
+  },
+  {
+   "name": "molecule/eos-cli-config-gen/documentation",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/eos-cli-config-gen/documentation/devices",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/eos-cli-config-gen/documentation/devices/init.txt",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "format": 1
+  },
+  {
+   "name": "molecule/eos-cli-config-gen/intended",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/eos-cli-config-gen/intended/configs",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/eos-cli-config-gen/intended/configs/init.txt",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "format": 1
+  },
+  {
+   "name": "molecule/eos-cli-config-gen/intended/structured_configs",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/eos-cli-config-gen/intended/structured_configs/DC1-BL1.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "036cf2c2df194ea7d432063bc40e7188d3dfb41cfe32ced13f28a71007e41dae",
+   "format": 1
+  },
+  {
+   "name": "molecule/eos-cli-config-gen/intended/structured_configs/DC1-SP1.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "00ce4a36057034fa6925a96b7f6e75e42ea47ffedac9952e05067742245bb86d",
+   "format": 1
+  },
+  {
+   "name": "molecule/eos-cli-config-gen/inventory",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/eos-cli-config-gen/inventory/group_vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/eos-cli-config-gen/inventory/group_vars/all.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1457dac17c6e7db73bb86872786d65ece16ad5e327129e2d5016225e281ed9d5",
+   "format": 1
+  },
+  {
+   "name": "molecule/eos-cli-config-gen/inventory/host_vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/eos-cli-config-gen/inventory/host_vars/all.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "58d069f43bbb2558e08074e3a06c6e034867e899f1bd99b4dfcd9a974d8eed0f",
+   "format": 1
+  },
+  {
+   "name": "molecule/eos-cli-config-gen/inventory/hosts",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "516b50f896a7972fd39767cab2f75ff1ef5064eeab34b7c7617cb5f856da0beb",
+   "format": 1
+  },
+  {
+   "name": "molecule/eos-cli-config-gen/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "775f1b9fa5acae46c996ff62f3507a1b166a0f9cc1b82176f1b872ac08777d50",
+   "format": 1
+  },
+  {
+   "name": "molecule/eos-cli-config-gen/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b94db48bc50299d3ab3b5a190f3dcfe070764256ba96138fcf6292ca0e911ed8",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-server-connections",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-server-connections/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4fdf8d290856c758c9e46a81997091310f0b764d74b5620d13aa7560f1d0e264",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-server-connections/create.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8cc65e98e5c7796beadfc94c8f3dd39957b2b0e4a5a80c724adf35767792f723",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-server-connections/destroy.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cdc633b75b258ae33a14318d46b725183d64bedd3fc6836d837db4d47b01b449",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-server-connections/inventory",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-server-connections/inventory/group_vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-server-connections/inventory/group_vars/AVD_LAB.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "44145c7c5da4c5c03bd8aa339e933ca01aee568e6fa1fb38850c8bc61ef61342",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-server-connections/inventory/group_vars/DC1_FABRIC.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ed733d4f0dd004226670953b89b9135c80b6187d5c2bd6a4bb06f0e11c849bb3",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-server-connections/inventory/group_vars/DC1_L2LEAFS.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ef56ceac826b62e74764bfb9b23a27a1713b216f2ec7f1608f907db766f6894c",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-server-connections/inventory/group_vars/DC1_LEAFS.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7d5457bac55958608a6ce66438adb7872bc59a9f43583c1ac42213832ed2fcb2",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-server-connections/inventory/group_vars/DC1_SERVERS.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3c7cb5fd69e845938dec5d6ff581ef98995bbc96827868502b74670c717cbace",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-server-connections/inventory/group_vars/DC1_SPINES.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "68133ee820c2a10f153de7735681114a8e863c9d7072f99c91985f6619858f2b",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-server-connections/inventory/group_vars/DC1_TENANTS_NETWORKS.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ce7032cd5be49634f0d0b8a431cf6849608e258d60e5ad634b793dc75fadd5e5",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-server-connections/inventory/host_vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-server-connections/inventory/host_vars/all.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1457dac17c6e7db73bb86872786d65ece16ad5e327129e2d5016225e281ed9d5",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-server-connections/inventory/hosts",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b2c23c418cae90ccada31fcccc8a68d09c635444c0ed99f21f7c0fa71bead8c4",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-server-connections/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1caba226d3c0e55a5a380a230522a20a7a2e9aaa337df255493aa02bfb36f96b",
+   "format": 1
+  },
+  {
+   "name": "molecule/avd-l3ls-server-connections/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b94db48bc50299d3ab3b5a190f3dcfe070764256ba96138fcf6292ca0e911ed8",
+   "format": 1
+  },
+  {
+   "name": "molecule/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5d336ddeb5b059b7514e53a23b27b105103730cf129ca6d7a4fbfe4b300e154f",
+   "format": 1
+  },
+  {
+   "name": "molecule/v1.0_to_v1.1",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/v1.0_to_v1.1/cleanup.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e689bbabce1adb3506b6f1c44a17219e805d8121da27ef58d3035ed0b7c70eb8",
+   "format": 1
+  },
+  {
+   "name": "molecule/v1.0_to_v1.1/converge.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "97c7c8f41cf6cb79e0696cae62e6fb9689d4354e0886c7a0561bacb959528bee",
+   "format": 1
+  },
+  {
+   "name": "molecule/v1.0_to_v1.1/create.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8cc65e98e5c7796beadfc94c8f3dd39957b2b0e4a5a80c724adf35767792f723",
+   "format": 1
+  },
+  {
+   "name": "molecule/v1.0_to_v1.1/destroy.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e689bbabce1adb3506b6f1c44a17219e805d8121da27ef58d3035ed0b7c70eb8",
+   "format": 1
+  },
+  {
+   "name": "molecule/v1.0_to_v1.1/inventory",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/v1.0_to_v1.1/inventory/group_vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/v1.0_to_v1.1/inventory/group_vars/AVD_LAB.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "93561cbe7c655779ba4ff1fb8f79f87446b8c93e66314db276baa61947cbb635",
+   "format": 1
+  },
+  {
+   "name": "molecule/v1.0_to_v1.1/inventory/group_vars/DC1_FABRIC.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2ab1c08e3fa24084bc1ae7396a6332ef8654f8657080605bed58114196fc65de",
+   "format": 1
+  },
+  {
+   "name": "molecule/v1.0_to_v1.1/inventory/group_vars/DC1_L2LEAFS.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ef56ceac826b62e74764bfb9b23a27a1713b216f2ec7f1608f907db766f6894c",
+   "format": 1
+  },
+  {
+   "name": "molecule/v1.0_to_v1.1/inventory/group_vars/DC1_LEAFS.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7d5457bac55958608a6ce66438adb7872bc59a9f43583c1ac42213832ed2fcb2",
+   "format": 1
+  },
+  {
+   "name": "molecule/v1.0_to_v1.1/inventory/group_vars/DC1_SERVERS.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6a8d25d8caa04d2c5439c4d34fb32727c5908ccb47745c407430cde13792da1f",
+   "format": 1
+  },
+  {
+   "name": "molecule/v1.0_to_v1.1/inventory/group_vars/DC1_SPINES.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "68133ee820c2a10f153de7735681114a8e863c9d7072f99c91985f6619858f2b",
+   "format": 1
+  },
+  {
+   "name": "molecule/v1.0_to_v1.1/inventory/group_vars/DC1_TENANTS_NETWORKS.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ce7032cd5be49634f0d0b8a431cf6849608e258d60e5ad634b793dc75fadd5e5",
+   "format": 1
+  },
+  {
+   "name": "molecule/v1.0_to_v1.1/inventory/host_vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/v1.0_to_v1.1/inventory/host_vars/all.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1457dac17c6e7db73bb86872786d65ece16ad5e327129e2d5016225e281ed9d5",
+   "format": 1
+  },
+  {
+   "name": "molecule/v1.0_to_v1.1/inventory/hosts",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "71518ba676cce67a486a0f68618b30ae5d011da4223f1c5d31d6335406a872b2",
+   "format": 1
+  },
+  {
+   "name": "molecule/v1.0_to_v1.1/inventory/upgrade_1.0_to_1.1",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/v1.0_to_v1.1/inventory/upgrade_1.0_to_1.1/group_vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "molecule/v1.0_to_v1.1/inventory/upgrade_1.0_to_1.1/group_vars/DC1_TENANTS_NETWORKS.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f60701f2a0fe89b8f6a5f6fad5b3b2f8dfb173416006cd1a4da2740a5835f761",
+   "format": 1
+  },
+  {
+   "name": "molecule/v1.0_to_v1.1/molecule.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cdcb6dd454f1e5ecb16528a91d1fb4ca5d0293eadce1ecf859deef78219b7760",
+   "format": 1
+  },
+  {
+   "name": "molecule/v1.0_to_v1.1/verify.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ab9f2625065e5541513f44ae66c20ee80c1efa5ebd6d956dc744d247f34bcbca",
+   "format": 1
+  },
+  {
+   "name": "media",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "media/evpn-deploy-cvp.gif",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "567d108adb37ddfa82446d492409662c107ea829ff3e808692bd918e54598fbb",
+   "format": 1
+  },
+  {
+   "name": "media/evpn-deploy-eapi.gif",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "39a7a330ff43eb24fe29f21f1d36d3207c80d64b408bd8273fdd869e070eccfd",
+   "format": 1
+  },
+  {
+   "name": "media/example-playbook-evpn-deploy-cvp.gif",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4d81bed495e5c82e4c9614ddb23d4ebed9bd683fe2349ba87bd7a2f5383b567f",
+   "format": 1
+  },
+  {
+   "name": "media/example-playbook-evpn-deploy-eapi.gif",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "70d365a402e139665898d57bbbf3d1cb7fcf245c7e2167e3f29728f989381f56",
+   "format": 1
+  },
+  {
+   "name": "CNAME",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "63c04eeb229089852930b57af19ca78664e4587d468882ea6e4473d242eee0d4",
+   "format": 1
+  },
+  {
+   "name": "README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ffbc8e2974b7b9d82d794de2208bcf91ab95a3100f54c093ae51e5da76e478e3",
+   "format": 1
+  }
+ ],
+ "format": 1
+}

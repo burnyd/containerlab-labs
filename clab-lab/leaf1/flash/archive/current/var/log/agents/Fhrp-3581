@@ -1,0 +1,2 @@
+===== Output from /usr/bin/Fhrp ['--scheduled'] (PID=3581) started Apr  8 00:55:49.180419 ===
+ NEW SysdbBackupProxy rootDir=backup storeName:Fhrp rootPath:/var/shmem/backups/backup/Fhrp

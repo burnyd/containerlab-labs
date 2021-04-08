@@ -1,0 +1,344 @@
+Apr  8 00:37:48 leaf3 xinetd[265]: xinetd Version 2.3.15 started with loadavg labeled-networking options compiled in.
+Apr  8 00:37:48 leaf3 xinetd[265]: Started working: 0 available services
+Apr  8 00:37:50 leaf3 archive-init: selecting archive: configured archive found: flash /mnt/flash
+Apr  8 00:37:50 leaf3 kernel: [170469.778745] IPv6: ADDRCONF(NETDEV_UP): clab-d6e92a48: link is not ready
+Apr  8 00:37:50 leaf3 kernel: [170469.779126] IPv6: ADDRCONF(NETDEV_UP): clab-2ca80dc6: link is not ready
+Apr  8 00:37:50 leaf3 archive-init: archive directory rotated to var_archive.2021-04-08-00:37:39.dir
+Apr  8 00:37:50 leaf3 archive-init: archive setup done
+Apr  8 00:37:50 leaf3 archive-init: write archive config done
+Apr  8 00:37:51 leaf3 kernel: [170470.757993] audit: type=1107 audit(1617842271.431:627): pid=1087 uid=103 auid=4294967295 ses=4294967295 msg='apparmor="DENIED" operation="dbus_signal"  bus="system" path="/org/freedesktop/NetworkManager" interface="org.freedesktop.NetworkManager" member="DeviceAdded" name=":1.12" mask="receive" pid=1153 label="snap.multipass.multipassd" peer_pid=1105 peer_label="unconfined"
+Apr  8 00:37:51 leaf3 kernel: [170470.757993]  exe="/usr/bin/dbus-daemon" sauid=103 hostname=? addr=? terminal=?'
+Apr  8 00:37:51 leaf3 archive-init: checking that 50% of the reserved space is free
+Apr  8 00:37:51 leaf3 archive-init: no archived instances of the archive deleted
+Apr  8 00:37:52 leaf3 archive-init: archive status: name=flash path=/mnt/flash/archive/current exists=True dirsExist=True valid=True disabled=False enabled=True devName=/dev/sda1 devPresent=True devPhysical=True devMounted=True usedKiB=48 usedPct=0 fsMntPt=/mnt/flash fsSize=114854020 fsUsedKiB=99652392 fsUsedPct=92 fsQuotaMount=False quotasOn=None quotasOff=None quotaKiB=None quotaPct=None
+Apr  8 00:37:57 leaf3 logEosStarted: %EOS-6-STARTED: EOS started.
+Apr  8 00:37:57 leaf3 ProcMgr-master: %PROCMGR-6-MASTER_STARTED: Master ProcMgr process started. (PID=581)
+Apr  8 00:37:57 leaf3 ProcMgr-master: %PROCMGR-6-MASTER_RUNNING: Master ProcMgr (PID=581) monitoring ProcMgr worker (PID=582)
+Apr  8 00:37:57 leaf3 ProcMgr-worker: %PROCMGR-6-WORKER_COLDSTART: New ProcMgr worker cold start. (PID=582) (Master ProcMgr PID=581)
+Apr  8 00:37:57 leaf3 ProcMgr-worker: %PROCMGR-6-WORKER_WARMSTART: ProcMgr worker warm start. (PID=582)
+Apr  8 00:37:58 leaf3 NorCalInit: %HARDWARE-0-SYSTEM_IDENTIFICATION_FAILED: Failed to identify this system
+Apr  8 00:37:59 leaf3 ProcMgr-worker: %PROCMGR-6-WORKER_WARMSTART: ProcMgr worker warm start. (PID=582)
+Apr  8 00:38:00 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'StageMgr' starting with PID=643 (PPID=582) -- execing '/usr/bin/StageMgr'
+Apr  8 00:38:00 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'SlabMonitor' starting with PID=644 (PPID=582) -- execing '/usr/bin/SlabMonitor'
+Apr  8 00:38:00 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'ConfigAgent' starting with PID=645 (PPID=582) -- execing '/usr/bin/ConfigAgent'
+Apr  8 00:38:00 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'Fru' starting with PID=646 (PPID=582) -- execing '/usr/bin/Fru'
+Apr  8 00:38:00 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'Sysdb' starting with PID=647 (PPID=582) -- execing '/usr/bin/Sysdb'
+Apr  8 00:38:00 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'Launcher' starting with PID=648 (PPID=582) -- execing '/usr/bin/Launcher'
+Apr  8 00:38:03 leaf3 Sysdb: %AGENT-6-INITIALIZED: Agent 'Sysdb' initialized; pid=647
+Apr  8 00:38:05 leaf3 ConfigAgent: %AGENT-6-INITIALIZED: Agent 'ConfigAgent' initialized; pid=645
+Apr  8 00:38:27 leaf3 LoadConfig: %SYSDB-3-STARTUP_CONFIG_PARSE_ERROR: Errors encountered in parsing the startup-config
+Apr  8 00:38:28 leaf3 StageMgr: %AGENT-6-INITIALIZED: Agent 'StageMgr' initialized; pid=643
+Apr  8 00:38:28 leaf3 Fru: %AGENT-6-INITIALIZED: Agent 'Fru' initialized; pid=646
+Apr  8 00:38:29 leaf3 Launcher: %AGENT-6-INITIALIZED: Agent 'Launcher' initialized; pid=648
+Apr  8 00:38:29 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'EventHistoryAgent' to start in role 'ActiveSupervisor'
+Apr  8 00:38:29 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'AgentMonitor' to start in role 'ActiveSupervisor'
+Apr  8 00:38:29 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'LacpTxAgent' to start in role 'ActiveSupervisor'
+Apr  8 00:38:29 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'IgmpSnooping' to start in role 'ActiveSupervisor'
+Apr  8 00:38:29 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'Acl' to start in role 'AllSupervisors'
+Apr  8 00:38:29 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'SharedSecretProfile' to start in role 'ActiveSupervisor'
+Apr  8 00:38:29 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'KernelNetworkInfo' to start in role 'AllSupervisors'
+Apr  8 00:38:29 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'SuperServer' to start in role 'AllCells'
+Apr  8 00:38:29 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'EventMgr' to start in role 'ActiveSupervisor'
+Apr  8 00:38:29 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'FibServices' to start in role 'ActiveSupervisor'
+Apr  8 00:38:29 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'TopoAgent' to start in role 'ActiveSupervisor'
+Apr  8 00:38:29 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'Qos' to start in role 'ActiveSupervisor'
+Apr  8 00:38:29 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'Ira' to start in role 'AllSupervisors'
+Apr  8 00:38:29 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'Etba' to start in role 'ActiveSupervisor'
+Apr  8 00:38:29 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'L2Rib' to start in role 'ActiveSupervisor'
+Apr  8 00:38:29 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'CapiApp' to start in role 'ActiveSupervisor'
+Apr  8 00:38:29 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'Ebra' to start in role 'ActiveSupervisor'
+Apr  8 00:38:29 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'OpenConfig' to start in role 'ActiveSupervisor'
+Apr  8 00:38:29 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'PortSec' to start in role 'ActiveSupervisor'
+Apr  8 00:38:29 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'LedPolicy' to start in role 'ActiveSupervisor'
+Apr  8 00:38:29 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'Thermostat' to start in role 'ActiveSupervisor'
+Apr  8 00:38:29 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'Arp' to start in role 'ActiveSupervisor'
+Apr  8 00:38:29 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'PowerFuse' to start in role 'ActiveSupervisor'
+Apr  8 00:38:29 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'Aaa' to start in role 'AllSupervisors'
+Apr  8 00:38:29 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'ReloadCauseAgent' to start in role 'AllCells'
+Apr  8 00:38:29 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'McastCommon' to start in role 'ActiveSupervisor'
+Apr  8 00:38:29 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'StpTxRx' to start in role 'AllSupervisors'
+Apr  8 00:38:29 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'KernelFib' to start in role 'AllSupervisors'
+Apr  8 00:38:30 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'PhyEthtool' to start in role 'AllCells'
+Apr  8 00:38:30 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'Lag' to start in role 'ActiveSupervisor'
+Apr  8 00:38:30 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'StandbyCpld' to start in role 'ActiveSupervisor'
+Apr  8 00:38:30 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'StpTopology' to start in role 'ActiveSupervisor'
+Apr  8 00:38:30 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'Stp' to start in role 'AllSupervisors'
+Apr  8 00:38:30 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'McastCommon6' to start in role 'ActiveSupervisor'
+Apr  8 00:38:30 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'Tunnel' to start in role 'ActiveSupervisor'
+Apr  8 00:38:30 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'Lldp' to start in role 'AllSupervisors'
+Apr  8 00:38:30 leaf3 ProcMgr-worker: %PROCMGR-6-WORKER_WARMSTART: ProcMgr worker warm start. (PID=582)
+Apr  8 00:38:30 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'LacpTxAgent' starting with PID=886 (PPID=582) -- execing '/usr/bin/LacpTxAgent'
+Apr  8 00:38:30 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'McastCommon' starting with PID=887 (PPID=582) -- execing '/usr/bin/McastCommon'
+Apr  8 00:38:30 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'SuperServer' starting with PID=888 (PPID=582) -- execing '/usr/bin/SuperServer'
+Apr  8 00:38:30 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'OpenConfig' starting with PID=889 (PPID=582) -- execing '/usr/bin/OpenConfig'
+Apr  8 00:38:30 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'Lag' starting with PID=895 (PPID=582) -- execing '/usr/bin/Lag'
+Apr  8 00:38:30 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'PortSec' starting with PID=899 (PPID=582) -- execing '/usr/bin/PortSec'
+Apr  8 00:38:30 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'Ira' starting with PID=900 (PPID=582) -- execing '/usr/bin/Ira'
+Apr  8 00:38:30 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'LedPolicy' starting with PID=901 (PPID=582) -- execing '/usr/bin/LedPolicy'
+Apr  8 00:38:30 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'EventMgr' starting with PID=902 (PPID=582) -- execing '/usr/bin/EventMgr'
+Apr  8 00:38:30 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'CapiApp' starting with PID=907 (PPID=582) -- execing '/usr/bin/CapiApp'
+Apr  8 00:38:30 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'StpTxRx' starting with PID=911 (PPID=582) -- execing '/usr/bin/StpTxRx'
+Apr  8 00:38:31 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'StandbyCpld' starting with PID=922 (PPID=582) -- execing '/usr/bin/StandbyCpld'
+Apr  8 00:38:31 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'AgentMonitor' starting with PID=927 (PPID=582) -- execing '/usr/bin/AgentMonitor'
+Apr  8 00:38:31 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'FibServices' starting with PID=932 (PPID=582) -- execing '/usr/bin/FibServices'
+Apr  8 00:38:31 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'Tunnel' starting with PID=936 (PPID=582) -- execing '/usr/bin/Tunnel'
+Apr  8 00:38:31 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'PhyEthtool' starting with PID=939 (PPID=582) -- execing '/usr/bin/PhyEthtool'
+Apr  8 00:38:32 leaf3 SuperServer: %AGENT-6-INITIALIZED: Agent 'SuperServer' initialized; pid=888
+Apr  8 00:38:32 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'EventHistoryAgent' starting with PID=945 (PPID=582) -- execing '/usr/bin/EventHistoryAgent'
+Apr  8 00:38:32 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'Aaa' starting with PID=947 (PPID=582) -- execing '/usr/bin/Aaa'
+Apr  8 00:38:32 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'StpTopology' starting with PID=949 (PPID=582) -- execing '/usr/bin/StpTopology'
+Apr  8 00:38:32 leaf3 PortSec: %AGENT-6-INITIALIZED: Agent 'PortSec' initialized; pid=913
+Apr  8 00:38:32 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'Acl' starting with PID=952 (PPID=582) -- execing '/usr/bin/Acl'
+Apr  8 00:38:32 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'Stp' starting with PID=954 (PPID=582) -- execing '/usr/bin/Stp'
+Apr  8 00:38:33 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'KernelNetworkInfo' starting with PID=965 (PPID=582) -- execing '/usr/bin/KernelNetworkInfo'
+Apr  8 00:38:33 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'McastCommon6' starting with PID=969 (PPID=582) -- execing '/usr/bin/McastCommon6'
+Apr  8 00:38:34 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'Etba' starting with PID=971 (PPID=582) -- execing '/usr/bin/Etba'
+Apr  8 00:38:34 leaf3 McastCommon: %AGENT-6-INITIALIZED: Agent 'McastCommon' initialized; pid=906
+Apr  8 00:38:34 leaf3 LedPolicy: %AGENT-6-INITIALIZED: Agent 'LedPolicy' initialized; pid=917
+Apr  8 00:38:34 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'Arp' starting with PID=976 (PPID=582) -- execing '/usr/bin/Arp'
+Apr  8 00:38:34 leaf3 LacpTxAgent: %AGENT-6-INITIALIZED: Agent 'LacpTxAgent' initialized; pid=898
+Apr  8 00:38:34 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'Lldp' starting with PID=981 (PPID=582) -- execing '/usr/bin/Lldp'
+Apr  8 00:38:35 leaf3 AgentMonitor: %AGENT-6-INITIALIZED: Agent 'AgentMonitor' initialized; pid=930
+Apr  8 00:38:35 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'KernelFib' starting with PID=985 (PPID=582) -- execing '/usr/bin/KernelFib'
+Apr  8 00:38:35 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'Qos' starting with PID=988 (PPID=582) -- execing '/usr/bin/Qos'
+Apr  8 00:38:35 leaf3 StpTxRx: %AGENT-6-INITIALIZED: Agent 'StpTxRx' initialized; pid=923
+Apr  8 00:38:35 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'Thermostat' starting with PID=990 (PPID=582) -- execing '/usr/bin/Thermostat'
+Apr  8 00:38:35 leaf3 Ira: %AGENT-6-INITIALIZED: Agent 'Ira' initialized; pid=920
+Apr  8 00:38:36 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'TopoAgent' starting with PID=999 (PPID=582) -- execing '/usr/bin/TopoAgent'
+Apr  8 00:38:36 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'L2Rib' starting with PID=996 (PPID=582) -- execing '/usr/bin/L2Rib'
+Apr  8 00:38:36 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'PowerFuse' starting with PID=1002 (PPID=582) -- execing '/usr/bin/PowerFuse'
+Apr  8 00:38:36 leaf3 StandbyCpld: %AGENT-6-INITIALIZED: Agent 'StandbyCpld' initialized; pid=931
+Apr  8 00:38:36 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'Ebra' starting with PID=1006 (PPID=582) -- execing '/usr/bin/Ebra'
+Apr  8 00:38:36 leaf3 FibServices: %AGENT-6-INITIALIZED: Agent 'FibServices' initialized; pid=937
+Apr  8 00:38:37 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'ReloadCauseAgent' starting with PID=1012 (PPID=582) -- execing '/usr/bin/ReloadCauseAgent'
+Apr  8 00:38:37 leaf3 EventHistoryAgent: %AGENT-6-INITIALIZED: Agent 'EventHistoryAgent' initialized; pid=948
+Apr  8 00:38:37 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'SharedSecretProfile' starting with PID=1017 (PPID=582) -- execing '/usr/bin/SharedSecretProfile'
+Apr  8 00:38:37 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'IgmpSnooping' starting with PID=1018 (PPID=582) -- execing '/usr/bin/IgmpSnooping'
+Apr  8 00:38:37 leaf3 Lag: %AGENT-6-INITIALIZED: Agent 'Lag' initialized; pid=909
+Apr  8 00:38:37 leaf3 Tunnel: %AGENT-6-INITIALIZED: Agent 'Tunnel' initialized; pid=941
+Apr  8 00:38:37 leaf3 CapiApp: %AGENT-6-INITIALIZED: Agent 'CapiApp' initialized; pid=926
+Apr  8 00:38:37 leaf3 EventMgr: %AGENT-6-INITIALIZED: Agent 'EventMgr' initialized; pid=924
+Apr  8 00:38:37 leaf3 StpTopology: %AGENT-6-INITIALIZED: Agent 'StpTopology' initialized; pid=955
+Apr  8 00:38:38 leaf3 KernelNetworkInfo: %AGENT-6-INITIALIZED: Agent 'KernelNetworkInfo' initialized; pid=970
+Apr  8 00:38:39 leaf3 PhyEthtool: %AGENT-6-INITIALIZED: Agent 'PhyEthtool' initialized; pid=939
+Apr  8 00:38:39 leaf3 Aaa: %AGENT-6-INITIALIZED: Agent 'Aaa' initialized; pid=947
+Apr  8 00:38:39 leaf3 Acl: %AGENT-6-INITIALIZED: Agent 'Acl' initialized; pid=963
+Apr  8 00:38:39 leaf3 McastCommon6: %AGENT-6-INITIALIZED: Agent 'McastCommon6' initialized; pid=975
+Apr  8 00:38:40 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'IpRib' to start in role 'AllSupervisors'
+Apr  8 00:38:40 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'BgpCliHelper' to start in role 'AllSupervisors'
+Apr  8 00:38:40 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'EvpnrtrEncap' to start in role 'ActiveSupervisor'
+Apr  8 00:38:40 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'Bgp' to start in role 'AllSupervisors'
+Apr  8 00:38:40 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'ConnectedRoute' to start in role 'AllSupervisors'
+Apr  8 00:38:40 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'StaticRoute' to start in role 'AllSupervisors'
+Apr  8 00:38:40 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'RouteInput' to start in role 'AllSupervisors'
+Apr  8 00:38:40 leaf3 ProcMgr-worker: %PROCMGR-6-WORKER_WARMSTART: ProcMgr worker warm start. (PID=582)
+Apr  8 00:38:40 leaf3 Stp: %AGENT-6-INITIALIZED: Agent 'Stp' initialized; pid=964
+Apr  8 00:38:40 leaf3 Lldp: %AGENT-6-INITIALIZED: Agent 'Lldp' initialized; pid=983
+Apr  8 00:38:41 leaf3 Etba: %AGENT-6-INITIALIZED: Agent 'Etba' initialized; pid=971
+Apr  8 00:38:41 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'StaticRoute' starting with PID=1051 (PPID=582) -- execing '/usr/bin/StaticRoute'
+Apr  8 00:38:41 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'IpRib' starting with PID=1052 (PPID=582) -- execing '/usr/bin/IpRib'
+Apr  8 00:38:41 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'ConnectedRoute' starting with PID=1054 (PPID=582) -- execing '/usr/bin/ConnectedRoute'
+Apr  8 00:38:41 leaf3 Qos: %AGENT-6-INITIALIZED: Agent 'Qos' initialized; pid=997
+Apr  8 00:38:41 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'RouteInput' starting with PID=1059 (PPID=582) -- execing '/usr/bin/RouteInput'
+Apr  8 00:38:41 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'Bgp' starting with PID=1061 (PPID=582) -- execing '/usr/bin/Bgp'
+Apr  8 00:38:42 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'EvpnrtrEncap' starting with PID=1066 (PPID=582) -- execing '/usr/bin/EvpnrtrEncap'
+Apr  8 00:38:42 leaf3 Thermostat: %AGENT-6-INITIALIZED: Agent 'Thermostat' initialized; pid=998
+Apr  8 00:38:42 leaf3 Arp: %AGENT-6-INITIALIZED: Agent 'Arp' initialized; pid=978
+Apr  8 00:38:42 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'BgpCliHelper' starting with PID=1069 (PPID=582) -- execing '/usr/bin/BgpCliHelper'
+Apr  8 00:38:42 leaf3 TopoAgent: %AGENT-6-INITIALIZED: Agent 'TopoAgent' initialized; pid=1001
+Apr  8 00:38:42 leaf3 PowerFuse: %AGENT-6-INITIALIZED: Agent 'PowerFuse' initialized; pid=1010
+Apr  8 00:38:43 leaf3 KernelFib: %AGENT-6-INITIALIZED: Agent 'KernelFib' initialized; pid=991
+Apr  8 00:38:43 leaf3 L2Rib: %AGENT-6-INITIALIZED: Agent 'L2Rib' initialized; pid=1007
+Apr  8 00:38:44 leaf3 ReloadCauseAgent: %AGENT-6-INITIALIZED: Agent 'ReloadCauseAgent' initialized; pid=1016
+Apr  8 00:38:44 leaf3 SharedSecretProfile: %AGENT-6-INITIALIZED: Agent 'SharedSecretProfile' initialized; pid=1020
+Apr  8 00:38:44 leaf3 IgmpSnooping: %AGENT-6-INITIALIZED: Agent 'IgmpSnooping' initialized; pid=1018
+Apr  8 00:38:45 leaf3 Ebra: %AGENT-6-INITIALIZED: Agent 'Ebra' initialized; pid=1011
+Apr  8 00:38:47 leaf3 Lldp: %LLDP-5-NEIGHBOR_NEW: LLDP neighbor with chassisId 0000.0000.0000 and portId "Management0" added on interface Management0
+Apr  8 00:38:48 leaf3 EvpnrtrEncapAgent: %AGENT-6-INITIALIZED: Agent 'EvpnrtrEncap' initialized; pid=1066
+Apr  8 00:38:49 leaf3 StaticRoute: %AGENT-6-INITIALIZED: Agent 'StaticRoute' initialized; pid=1055
+Apr  8 00:38:49 leaf3 ConnectedRoute: %AGENT-6-INITIALIZED: Agent 'ConnectedRoute' initialized; pid=1063
+Apr  8 00:38:49 leaf3 Lldp: %LLDP-5-NEIGHBOR_NEW: LLDP neighbor with chassisId 2252.2248.bafc and portId "Management0" added on interface Management0
+Apr  8 00:38:49 leaf3 Lldp: %LLDP-5-NEIGHBOR_NEW: LLDP neighbor with chassisId 0e59.1281.4507 and portId "Management0" added on interface Management0
+Apr  8 00:38:49 leaf3 Lldp: %LLDP-5-NEIGHBOR_NEW: LLDP neighbor with chassisId 42fd.89b0.ab71 and portId "Management0" added on interface Management0
+Apr  8 00:38:49 leaf3 RouteInput: %AGENT-6-INITIALIZED: Agent 'RouteInput' initialized; pid=1068
+Apr  8 00:38:50 leaf3 IpRib: %AGENT-6-INITIALIZED: Agent 'IpRib' initialized; pid=1060
+Apr  8 00:38:51 leaf3 Lldp: %LLDP-5-NEIGHBOR_NEW: LLDP neighbor with chassisId 7e2f.e14e.10b1 and portId "Management0" added on interface Management0
+Apr  8 00:38:51 leaf3 Lldp: %LLDP-5-NEIGHBOR_NEW: LLDP neighbor with chassisId 32a5.ecaf.4d33 and portId "Management0" added on interface Management0
+Apr  8 00:38:52 leaf3 Ebra: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet2, changed state to up
+Apr  8 00:38:52 leaf3 Ebra: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet3, changed state to up
+Apr  8 00:38:52 leaf3 Ebra: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet1, changed state to up
+Apr  8 00:38:52 leaf3 Stp: %SPANTREE-6-ROOTCHANGE: Root changed for instance MST0: new root interface is (none), new root bridge mac address is 16:51:18:63:2f:79 (this switch)
+Apr  8 00:38:52 leaf3 Stp: %SPANTREE-6-INTERFACE_ADD: Interface Ethernet3 has been added to instance MST0
+Apr  8 00:38:52 leaf3 IpRib: %IPRIB-5-RIBREADY_IGP: IGP protocols in VRF default have converged
+Apr  8 00:38:52 leaf3 IpRib: %IPRIB-5-RIBREADY_PROTO: All protocols in VRF default have converged
+Apr  8 00:38:52 leaf3 IpRib: %IPRIB-5-RIBREADY_FIB: All routes in VRF default are available in FIB
+Apr  8 00:38:53 leaf3 BgpCliHelper: %AGENT-6-INITIALIZED: Agent 'BgpCliHelper' initialized; pid=1069
+Apr  8 00:38:54 leaf3 Bgp: %AGENT-6-INITIALIZED: Agent 'Bgp' initialized; pid=1061
+Apr  8 00:38:54 leaf3 Stp: %SPANTREE-6-INTERFACE_STATE: Interface Ethernet3 instance MST0 moving from discarding to learning
+Apr  8 00:38:54 leaf3 Stp: %SPANTREE-6-INTERFACE_STATE: Interface Ethernet3 instance MST0 moving from learning to forwarding
+Apr  8 00:38:54 leaf3 Lldp: %LLDP-5-NEIGHBOR_NEW: LLDP neighbor with chassisId 2252.2248.bafc and portId "Ethernet3" added on interface Ethernet1
+Apr  8 00:38:55 leaf3 Lldp: %LLDP-5-NEIGHBOR_NEW: LLDP neighbor with chassisId 42fd.89b0.ab71 and portId "Ethernet3" added on interface Ethernet3
+Apr  8 00:38:56 leaf3 Lldp: %LLDP-5-NEIGHBOR_NEW: LLDP neighbor with chassisId 32a5.ecaf.4d33 and portId "Ethernet3" added on interface Ethernet2
+Apr  8 00:38:57 leaf3 SuperServer: %SYS-5-CLI_SCHEDULER_ENABLED: CliScheduler is enabled, continuing its execution of scheduled CLI jobs.
+Apr  8 00:39:02 leaf3 SuperServer: %SECURITY-6-SSL_PROFILE_VALID: SSL profile 'ARISTA_DEFAULT_PROFILE' is valid
+Apr  8 00:39:02 leaf3 SuperServer: %SECURITY-3-SSL_PROFILE_INVALID: SSL profile 'restconf' is invalid. Check 'show management security ssl profile restconf' for details
+Apr  8 00:39:09 leaf3 xinetd[265]: Starting reconfiguration
+Apr  8 00:39:09 leaf3 xinetd[265]: Swapping defaults
+Apr  8 00:39:09 leaf3 xinetd[265]: Reconfigured: new=2 old=0 dropped=0 (services)
+Apr  8 00:39:10 leaf3 rsyslogd: imuxsock: Acquired UNIX socket '/dev/log' (fd 3) from systemd.  [v8.2001.0]
+Apr  8 00:39:10 leaf3 rsyslogd: [origin software="rsyslogd" swVersion="8.2001.0" x-pid="1699" x-info="https://www.rsyslog.com"] start
+Apr  8 00:39:18 leaf3 xinetd[265]: Starting reconfiguration
+Apr  8 00:39:18 leaf3 xinetd[265]: Reading included configuration file: /etc/xinetd.d/chargen-dgram [file=/etc/xinetd.conf] [line=56]
+Apr  8 00:39:18 leaf3 xinetd[265]: Reading included configuration file: /etc/xinetd.d/chargen-stream [file=/etc/xinetd.d/chargen-stream] [line=67]
+Apr  8 00:39:18 leaf3 xinetd[265]: Reading included configuration file: /etc/xinetd.d/daytime-dgram [file=/etc/xinetd.d/daytime-dgram] [line=67]
+Apr  8 00:39:18 leaf3 xinetd[265]: Reading included configuration file: /etc/xinetd.d/daytime-stream [file=/etc/xinetd.d/daytime-stream] [line=67]
+Apr  8 00:39:18 leaf3 xinetd[265]: Reading included configuration file: /etc/xinetd.d/discard-dgram [file=/etc/xinetd.d/discard-dgram] [line=67]
+Apr  8 00:39:18 leaf3 xinetd[265]: Reading included configuration file: /etc/xinetd.d/discard-stream [file=/etc/xinetd.d/discard-stream] [line=67]
+Apr  8 00:39:18 leaf3 xinetd[265]: Reading included configuration file: /etc/xinetd.d/echo-dgram [file=/etc/xinetd.d/echo-dgram] [line=67]
+Apr  8 00:39:18 leaf3 xinetd[265]: Reading included configuration file: /etc/xinetd.d/echo-stream [file=/etc/xinetd.d/echo-stream] [line=67]
+Apr  8 00:39:18 leaf3 xinetd[265]: Reading included configuration file: /etc/xinetd.d/ssh [file=/etc/xinetd.d/ssh] [line=67]
+Apr  8 00:39:18 leaf3 xinetd[265]: Reading included configuration file: /etc/xinetd.d/ssh6 [file=/etc/xinetd.d/ssh6] [line=29]
+Apr  8 00:39:18 leaf3 xinetd[265]: Reading included configuration file: /etc/xinetd.d/tcpmux-server [file=/etc/xinetd.d/tcpmux-server] [line=29]
+Apr  8 00:39:18 leaf3 xinetd[265]: Reading included configuration file: /etc/xinetd.d/time-dgram [file=/etc/xinetd.d/time-dgram] [line=68]
+Apr  8 00:39:18 leaf3 xinetd[265]: Reading included configuration file: /etc/xinetd.d/time-stream [file=/etc/xinetd.d/time-stream] [line=67]
+Apr  8 00:39:18 leaf3 xinetd[265]: removing chargen
+Apr  8 00:39:18 leaf3 xinetd[265]: removing chargen
+Apr  8 00:39:18 leaf3 xinetd[265]: removing daytime
+Apr  8 00:39:18 leaf3 xinetd[265]: removing daytime
+Apr  8 00:39:18 leaf3 xinetd[265]: removing discard
+Apr  8 00:39:18 leaf3 xinetd[265]: removing discard
+Apr  8 00:39:18 leaf3 xinetd[265]: removing echo
+Apr  8 00:39:18 leaf3 xinetd[265]: removing echo
+Apr  8 00:39:18 leaf3 xinetd[265]: removing tcpmux
+Apr  8 00:39:18 leaf3 xinetd[265]: removing time
+Apr  8 00:39:18 leaf3 xinetd[265]: removing time
+Apr  8 00:39:18 leaf3 xinetd[265]: Swapping defaults
+Apr  8 00:39:18 leaf3 xinetd[265]: readjusting service ssh
+Apr  8 00:39:18 leaf3 xinetd[265]: readjusting service ssh6
+Apr  8 00:39:18 leaf3 xinetd[265]: Reconfigured: new=0 old=2 dropped=0 (services)
+Apr  8 00:39:46 leaf3 Stp: %SPANTREE-6-STABLE_CHANGE: Stp state is now stable
+Apr  8 00:40:01 leaf3 CROND[1934]: (root) CMD (/usr/bin/archivecheck.py &> /dev/null)
+Apr  8 00:40:49 leaf3 Lldp: %LLDP-5-NEIGHBOR_TIMEOUT: LLDP neighbor with chassisId 0000.0000.0000 and portId "Management0" timed out on interface Management0
+Apr  8 00:41:01 leaf3 CROND[2038]: (root) CMD (/usr/bin/archivecheck.py &> /dev/null)
+Apr  8 00:41:10 leaf3 SuperServer: %SYS-5-SYSTEM_RESTARTED: System restarted
+Apr  8 00:41:10 leaf3 SuperServer: %SYS-6-SYSTEM_INFO: Software image version: 4.25.1F-20001546.4251F (engineering build)
+Apr  8 00:41:10 leaf3 SuperServer: %SYS-6-SYSTEM_INFO: Model: cEOSLab
+Apr  8 00:41:10 leaf3 SuperServer: %SYS-6-SYSTEM_INFO: Serial number: 
+Apr  8 00:42:01 leaf3 CROND[2126]: (root) CMD (/usr/bin/archivecheck.py &> /dev/null)
+Apr  8 00:42:01 leaf3 CROND[2125]: (root) CMD (/usr/bin/appendAutoBwQtrace.py &> /dev/null)
+Apr  8 00:43:01 leaf3 CROND[2209]: (root) CMD (/usr/bin/archivecheck.py &> /dev/null)
+Apr  8 00:43:29 leaf3 ConfigAgent: %SYS-5-CONFIG_SESSION_ENTERED: User admin entered configuration session ansible_1617842609 on command-api (172.20.20.1)
+Apr  8 00:43:29 leaf3 ConfigAgent: %SYS-5-CONFIG_SESSION_EXITED: User admin exited configuration session ansible_1617842609 on command-api (172.20.20.1)
+Apr  8 00:43:29 leaf3 ConfigAgent: %SYS-5-CONFIG_SESSION_ENTERED: User admin entered configuration session ansible_1617842609 on command-api (172.20.20.1)
+Apr  8 00:43:30 leaf3 ConfigAgent: %SYS-5-CONFIG_SESSION_COMMIT_SUCCESS: User admin committed configuration session ansible_1617842609 successfully on command-api (172.20.20.1)
+Apr  8 00:43:30 leaf3 ConfigAgent: %SYS-5-CONFIG_SESSION_EXITED: User admin exited configuration session ansible_1617842609 on command-api (172.20.20.1)
+Apr  8 00:44:01 leaf3 CROND[2313]: (root) CMD (/usr/bin/archivecheck.py &> /dev/null)
+Apr  8 00:45:02 leaf3 CROND[2405]: (root) CMD (/etc/cron.hourly/logrotate)
+Apr  8 00:45:02 leaf3 CROND[2406]: (root) CMD (/usr/bin/archivecheck.py &> /dev/null)
+Apr  8 00:45:02 leaf3 CROND[2408]: (root) CMD (/usr/bin/appendAutoBwQtrace.py &> /dev/null)
+Apr  8 00:46:02 leaf3 CROND[2508]: (root) CMD (/usr/bin/archivecheck.py &> /dev/null)
+Apr  8 00:47:01 leaf3 CROND[2602]: (root) CMD (/usr/bin/archivecheck.py &> /dev/null)
+Apr  8 00:47:39 leaf3 ConfigAgent: %SYS-5-CONFIG_SESSION_ENTERED: User admin entered configuration session ansible_1617842859 on command-api (172.20.20.1)
+Apr  8 00:47:39 leaf3 ConfigAgent: %SYS-5-CONFIG_SESSION_EXITED: User admin exited configuration session ansible_1617842859 on command-api (172.20.20.1)
+Apr  8 00:47:39 leaf3 ConfigAgent: %SYS-5-CONFIG_SESSION_ENTERED: User admin entered configuration session ansible_1617842859 on command-api (172.20.20.1)
+Apr  8 00:47:39 leaf3 ConfigAgent: %SYS-5-CONFIG_SESSION_EXITED: User admin exited configuration session ansible_1617842859 on command-api (172.20.20.1)
+Apr  8 00:47:39 leaf3 ConfigAgent: %SYS-5-CONFIG_SESSION_ABORTED: User admin aborted configuration session ansible_1617842859 on command-api (172.20.20.1)
+Apr  8 00:48:01 leaf3 CROND[2707]: (root) CMD (/usr/bin/archivecheck.py &> /dev/null)
+Apr  8 00:48:01 leaf3 CROND[2709]: (root) CMD (/usr/bin/appendAutoBwQtrace.py &> /dev/null)
+Apr  8 00:48:44 leaf3 ReloadCauseAgent: %SYS-6-SYSTEM_INFO: Reload Cause 1: Unknown
+Apr  8 00:49:01 leaf3 CROND[2798]: (root) CMD (/usr/bin/archivecheck.py &> /dev/null)
+Apr  8 00:49:28 leaf3 ConfigAgent: %SYS-5-CONFIG_SESSION_ENTERED: User admin entered configuration session ansible_1617842968 on command-api (172.20.20.1)
+Apr  8 00:49:28 leaf3 ConfigAgent: %SYS-5-CONFIG_SESSION_EXITED: User admin exited configuration session ansible_1617842968 on command-api (172.20.20.1)
+Apr  8 00:49:28 leaf3 ConfigAgent: %SYS-5-CONFIG_SESSION_ENTERED: User admin entered configuration session ansible_1617842968 on command-api (172.20.20.1)
+Apr  8 00:49:28 leaf3 ConfigAgent: %SYS-5-CONFIG_SESSION_EXITED: User admin exited configuration session ansible_1617842968 on command-api (172.20.20.1)
+Apr  8 00:49:28 leaf3 ConfigAgent: %SYS-5-CONFIG_SESSION_ABORTED: User admin aborted configuration session ansible_1617842968 on command-api (172.20.20.1)
+Apr  8 00:50:01 leaf3 CROND[2898]: (root) CMD (/usr/bin/archivecheck.py &> /dev/null)
+Apr  8 00:51:01 leaf3 CROND[2984]: (root) CMD (/usr/bin/appendAutoBwQtrace.py &> /dev/null)
+Apr  8 00:51:01 leaf3 CROND[2986]: (root) CMD (/usr/bin/archivecheck.py &> /dev/null)
+Apr  8 00:52:01 leaf3 CROND[3067]: (root) CMD (/usr/bin/archivecheck.py &> /dev/null)
+Apr  8 00:52:10 leaf3 ConfigAgent: %SYS-5-CONFIG_SESSION_ENTERED: User admin entered configuration session ansible_1617843130 on command-api (172.20.20.1)
+Apr  8 00:52:10 leaf3 ConfigAgent: %SYS-5-CONFIG_SESSION_EXITED: User admin exited configuration session ansible_1617843130 on command-api (172.20.20.1)
+Apr  8 00:52:10 leaf3 ConfigAgent: %SYS-5-CONFIG_SESSION_ENTERED: User admin entered configuration session ansible_1617843130 on command-api (172.20.20.1)
+Apr  8 00:52:10 leaf3 ConfigAgent: %SYS-5-CONFIG_SESSION_EXITED: User admin exited configuration session ansible_1617843130 on command-api (172.20.20.1)
+Apr  8 00:52:10 leaf3 ConfigAgent: %SYS-5-CONFIG_SESSION_ABORTED: User admin aborted configuration session ansible_1617843130 on command-api (172.20.20.1)
+Apr  8 00:53:01 leaf3 CROND[3165]: (root) CMD (/usr/bin/archivecheck.py &> /dev/null)
+Apr  8 00:53:11 leaf3 ConfigAgent: %SYS-5-CONFIG_SESSION_ENTERED: User admin entered configuration session ansible_1617843191 on command-api (172.20.20.1)
+Apr  8 00:53:12 leaf3 ConfigAgent: %SYS-5-CONFIG_SESSION_EXITED: User admin exited configuration session ansible_1617843191 on command-api (172.20.20.1)
+Apr  8 00:53:12 leaf3 ConfigAgent: %SYS-5-CONFIG_SESSION_ENTERED: User admin entered configuration session ansible_1617843191 on command-api (172.20.20.1)
+Apr  8 00:53:12 leaf3 ConfigAgent: %SYS-5-CONFIG_SESSION_EXITED: User admin exited configuration session ansible_1617843191 on command-api (172.20.20.1)
+Apr  8 00:53:12 leaf3 ConfigAgent: %SYS-5-CONFIG_SESSION_ABORTED: User admin aborted configuration session ansible_1617843191 on command-api (172.20.20.1)
+Apr  8 00:54:01 leaf3 CROND[3273]: (root) CMD (/usr/bin/appendAutoBwQtrace.py &> /dev/null)
+Apr  8 00:54:01 leaf3 CROND[3275]: (root) CMD (/usr/bin/archivecheck.py &> /dev/null)
+Apr  8 00:55:01 leaf3 CROND[3361]: (root) CMD (/usr/bin/archivecheck.py &> /dev/null)
+Apr  8 00:55:04 leaf3 ConfigAgent: %SYS-5-CONFIG_SESSION_ENTERED: User admin entered configuration session ansible_1617843304 on command-api (172.20.20.1)
+Apr  8 00:55:04 leaf3 ConfigAgent: %SYS-5-CONFIG_SESSION_EXITED: User admin exited configuration session ansible_1617843304 on command-api (172.20.20.1)
+Apr  8 00:55:04 leaf3 ConfigAgent: %SYS-5-CONFIG_SESSION_ENTERED: User admin entered configuration session ansible_1617843304 on command-api (172.20.20.1)
+Apr  8 00:55:04 leaf3 ConfigAgent: %SYS-5-CONFIG_SESSION_EXITED: User admin exited configuration session ansible_1617843304 on command-api (172.20.20.1)
+Apr  8 00:55:04 leaf3 ConfigAgent: %SYS-5-CONFIG_SESSION_ABORTED: User admin aborted configuration session ansible_1617843304 on command-api (172.20.20.1)
+Apr  8 00:55:47 leaf3 ConfigAgent: %SYS-5-CONFIG_SESSION_ENTERED: User admin entered configuration session ansible_1617843347 on command-api (172.20.20.1)
+Apr  8 00:55:47 leaf3 ConfigAgent: %SYS-5-CONFIG_SESSION_EXITED: User admin exited configuration session ansible_1617843347 on command-api (172.20.20.1)
+Apr  8 00:55:47 leaf3 ConfigAgent: %SYS-5-CONFIG_SESSION_ENTERED: User admin entered configuration session ansible_1617843347 on command-api (172.20.20.1)
+Apr  8 00:55:48 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'Fhrp' to start in role 'AllSupervisors'
+Apr  8 00:55:48 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'VxlanSwFwd' to start in role 'ActiveSupervisor'
+Apr  8 00:55:48 leaf3 Launcher: %LAUNCHER-6-PROCESS_START: Configuring process 'Vxlan' to start in role 'ActiveSupervisor'
+Apr  8 00:55:48 leaf3 ConfigAgent: %SYS-5-CONFIG_SESSION_COMMIT_SUCCESS: User admin committed configuration session ansible_1617843347 successfully on command-api (172.20.20.1)
+Apr  8 00:55:48 leaf3 ConfigAgent: %SYS-5-CONFIG_SESSION_EXITED: User admin exited configuration session ansible_1617843347 on command-api (172.20.20.1)
+Apr  8 00:55:48 leaf3 Ira: %VRF-6-CREATED: VRF QA has been created with network namespace ns-QA
+Apr  8 00:55:48 leaf3 Ira: %VRF-6-CREATED: VRF prod has been created with network namespace ns-prod
+Apr  8 00:55:48 leaf3 ProcMgr-worker: %PROCMGR-6-WORKER_WARMSTART: ProcMgr worker warm start. (PID=582)
+Apr  8 00:55:48 leaf3 ProcMgr-worker: %PROCMGR-7-NEW_PROCESSES: New processes configured to run under ProcMgr control: ['Fhrp', 'Vxlan', 'VxlanSwFwd']
+Apr  8 00:55:48 leaf3 ProcMgr-worker: %PROCMGR-7-PROCESSES_ADOPTED: ProcMgr (PID=582) adopted running processes:  (StageMgr, PID=643) (SlabMonitor, PID=644) (ConfigAgent, PID=645) (Fru, PID=646) (Sysdb, PID=647) (Launcher, PID=648) (CapiApp, PID=907) (StpTxRx, PID=911) (PortSec, PID=899) (Ira, PID=900) (StandbyCpld, PID=922) (StaticRoute, PID=1051) (IpRib, PID=1052) (ConnectedRoute, PID=1054) (AgentMonitor, PID=927) (RouteInput, PID=1059) (FibServices, PID=932) (EventMgr, PID=902) (Tunnel, PID=936) (EvpnrtrEncap, PID=1066) (PhyEthtool, PID=939) (BgpCliHelper, PID=1069) (EventHistoryAgent, PID=945) (Aaa, PID=947) (StpTopology, PID=949) (Acl, PID=952) (Stp, PID=954) (KernelNetworkInfo, PID=965) (McastCommon6, PID=969) (Etba, PID=971) (Arp, PID=976) (Lldp, PID=981) (OpenConfig, PID=889) (KernelFib, PID=985) (Qos, PID=988) (Thermostat, PID=990) (Bgp, PID=1061) (L2Rib, PID=996) (TopoAgent, PID=999) (PowerFuse, PID=1002) (Ebra, PID=1006) (ReloadCauseAgent, PID=1012) (LacpTxAgent, PID=886) (McastCommon, PID=887) (SuperServer, PID=888) (SharedSecretProfile, PID=1017) (IgmpSnooping, PID=1018) (LedPolicy, PID=901) (Lag, PID=895)
+Apr  8 00:55:48 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'Vxlan' starting with PID=3471 (PPID=582) -- execing '/usr/bin/Vxlan'
+Apr  8 00:55:48 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'Fhrp' starting with PID=3474 (PPID=582) -- execing '/usr/bin/Fhrp'
+Apr  8 00:55:48 leaf3 ProcMgr-worker: %PROCMGR-7-WORKER_WARMSTART_DONE: ProcMgr worker warm start done. (PID=582)
+Apr  8 00:55:48 leaf3 ProcMgr-worker: %PROCMGR-6-PROCESS_STARTED: 'VxlanSwFwd' starting with PID=3475 (PPID=582) -- execing '/usr/bin/VxlanSwFwd'
+Apr  8 00:55:49 leaf3 Fhrp: %AGENT-6-INITIALIZED: Agent 'Fhrp' initialized; pid=3488
+Apr  8 00:55:49 leaf3 Vxlan: %AGENT-6-INITIALIZED: Agent 'Vxlan' initialized; pid=3483
+Apr  8 00:55:50 leaf3 VxlanSwFwd: %AGENT-6-INITIALIZED: Agent 'VxlanSwFwd' initialized; pid=3487
+Apr  8 00:55:50 leaf3 IpRib: %IPRIB-5-RIBREADY_IGP: IGP protocols in VRF QA have converged
+Apr  8 00:55:50 leaf3 IpRib: %IPRIB-5-RIBREADY_PROTO: All protocols in VRF QA have converged
+Apr  8 00:55:50 leaf3 IpRib: %IPRIB-5-RIBREADY_FIB: All routes in VRF QA are available in FIB
+Apr  8 00:55:50 leaf3 IpRib: %IPRIB-5-RIBREADY_IGP: IGP protocols in VRF prod have converged
+Apr  8 00:55:50 leaf3 IpRib: %IPRIB-5-RIBREADY_PROTO: All protocols in VRF prod have converged
+Apr  8 00:55:50 leaf3 IpRib: %IPRIB-5-RIBREADY_FIB: All routes in VRF prod are available in FIB
+Apr  8 00:55:50 leaf3 Ebra: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vxlan1, changed state to up
+Apr  8 00:55:52 leaf3 xinetd[265]: Starting reconfiguration
+Apr  8 00:55:52 leaf3 xinetd[265]: Reading included configuration file: /etc/xinetd.d/chargen-dgram [file=/etc/xinetd.conf] [line=56]
+Apr  8 00:55:52 leaf3 xinetd[265]: Reading included configuration file: /etc/xinetd.d/chargen-stream [file=/etc/xinetd.d/chargen-stream] [line=67]
+Apr  8 00:55:52 leaf3 xinetd[265]: Reading included configuration file: /etc/xinetd.d/daytime-dgram [file=/etc/xinetd.d/daytime-dgram] [line=67]
+Apr  8 00:55:52 leaf3 xinetd[265]: Reading included configuration file: /etc/xinetd.d/daytime-stream [file=/etc/xinetd.d/daytime-stream] [line=67]
+Apr  8 00:55:52 leaf3 xinetd[265]: Reading included configuration file: /etc/xinetd.d/discard-dgram [file=/etc/xinetd.d/discard-dgram] [line=67]
+Apr  8 00:55:52 leaf3 xinetd[265]: Reading included configuration file: /etc/xinetd.d/discard-stream [file=/etc/xinetd.d/discard-stream] [line=67]
+Apr  8 00:55:52 leaf3 xinetd[265]: Reading included configuration file: /etc/xinetd.d/echo-dgram [file=/etc/xinetd.d/echo-dgram] [line=67]
+Apr  8 00:55:52 leaf3 xinetd[265]: Reading included configuration file: /etc/xinetd.d/echo-stream [file=/etc/xinetd.d/echo-stream] [line=67]
+Apr  8 00:55:52 leaf3 xinetd[265]: Reading included configuration file: /etc/xinetd.d/ssh [file=/etc/xinetd.d/ssh] [line=67]
+Apr  8 00:55:52 leaf3 xinetd[265]: Reading included configuration file: /etc/xinetd.d/ssh-QA [file=/etc/xinetd.d/ssh-QA] [line=29]
+Apr  8 00:55:52 leaf3 xinetd[265]: Reading included configuration file: /etc/xinetd.d/ssh-prod [file=/etc/xinetd.d/ssh-prod] [line=29]
+Apr  8 00:55:52 leaf3 xinetd[265]: Reading included configuration file: /etc/xinetd.d/ssh6 [file=/etc/xinetd.d/ssh6] [line=29]
+Apr  8 00:55:52 leaf3 xinetd[265]: Reading included configuration file: /etc/xinetd.d/ssh6-QA [file=/etc/xinetd.d/ssh6-QA] [line=29]
+Apr  8 00:55:52 leaf3 xinetd[265]: Reading included configuration file: /etc/xinetd.d/ssh6-prod [file=/etc/xinetd.d/ssh6-prod] [line=29]
+Apr  8 00:55:52 leaf3 xinetd[265]: Reading included configuration file: /etc/xinetd.d/tcpmux-server [file=/etc/xinetd.d/tcpmux-server] [line=29]
+Apr  8 00:55:52 leaf3 xinetd[265]: Reading included configuration file: /etc/xinetd.d/time-dgram [file=/etc/xinetd.d/time-dgram] [line=68]
+Apr  8 00:55:52 leaf3 xinetd[265]: Reading included configuration file: /etc/xinetd.d/time-stream [file=/etc/xinetd.d/time-stream] [line=67]
+Apr  8 00:55:52 leaf3 xinetd[265]: removing chargen
+Apr  8 00:55:52 leaf3 xinetd[265]: removing chargen
+Apr  8 00:55:52 leaf3 xinetd[265]: removing daytime
+Apr  8 00:55:52 leaf3 xinetd[265]: removing daytime
+Apr  8 00:55:52 leaf3 xinetd[265]: removing discard
+Apr  8 00:55:52 leaf3 xinetd[265]: removing discard
+Apr  8 00:55:52 leaf3 xinetd[265]: removing echo
+Apr  8 00:55:52 leaf3 xinetd[265]: removing echo
+Apr  8 00:55:52 leaf3 xinetd[265]: removing tcpmux
+Apr  8 00:55:52 leaf3 xinetd[265]: removing time
+Apr  8 00:55:52 leaf3 xinetd[265]: removing time
+Apr  8 00:55:52 leaf3 xinetd[265]: Swapping defaults
+Apr  8 00:55:52 leaf3 xinetd[265]: readjusting service ssh
+Apr  8 00:55:52 leaf3 xinetd[265]: readjusting service ssh6
+Apr  8 00:55:52 leaf3 xinetd[265]: Reconfigured: new=4 old=2 dropped=0 (services)
+Apr  8 00:56:02 leaf3 CROND[3659]: (root) CMD (/usr/bin/archivecheck.py &> /dev/null)
+Apr  8 00:57:01 leaf3 CROND[3795]: (root) CMD (/usr/bin/appendAutoBwQtrace.py &> /dev/null)
+Apr  8 00:57:01 leaf3 CROND[3797]: (root) CMD (/usr/bin/archivecheck.py &> /dev/null)
+Apr  8 00:57:14 leaf3 Bgp: %BGP-5-ADJCHANGE: peer 10.0.0.10 (VRF default AS 6500) old state OpenConfirm event Established new state Established
+Apr  8 00:57:16 leaf3 Bgp: %BGP-5-ADJCHANGE: peer 8.8.8.8 (VRF default AS 6500) old state OpenConfirm event Established new state Established
+Apr  8 00:58:01 leaf3 CROND[3889]: (root) CMD (/usr/bin/archivecheck.py &> /dev/null)
+Apr  8 00:59:01 leaf3 CROND[3989]: (root) CMD (/usr/bin/archivecheck.py &> /dev/null)

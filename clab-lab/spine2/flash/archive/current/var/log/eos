@@ -1,0 +1,33 @@
+Apr  8 00:39:14 spine2 Stp: %SPANTREE-6-INTERFACE_STATE: Interface Ethernet3 instance MST0 moving from discarding to learning
+Apr  8 00:39:14 spine2 Stp: %SPANTREE-6-INTERFACE_STATE: Interface Ethernet3 instance MST0 moving from learning to forwarding
+Apr  8 00:39:22 spine2 SuperServer: %SYS-6-SSH_HOST_KEY_UPDATED: SSH host key rsa has been updated. The SHA-256 hash of public key rsa fingerprint is 5leOOkYKhj1M4IM+DhpADKttWaUGz2xzVNq92061m9Q.
+Apr  8 00:39:23 spine2 SuperServer: %SYS-6-SSH_HOST_KEY_UPDATED: SSH host key ecdsa-nistp521 has been updated. The SHA-256 hash of public key ecdsa-nistp521 fingerprint is WMxFecpFBf/C+JhkFtLOsX9wTX0gOfMqS2cckUsVWcc.
+Apr  8 00:39:24 spine2 SuperServer: %SYS-6-SSH_HOST_KEY_UPDATED: SSH host key ed25519 has been updated. The SHA-256 hash of public key ed25519 fingerprint is 0gm5flZczVAFvJddSeDx2UZYiYIUlrYWlrb7iWdvyOM.
+Apr  8 00:39:25 spine2 SuperServer: %SYS-6-SSH_HOST_KEY_UPDATED: SSH host key ecdsa-nistp256 has been updated. The SHA-256 hash of public key ecdsa-nistp256 fingerprint is musX0Qy1vKUuA1H2QpNoouMfBr2ypkSD4iYQf8BYcPo.
+Apr  8 00:39:26 spine2 SuperServer: %SYS-6-SSH_HOST_KEY_UPDATED: SSH host key dsa has been updated. The SHA-256 hash of public key dsa fingerprint is UFHTD3u3kZKbNuQ3QWR0Cm6vqjVzlfiQCbE/Br3FSg0.
+Apr  8 00:39:44 spine2 Stp: %SPANTREE-6-STABLE_CHANGE: Stp state is now stable
+Apr  8 00:40:49 spine2 Lldp: %LLDP-5-NEIGHBOR_TIMEOUT: LLDP neighbor with chassisId 0000.0000.0000 and portId "Management0" timed out on interface Management0
+Apr  8 00:41:13 spine2 SuperServer: %SYS-5-SYSTEM_RESTARTED: System restarted
+Apr  8 00:41:13 spine2 SuperServer: %SYS-6-SYSTEM_INFO: Software image version: 4.25.1F-20001546.4251F (engineering build)
+Apr  8 00:41:13 spine2 SuperServer: %SYS-6-SYSTEM_INFO: Model: cEOSLab
+Apr  8 00:41:13 spine2 SuperServer: %SYS-6-SYSTEM_INFO: Serial number: 
+Apr  8 00:43:32 spine2 ConfigAgent: %SYS-5-CONFIG_SESSION_ENTERED: User admin entered configuration session ansible_1617842612 on command-api (172.20.20.1)
+Apr  8 00:43:32 spine2 ConfigAgent: %SYS-5-CONFIG_SESSION_EXITED: User admin exited configuration session ansible_1617842612 on command-api (172.20.20.1)
+Apr  8 00:43:32 spine2 ConfigAgent: %SYS-5-CONFIG_SESSION_ENTERED: User admin entered configuration session ansible_1617842612 on command-api (172.20.20.1)
+Apr  8 00:43:32 spine2 ConfigAgent: %SYS-5-CONFIG_SESSION_COMMIT_SUCCESS: User admin committed configuration session ansible_1617842612 successfully on command-api (172.20.20.1)
+Apr  8 00:43:32 spine2 ConfigAgent: %SYS-5-CONFIG_SESSION_EXITED: User admin exited configuration session ansible_1617842612 on command-api (172.20.20.1)
+Apr  8 00:48:09 spine2 ConfigAgent: %SYS-5-CONFIG_SESSION_ENTERED: User admin entered configuration session ansible_1617842889 on command-api (172.20.20.1)
+Apr  8 00:48:09 spine2 ConfigAgent: %SYS-5-CONFIG_SESSION_EXITED: User admin exited configuration session ansible_1617842889 on command-api (172.20.20.1)
+Apr  8 00:48:09 spine2 ConfigAgent: %SYS-5-CONFIG_SESSION_ENTERED: User admin entered configuration session ansible_1617842889 on command-api (172.20.20.1)
+Apr  8 00:48:09 spine2 ConfigAgent: %SYS-5-CONFIG_SESSION_EXITED: User admin exited configuration session ansible_1617842889 on command-api (172.20.20.1)
+Apr  8 00:48:09 spine2 ConfigAgent: %SYS-5-CONFIG_SESSION_ABORTED: User admin aborted configuration session ansible_1617842889 on command-api (172.20.20.1)
+Apr  8 00:48:46 spine2 ReloadCauseAgent: %SYS-6-SYSTEM_INFO: Reload Cause 1: Unknown
+Apr  8 00:57:11 spine2 ConfigAgent: %SYS-5-CONFIG_SESSION_ENTERED: User admin entered configuration session ansible_1617843431 on command-api (172.20.20.1)
+Apr  8 00:57:11 spine2 ConfigAgent: %SYS-5-CONFIG_SESSION_EXITED: User admin exited configuration session ansible_1617843431 on command-api (172.20.20.1)
+Apr  8 00:57:11 spine2 ConfigAgent: %SYS-5-CONFIG_SESSION_ENTERED: User admin entered configuration session ansible_1617843431 on command-api (172.20.20.1)
+Apr  8 00:57:12 spine2 ConfigAgent: %SYS-5-CONFIG_SESSION_COMMIT_SUCCESS: User admin committed configuration session ansible_1617843431 successfully on command-api (172.20.20.1)
+Apr  8 00:57:12 spine2 ConfigAgent: %SYS-5-CONFIG_SESSION_EXITED: User admin exited configuration session ansible_1617843431 on command-api (172.20.20.1)
+Apr  8 00:57:13 spine2 Bgp: %BGP-5-ADJCHANGE: peer 10.1.0.1 (VRF default AS 65001) old state OpenConfirm event Established new state Established
+Apr  8 00:57:13 spine2 Bgp: %BGP-5-ADJCHANGE: peer 1.1.1.1 (VRF default AS 65001) old state OpenConfirm event Established new state Established
+Apr  8 00:57:14 spine2 Bgp: %BGP-5-ADJCHANGE: peer 10.1.0.5 (VRF default AS 65002) old state OpenConfirm event Established new state Established
+Apr  8 00:57:17 spine2 Bgp: %BGP-5-ADJCHANGE: peer 2.2.2.2 (VRF default AS 65002) old state OpenConfirm event Established new state Established
