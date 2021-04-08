@@ -1,8 +1,0 @@
-===== Output from /usr/bin/StageMgr [] (PID=648) started Apr  8 00:37:59.699635 ===
-EntityManager::doBackoff waiting for connection .......ok
-waiting for Sysdb init ......................................ok
-2021-04-08 00:38:28.884674   648 Log                  0 %AGENT-6-INITIALIZED: Agent 'StageMgr' initialized; pid=648
-2021-04-08 00:38:29.008254   648 StageMgrAgent        0 doInit
-2021-04-08 00:38:29.014435   648 StageMgrAgent        0 Mounts complete
-2021-04-08 00:38:29.014585   648 StageMgrAgent        0 StageMgrAgent invoking registerStageGraphs
-2021-04-08 00:38:29.230696   648 StageMgrAgent        0 FatalErrorSm.__init__ called

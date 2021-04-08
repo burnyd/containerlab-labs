@@ -1,3 +1,0 @@
-===== Output from /usr/bin/McastCommon6 [] (PID=986) started Apr  8 00:38:35.604270 ===
-EntityManager::doBackoff waiting for remote sysdb version ....ok
-2021-04-08 00:38:39.772840   993 Log                  0 %AGENT-6-INITIALIZED: Agent 'McastCommon6' initialized; pid=993

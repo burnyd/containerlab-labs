@@ -1,5 +1,0 @@
-Apr  8 00:37:51 leaf1 crond[343]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 46% if used.)
-Apr  8 00:37:51 leaf1 crond[343]: (CRON) INFO (running with inotify support)
-Apr  8 00:38:01 leaf1 CROND[663]: (root) CMD (/usr/bin/archivecheck.py &> /dev/null)
-Apr  8 00:39:02 leaf1 CROND[1346]: (root) CMD (/usr/bin/archivecheck.py &> /dev/null)
-Apr  8 00:39:02 leaf1 CROND[1353]: (root) CMD (/usr/bin/appendAutoBwQtrace.py &> /dev/null)

@@ -1,3 +1,0 @@
-===== Output from /usr/bin/EventMgr [] (PID=926) started Apr  8 00:38:30.784396 ===
-EntityManager::doBackoff waiting for remote sysdb version ...ok
-2021-04-08 00:38:35.001287   929 Log                  0 %AGENT-6-INITIALIZED: Agent 'EventMgr' initialized; pid=929

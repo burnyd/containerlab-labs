@@ -1,3 +1,0 @@
-===== Output from /usr/bin/ConfigAgent [] (PID=658) started Apr  8 00:37:59.727978 ===
-EntityManager::doBackoff waiting for connection .....ok
-No matching paths found for pattern: /usr/lib/SysdbMountProfiles/ConfigMountProfile

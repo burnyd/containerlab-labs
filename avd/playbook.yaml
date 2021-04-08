@@ -1,0 +1,41 @@
+- hosts: all
+  connection: local
+  gather_facts: false
+  collections:
+    - arista.avd
+
+  tasks:      
+    - name: generate structured data
+      import_role:
+        name: arista.avd.eos_l3ls_evpn
+      tags:
+        - l3ls
+
+    - name: generate intended configs to cli
+      import_role:
+        name: arista.avd.eos_cli_config_gen
+      tags:
+        - cli_gen
+
+    - name: design
+      import_role:
+        name: arista.avd.eos_designs
+      tags:
+        - design
+
+    - name: snapshot
+      import_role:
+        name: arista.avd.eos_snapshot
+      tags:
+        - snapshot
+
+    - name: push_eapi
+      import_role:
+        name: eos_config_deploy_eapi
+      tags:
+        - eapi_push
+
+
+    
+
+    

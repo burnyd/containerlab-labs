@@ -1,5 +1,0 @@
-Apr  8 00:37:46 spine1 crond[282]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 84% if used.)
-Apr  8 00:37:46 spine1 crond[282]: (CRON) INFO (running with inotify support)
-Apr  8 00:38:02 spine1 CROND[692]: (root) CMD (/usr/bin/archivecheck.py &> /dev/null)
-Apr  8 00:39:01 spine1 CROND[1345]: (root) CMD (/usr/bin/appendAutoBwQtrace.py &> /dev/null)
-Apr  8 00:39:01 spine1 CROND[1347]: (root) CMD (/usr/bin/archivecheck.py &> /dev/null)

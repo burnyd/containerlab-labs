@@ -1,2 +1,0 @@
-2021/04/08 00:39:11 [emerg] 1668#0: BIO_new_file("/persist/secure/ssl/dhparam.pem") failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/persist/secure/ssl/dhparam.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
-2021/04/08 00:39:17 [alert] 1828#0: setsockopt(IPV6_TCLASS, 0) 127.0.0.1:50000 failed, ignored (92: Protocol not available)
