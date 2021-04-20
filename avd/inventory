@@ -20,12 +20,12 @@ all:
                       ansible_host: 172.20.20.4
                     clab-lab-leaf2:
                       ansible_host: 172.20.20.5
-                clab-lab_LEAF3:
-                  hosts:
-                    clab-lab-leaf3:
-                      ansible_host: 172.20.20.6
-                    clab-lab-leaf4:
-                      ansible-host: 172.20.20.7
+                #clab-lab_LEAF3:
+                 # hosts:
+                  #  clab-lab-leaf3:
+                     # ansible_host: 172.20.20.6
+                  #  clab-lab-leaf4:
+                   #   ansible-host: 172.20.20.7
           vars:
             ansible_connection: httpapi
             ansible_network_os: eos
@@ -38,6 +38,17 @@ all:
             ansible_httpapi_use_ssl: false
             ansible_httpapi_validate_certs: false 
             ansible_python_interpreter: /usr/bin/python3
+            #ansible_connection: httpapi
+            #ansible_network_os: eos
+            #ansible_user: admin
+            #ansible_ssh_pass: admin 
+            #ansible_httpapi_pass: admin
+            #ansible_httpapi_user: admin
+            #ansible_become: true
+            #ansible_become_method: enable
+            #ansible_httpapi_use_ssl: false
+            #ansible_httpapi_validate_certs: false 
+            #ansible_python_interpreter: /usr/bin/python3
         clab-lab_TENANTS_NETWORKS:
           children:
             clab-lab_L3LEAFS:

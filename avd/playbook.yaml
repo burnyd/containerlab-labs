@@ -29,11 +29,25 @@
       tags:
         - snapshot
 
-    - name: push_eapi
-      import_role:
-        name: eos_config_deploy_eapi
+    - name: linter
+      arista.eos.eos_config:
+        src: "./intended/configs/{{ inventory_hostname}}.cfg"
+        replace: config
+      check_mode: yes
+      tags:
+        - linter
+
+    - name: push with eapi
+      arista.eos.eos_config:
+        src: "./intended/configs/{{ inventory_hostname}}.cfg"
       tags:
         - eapi_push
+  
+    #- name: cvp
+    #  import_role:
+    #    name: eos_config_deploy_cvp
+    #  tags:
+    #    - cvp
 
 
     

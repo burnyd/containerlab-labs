@@ -374,8 +374,6 @@ ip route vrf MGMT 0.0.0.0/0 172.20.20.1
 | 172.31.232.13 | 65102 | default |
 | 192.168.255.3 | 65101 | default |
 | 192.168.255.4 | 65101 | default |
-| 192.168.255.5 | 65102 | default |
-| 192.168.255.6 | 65102 | default |
 
 ### Router BGP EVPN Address Family
 
@@ -424,12 +422,6 @@ router bgp 65001
    neighbor 192.168.255.4 peer group EVPN-OVERLAY-PEERS
    neighbor 192.168.255.4 remote-as 65101
    neighbor 192.168.255.4 description clab-lab-leaf2
-   neighbor 192.168.255.5 peer group EVPN-OVERLAY-PEERS
-   neighbor 192.168.255.5 remote-as 65102
-   neighbor 192.168.255.5 description clab-lab-leaf3
-   neighbor 192.168.255.6 peer group EVPN-OVERLAY-PEERS
-   neighbor 192.168.255.6 remote-as 65102
-   neighbor 192.168.255.6 description clab-lab-leaf4
    redistribute connected route-map RM-CONN-2-BGP
    !
    address-family evpn

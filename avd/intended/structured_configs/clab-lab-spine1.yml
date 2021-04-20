@@ -8,8 +8,6 @@ switch_evpn_route_servers: []
 switch_evpn_route_clients:
 - clab-lab-leaf1
 - clab-lab-leaf2
-- clab-lab-leaf3
-- clab-lab-leaf4
 service_routing_protocols_model: multi-agent
 ip_routing: true
 hardware_counters: null
@@ -193,14 +191,6 @@ router_bgp:
       peer_group: EVPN-OVERLAY-PEERS
       description: clab-lab-leaf2
       remote_as: 65101
-    192.168.255.5:
-      peer_group: EVPN-OVERLAY-PEERS
-      description: clab-lab-leaf3
-      remote_as: 65102
-    192.168.255.6:
-      peer_group: EVPN-OVERLAY-PEERS
-      description: clab-lab-leaf4
-      remote_as: 65102
   redistribute_routes:
     connected:
       route_map: RM-CONN-2-BGP
